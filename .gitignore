@@ -142,3 +142,6 @@ cython_debug/
 /.idea
 /.idea
 /__pycache__
+/code2inv/graph_encoder/.vs
+/code2inv/graph_encoder/.vs
+/code2inv/graph_encoder/.vs

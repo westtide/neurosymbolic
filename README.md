@@ -26,13 +26,3 @@ A Reinforcement-Learning-based loop invariant inference tool.
 1. All benchmarks are put in "Benchmarks/", each instance has three files: c source file, CFG json file, and SMT file.
 2. If you want to add new instance, you only need to prepare the three files, and LIPuS will automatically do the rest.
 3. As for how to prepare the CFG json file and SMT file, please refer to [Code2Inv](https://github.com/PL-ML/code2inv), which use Clang to do it automatically. Also, you can manually do it just like us.
-
-### Docker
-
-​	We also prepared a docker environment. 
-
-1. `cd /LIPuS/  `
-2. `docker build -t lipus .\Dockfile`
-3. `docker run -it --name lipus bash`
-4. in the bash, `cd /LIPuS/`
-5. The rest is the same as in the Run Section.
