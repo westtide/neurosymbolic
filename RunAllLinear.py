@@ -1,5 +1,5 @@
 from main import main
-CUDA_VISIBLE_DEVICES=""
+CUDA_VISIBLE_DEVICES="0"
 if __name__ == "__main__":
     result_file = open(r"Result/RL_Prunning_Linear.txt", "w")
     benchmarks_c_path = r"Benchmarks/Linear/c/"

@@ -42,16 +42,20 @@ class PT_generator:
         #self.intValuelzie = construct_intValuelzie()
 
 
-        # if we can use gpu
-        if torch.cuda.is_available():
-            self.gpulize()
-
         # Step3. Init the learner and parameters
         self.init_learner_par()
 
         # if config.CONTINUE_TRAINING:
         #     self.load_parameters(config.ppath)
         self.init_parameters()
+
+        # if we can use gpu
+        if torch.cuda.is_available():
+            self.gpulize()
+
+
+
+
 
 
 
