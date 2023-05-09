@@ -4,7 +4,7 @@ A Reinforcement-Learning-based loop invariant inference tool.
 
 ### Install
 
-0. `git clone https://github.com/Santiago-Yu/LIPuS.git`, could take a long time.
+0. `git clone https://neurosymbolic.coding.net/p/lipus/d/LIPuS/git`, could take a long time.
 
 1. prepare a python environment with python version=3.7.10
 2. prepare `make` and `g++`. If you are using Windows, you need prepare the above two in git bash.
