@@ -8,9 +8,9 @@ from torch.autograd import Variable
 
 sys.path.append('%s/../common' % os.path.dirname(os.path.realpath(__file__)))
 
-from constants import NUM_EDGE_TYPES
-from ssa_graph_builder import ProgramGraph
-from cmd_args import cmd_args
+from code2inv.common.constants import NUM_EDGE_TYPES
+from code2inv.common.ssa_graph_builder import ProgramGraph
+from code2inv.common.cmd_args import cmd_args
 
 class _s2v_lib(object):
 
