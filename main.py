@@ -24,6 +24,7 @@ def main(path2CFile, path2CFG, path2SMT):
           'i': []}
     print("Begin_process:   ", path2CFile)
     Iteration = 0
+    counterNumber = 0
     while not solved:
         current_time = time.time()
         if current_time - start_time >= config.Limited_time:
@@ -32,6 +33,7 @@ def main(path2CFile, path2CFG, path2SMT):
         Iteration += 1
         # Step 3.1 Generate A partial template
         PT = pT_generator.generate_next(CE)
+        print("Template: ", PT.__str__())
         if PT is None:
             print("The only way is to give up now")
             return None,None
@@ -41,14 +43,18 @@ def main(path2CFile, path2CFG, path2SMT):
             #raise TimeoutError # try this thing out
         except TimeoutError as OOT:  # Out Of Time, we punish
             pT_generator.punish('STRICT', 'VERY', 'S')
+            print("Solving timeout")
             continue
         if Can_I is None:  # Specified too much, we loose.
+            print("Solving unsat")
             pT_generator.punish('LOOSE', 'MEDIUM', 'S')
             continue
         # Step 3.3 Check if we bingo
         try:
+            print("Candidate: ", Can_I.__str__())
             Counter_example = sMT_verifier.verify(Can_I, path2SMT)
         except TimeoutError as OOT:  # Out Of Time, we punish
+            print("Checking timeout")
             pT_generator.punish('STRICT', 'LITTLE', 'V')
             continue
         if Counter_example is None:  # Bingo, we prise
@@ -61,6 +67,8 @@ def main(path2CFile, path2CFG, path2SMT):
         else:  # progressed anyway, we prise
             if Counter_example.assignment not in CE[Counter_example.kind]:
                 CE[Counter_example.kind].append(Counter_example.assignment)
+            counterNumber += 1
+            print("Size of CE: ", counterNumber)
             pT_generator.prise('LITTLE')
             continue
 if __name__ == "__main__":
