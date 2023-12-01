@@ -135,7 +135,7 @@ class S2VGraph(object):
                                         ctypes.c_void_p(n2n_vals.numpy().ctypes.data), 
                                         )
                                         
-                n2n_sp = torch.sparse.FloatTensor(n2n_idxes, n2n_vals, torch.Size([pg.num_nodes(), pg.num_nodes()]))
+                n2n_sp = torch.sparse_coo_tensor(n2n_idxes, n2n_vals, torch.Size([pg.num_nodes(), pg.num_nodes()]))
                 
                 self.n2n_sp_list.append(n2n_sp)
         

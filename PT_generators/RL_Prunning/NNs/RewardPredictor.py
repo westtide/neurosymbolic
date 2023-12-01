@@ -13,7 +13,9 @@ class RewardPredictor(nn.Module):
         self.layer3 = nn.Linear(config.SIZE_EXP_NODE_FEATURE // 2, 1)
 
     def forward(self, stateVec, overall_feature):
-        tensorflow = tensor(torch.cat([stateVec, overall_feature], 1))
+        tensorflow = torch.cat([stateVec, overall_feature], 1).clone().detach()
+        if torch.cuda.is_available():
+            tensorflow = tensorflow.cuda()
         if torch.cuda.is_available():
             tensorflow = tensorflow.cuda()
         l1out = self.layer1(tensorflow)

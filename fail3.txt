@@ -1,0 +1,1339 @@
+Last login: Fri Dec  1 00:40:21 on ttys001
+(base)  westtide@MacBook-M3-Max  ~  cd LIPuS
+(base)  westtide@MacBook-M3-Max  ~/LIPuS   master ±✚  conda activate LIPuS
+(LIPuS)  westtide@MacBook-M3-Max  ~/LIPuS   master ±✚  python RunAllNonLinear.py 
+Namespace(VarEliminated=0, aggressive_check=0, att_dir=None, attention=1, boogie_exe=None, ce_batchsize=100, checkprerep=1, cold_start=0, const_bound=-1, ctx='cpu', data_root=None, debug=0, decoder_model='AssertAwareRNN', embedding_size=128, encoder_model='GNN', eps=0.05, exit_on_find=0, file_list=None, init_model_dump=None, input_graph=None, input_source_file=None, input_vcs=None, inv_checker='code2inv.prog_generator.checkers.c_inv_checker', inv_grammar='code2inv/prog_generator/grammar_files/inv.grammar', inv_reward_type='any', learning_rate=0.001, linearcomplete=0, log_file=None, maxLinearVarNumber=3, max_depth=15, num_epochs=10000, octagon=0, octagon_bound=1, only_use_z3=None, op_file=None, phase='test', replay_memsize=100, rl_batchsize=1, s2v_level=10, save_dir=None, save_smt=None, seed=1, self_supervised_instances=10, single_sample=None, solTime=100000, train_frac=0.9, tryLinearwhenLast=0, tune_test=0, unsat_core=0, use_ce=0, use_random=1, var_format=None)
+{'S': [['(', 'C', ')'], ['(', 'C', '&&', 'C', ')'], ['(', 'C', '&&', 'C', '&&', 'C', ')']], 'C': [['(', 'p', ')'], ['(', 'p', '||', 'p', ')']], 'p': [['var', 'cmp', 'expr']], 'expr': [['(', 'var', 'op', 'var', ')'], ['(', 'var', 'op', 'const', ')'], ['(', 'const', 'op', 'var', ')'], ['(', 'const', 'op', 'const', ')'], ['var'], ['const']], 'cmp': [['<'], ['>'], ['=='], ['<='], ['>=']], 'op': [['+'], ['-']]}
+MAX CHILD 7
+VAR FORMAT None
+====== begin of s2v configuration ======
+| msg_average = 0
+======   end of s2v configuration ======
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a Linear inited
+a GRUCell inited
+Begin_process:    Benchmarks/NL/c/NL1.c
+Template:  And(Or(-1*y + y == -1, 1*z <= -1))
+Candidate:  And(Or(-1*y + y == -1, 1*z <= -1))
+Size of CE:  1
+Template:  And(Or(0*y + y == -1),
+    Or(1*y*y + a == -2),
+    Or(y + 0*x*n*y < 0))
+Solving unsat
+Template:  And(Or(const_0*z*z*z*z == 4, const_1*z == 2),
+    Or(const_2*z*n < const_3, const_4*z == const_5))
+Solving unsat
+Template:  And(Or(-1*z == -1, -3*z < 0, -1*z < -1),
+    Or(0*n + 0*z*z + 0*z + x < -1),
+    Or(1*y*y + a <= 0))
+Solving unsat
+Template:  And(Or(const_0*y + const_1*z + const_2*z + const_3*z ==
+       const_4,
+       const_5*y + const_6*z*z + const_7*z + const_8*n <=
+       const_9,
+       const_10*z + const_11*z + const_12*z + const_13*z ==
+       const_14),
+    Or(-1*x + x <= -1,
+       const_15*y + const_16*z*z + const_17*z + const_18*z <=
+       const_19,
+       const_20*z + const_21*z*y + const_22*y + const_23*z ==
+       const_24))
+Candidate:  And(Or(-9*y + -5*z + -10*z + -1*z == -1,
+       0*y + 0*z*z + 0*z + 10*n <= 0,
+       0*z + 0*z + 10*z + -10*z == 0),
+    Or(-1*x + x <= -1,
+       0*y + 0*z*z + 0*z + 0*z <= 0,
+       -8*z + -3*z*y + 4*y + -2*z == -2))
+Size of CE:  2
+Template:  And(Or(const_0*y + const_1*z + const_2*z + const_3*z ==
+       const_4,
+       const_5*y + const_6*z + const_7*z <= const_8,
+       const_9*z + const_10*z + const_11*z == const_12),
+    Or(-1*x <= -1,
+       1*y + 2*z + 1*z <= const_13,
+       const_14*z + const_15*z + const_16*z + const_17*y ==
+       const_18))
+Candidate:  And(Or(0*y + 0*z + 0*z + 0*z == 1,
+       -19*y + 7*z + 3*z <= 41,
+       0*z + 0*z + 0*z == 1),
+    Or(-1*x <= -1,
+       1*y + 2*z + 1*z <= 19,
+       -8*z + 9*z + -2*z + 9*y == -8))
+Size of CE:  3
+Template:  And(Or(const_0*y + const_1*z + const_2*z + const_3*z ==
+       const_4,
+       const_5*y + const_6*z + const_7*z < const_8,
+       const_9*z + const_10*z + const_11*z == const_12),
+    Or(-1*x <= -1,
+       const_13*y + 2*z + const_14*z <= const_15,
+       const_16*z + const_17*z + const_18*z + const_19*y ==
+       const_20))
+Solving timeout
+Template:  And(Or(x <= -1, x <= -1, -1*y + -1*a + -1*x <= 1),
+    Or(x <= -1),
+    Or(x <= -1))
+Solving unsat
+Template:  And(Or(z + z + z + z == 3, z < 3, 3*x*z*z*z + x + z + x < 3),
+    Or(z < 3, z < 3, x < 3))
+Solving unsat
+Template:  And(Or(const_0*z + const_1*z + const_2*z*z + const_3*y*z <
+       const_4,
+       const_5*z*z + const_6*z*z + const_7*z + const_8*z*z <
+       const_9,
+       const_10*z*z + const_11*z + const_12*z + const_13*z*z ==
+       const_14),
+    Or(const_15*z*z +
+       const_16*z*z +
+       const_17*z*z +
+       const_18*z*z <
+       const_19,
+       const_20*z + const_21*z*z + const_22*z + const_23*z*y <
+       const_24,
+       const_25*z*z +
+       const_26*z*z +
+       const_27*y*y +
+       const_28*z <
+       const_29),
+    Or(const_30*z*z +
+       const_31*z*z +
+       const_32*z*z +
+       const_33*z*z <
+       const_34,
+       const_35*z*z +
+       const_36*z*z +
+       const_37*z*z +
+       const_38*z*z <
+       const_39,
+       n + n + n + n < const_40))
+Candidate:  And(Or(-6*z + -8*z + -9*z*z + -1*y*z < -6,
+       0*z*z + 0*z*z + -1*z + 0*z*z < 0,
+       5*z*z + 1*z + 6*z + 2*z*z == 3),
+    Or(0*z*z + 0*z*z + 0*z*z + 0*z*z < 0,
+       0*z + 0*z*z + -1*z + 0*z*y < 0,
+       0*z*z + 0*z*z + 0*y*y + -1*z < 0),
+    Or(8*z*z + -3*z*z + -3*z*z + -5*z*z < 2,
+       0*z*z + -1*z*z + 0*z*z + 0*z*z < 0,
+       n + n + n + n < 1))
+Size of CE:  4
+Template:  And(Or(const_0*y + const_1*z + const_2*z + const_3*y <
+       const_4,
+       const_5*y + const_6*y*y + const_7*y + const_8*n <
+       const_9,
+       const_10*z*y + const_11*x + const_12*z*y + const_13*n <
+       const_14),
+    Or(const_15*y*y + const_16*y + const_17*z + const_18*y <
+       const_19,
+       const_20*y + const_21*y + const_22*y + const_23*y*y <
+       const_24,
+       const_25*y + const_26*y + const_27*y*y + const_28*y <
+       const_29),
+    Or(const_30*y + const_31*y + const_32*y + const_33*y <
+       const_34,
+       const_35*y + const_36*y + const_37*y + const_38*y <
+       const_39,
+       const_40*y*y + const_41*y + const_42*y + const_43*y <
+       const_44))
+Candidate:  And(Or(-4*y + 0*z + -1*z + 0*y < 0,
+       0*y + -1*y*y + 0*y + 2*n < 0,
+       -6*z*y + -5*x + 1*z*y + 6*n < 6),
+    Or(1*y*y + -128*y + 0*z + 0*y < 0,
+       0*y + 0*y + 1*y + 0*y*y < 128,
+       0*y + 0*y + 0*y*y + 0*y < 0),
+    Or(0*y + 0*y + 0*y + 0*y < 0,
+       0*y + 0*y + 0*y + 0*y < 0,
+       0*y*y + 1*y + 0*y + 0*y < 2))
+1
+Checking timeout
+Template:  And(Or(const_0*y + const_1*y + const_2*y + const_3*y <
+       const_4,
+       const_5*y + const_6*y + const_7*y + const_8*y <
+       const_9,
+       const_10*y + const_11*y + const_12*y + const_13*y <
+       const_14))
+b'canceled'
+Candidate:  And(Or(0*y + 0*y + 0*y + 0*y < 0,
+       0*y + 0*y + 0*y + 0*y < 0,
+       0*y + 1*y + 0*y + 0*y < 2))
+Size of CE:  5
+Template:  And(Or(const_0*y + const_1*n + const_2*n + const_3*y <
+       const_4,
+       const_5*y + const_6*y + const_7*n + const_8*y <
+       const_9,
+       const_10*n + const_11*n + const_12*y + const_13*y <
+       const_14))
+Candidate:  And(Or(0*y + -2*n + 0*n + 1*y < 2,
+       0*y + 0*y + 0*n + 0*y < 0,
+       0*n + 0*n + 0*y + 0*y < 0))
+Size of CE:  6
+Template:  And(Or(const_0*n + const_1*n + const_2*n + const_3*n <
+       const_4,
+       const_5*n + const_6*n + const_7*n + const_8*n <
+       const_9,
+       const_10*n + const_11*n + const_12*n + const_13*n <
+       const_14))
+Solving unsat
+Template:  And(Or(const_0*y + const_1*y + const_2*n + const_3*y <
+       const_4,
+       const_5*y + const_6*y + const_7*n + const_8*y <
+       const_9,
+       const_10*y + const_11*y + const_12*y + const_13*y <
+       const_14))
+Candidate:  And(Or(0*y + 2*y + -5*n + 0*y < 4,
+       0*y + 0*y + 0*n + 0*y < 0,
+       0*y + 0*y + 0*y + 0*y < 0))
+Size of CE:  7
+Template:  And(Or(const_0*y + const_1*y + const_2*y + const_3*y <
+       const_4,
+       const_5*y + const_6*y*y + const_7*y + const_8*y <
+       const_9,
+       const_10*y + const_11*y + const_12*y + const_13*y <
+       const_14),
+    Or(const_15*y + const_16*y*y + const_17*y + const_18*y <
+       const_19,
+       const_20*y + const_21*y + const_22*y + const_23*y <
+       const_24),
+    Or(const_25*y + const_26*y + const_27*y + const_28*y <
+       const_29,
+       const_30*y + const_31*y + const_32*y + const_33*y <
+       const_34,
+       const_35*y + const_36*y + const_37*y + const_38*y <
+       const_39))
+Candidate:  And(Or(0*y + 0*y + -1*y + 0*y < 0,
+       -3*y + -2*y*y + 3*y + -7*y < -3,
+       0*y + -1*y + 0*y + 0*y < -4),
+    Or(-2*y + 1*y*y + 0*y + 0*y < 0,
+       0*y + -1*y + 0*y + 0*y < -4),
+    Or(0*y + 0*y + 0*y + 1*y < 128,
+       0*y + 0*y + 0*y + 0*y < 0,
+       0*y + 0*y + 0*y + 0*y < 0))
+Size of CE:  8
+Template:  And(Or(const_0*y + const_1*y + const_2*y + const_3*y <
+       const_4,
+       const_5*y + const_6*y*y + const_7*y + const_8*y <
+       const_9,
+       const_10*y*y + const_11*x + const_12*y*y + const_13*y <
+       const_14),
+    Or(const_15*y*y + const_16*y + const_17*y + const_18*y <
+       const_19,
+       const_20*y + const_21*y + const_22*y + const_23*y*y <
+       const_24,
+       const_25*y + const_26*y + const_27*y*y < const_28),
+    Or(const_29*y + const_30*y + const_31*y < const_32,
+       const_33*y + const_34*y + const_35*y + const_36*y <
+       const_37,
+       const_38*y + const_39*y + const_40*y*y + const_41*y <
+       const_42))
+Candidate:  And(Or(-1*y + 0*y + 0*y + 0*y < 0,
+       0*y + -1*y*y + -3*y + 0*y < 0,
+       0*y*y + 0*x + 0*y*y + 0*y < 0),
+    Or(0*y*y + 10*y + -8*y + 0*y < -2,
+       1*y + 0*y + 0*y + 0*y*y < 0,
+       -1*y + 0*y + 0*y*y < 0),
+    Or(0*y + 0*y + 0*y < 0,
+       0*y + 0*y + 0*y + 1*y < -1,
+       0*y + -2*y + 1*y*y + 0*y < 0))
+Size of CE:  9
+Template:  And(Or(const_0*y + const_1*y + const_2*y*y + const_3*y <
+       const_4,
+       const_5*y + const_6*y + const_7*y + const_8*y <
+       const_9,
+       const_10*y*y + const_11*a + const_12*y*y + const_13*y <
+       const_14),
+    Or(const_15*y*y + const_16*y + const_17*y*y + const_18*y <
+       const_19,
+       const_20*y*y + const_21*y + const_22*y + const_23*y <
+       const_24,
+       const_25*y*y +
+       const_26*y*y +
+       const_27*y*y +
+       const_28*y <
+       const_29),
+    Or(const_30*y + const_31*y*y + const_32*y < const_33,
+       const_34*y*y + const_35*y + const_36*y < const_37,
+       const_38*y + const_39*y + const_40*y + const_41*y <
+       const_42))
+Candidate:  And(Or(-2*y + -5*y + -8*y*y + 6*y < 0,
+       -8*y + 9*y + 9*y + -1*y < 0,
+       0*y*y + 4*a + -3*y*y + -5*y < -4),
+    Or(0*y*y + 0*y + 0*y*y + -1*y < 0,
+       -2*y*y + 0*y + -4*y + 0*y < 2,
+       0*y*y + 1*y*y + 0*y*y + 0*y < 1),
+    Or(-33*y + 1*y*y + 0*y < -62,
+       0*y*y + 0*y + 3*y < 6,
+       0*y + 1*y + 0*y + 0*y < 2))
+Size of CE:  10
+Template:  And(Or(const_0*y + const_1*y + const_2*y*y + const_3*y*y <
+       const_4,
+       const_5*y*y + const_6*y*y + const_7*y < const_8,
+       const_9*y*y + const_10*a*y + const_11*y + const_12*a <
+       const_13),
+    Or(const_14*y*y + const_15*y + const_16*y*y < const_17,
+       const_18*y + const_19*y*y + const_20*y < const_21,
+       const_22*y + const_23*y + const_24*y*y + const_25*y*y <
+       const_26),
+    Or(const_27*y + const_28*y + const_29*y*y + const_30*y*y <
+       const_31,
+       const_32*y*y + const_33*y*y + const_34*y < const_35,
+       const_36*y*y + const_37*y*y*y + const_38*y*y <
+       const_39))
+Candidate:  And(Or(0*y + 1*y + 0*y*y + 0*y*y < 0,
+       0*y*y + 0*y*y + 1*y < 0,
+       0*y*y + -2*a*y + -2*y + 1*a < -1),
+    Or(1*y*y + 48*y + 0*y*y < -47,
+       0*y + -1*y*y + -43*y < -188,
+       0*y + -1*y + 0*y*y + 1*y*y < 2),
+    Or(0*y + 0*y + 0*y*y + 0*y*y < 1,
+       0*y*y + -1*y*y + 0*y < 0,
+       0*y*y + 0*y*y*y + -1*y*y < 0))
+Size of CE:  11
+Template:  And(Or(const_0*y + const_1*y*y + const_2*y*y + const_3*y*y <
+       const_4,
+       const_5*y*y + const_6*y + const_7*a < const_8,
+       const_9*y*y + const_10*a*y + const_11*y + const_12*a <
+       const_13),
+    Or(const_14*y*a + const_15*y + const_16*y*y < const_17,
+       const_18*y*y + const_19*y*a + const_20*y*y < const_21,
+       const_22*y + const_23*y*y + const_24*y < const_25),
+    Or(const_26*y*y + const_27*y + const_28*y < const_29,
+       const_30*y + const_31*y + const_32*y*y + const_33*y*y <
+       const_34,
+       const_35*a*y + const_36*y*a + const_37*y < const_38))
+Candidate:  And(Or(12*y + -1*y*y + 0*y*y + 0*y*y < 0,
+       8*y*y + -14*y + 3*a < -3,
+       0*y*y + 10*a*y + 0*y + -26*a < 1),
+    Or(-2*y*a + 0*y + 1*y*y < 0,
+       1*y*y + -2209*y*a + 1*y*y < 2209,
+       512*y + 0*y*y + 0*y < -25197),
+    Or(0*y*y + 0*y + 65*y < 0,
+       129*y + 0*y + 0*y*y + 0*y*y < 0,
+       0*a*y + 126*y*a + 1023*y < 1024))
+Size of CE:  12
+Template:  And(Or(const_0*y + const_1*y*y + const_2*y*y + const_3*y*a <
+       const_4,
+       const_5*y*y + const_6*y + const_7*a*y < const_8,
+       const_9*y*a + const_10*y*y + const_11*y*a < const_12),
+    Or(const_13*a*y + const_14*y*y + const_15*a*y < const_16,
+       const_17*y*y + const_18*y*a + const_19*y*y < const_20,
+       const_21*y + const_22*y*a + const_23*y*y*y < const_24),
+    Or(const_25*y*y +
+       const_26*y*y +
+       const_27*y*y +
+       const_28*y*y <
+       const_29,
+       const_30*y*y + const_31*y*a + const_32*y < const_33,
+       const_34*a + const_35*y + const_36*a*y + const_37*y*a <
+       const_38))
+Candidate:  And(Or(0*y + 0*y*y + 0*y*y + 0*y*a < 0,
+       3*y*y + -232*y + -136*a*y < -93,
+       -8*y*a + 7*y*y + 0*y*a < 15),
+    Or(6*a*y + -10*y*y + -5*a*y < -1,
+       0*y*y + 0*y*a + 0*y*y < 4,
+       -4*y + 2*y*a + 0*y*y*y < 1),
+    Or(0*y*y + 0*y*y + 0*y*y + 0*y*y < 0,
+       1*y*y + -1*y*a + -3*y < 0,
+       -757*a + 1*y + 0*a*y + 252*y*a < 255))
+Size of CE:  13
+Template:  And(Or(const_0*y*a + const_1*y*a + const_2*y*y + const_3*a*a <
+       const_4,
+       const_5*y*y + const_6*a*y + 2*a*a*a + const_7*a*a <
+       const_8,
+       const_9*a*y < const_10),
+    Or(const_11*a*a*y +
+       const_12*a*a +
+       const_13*a*a +
+       const_14*a*a <
+       2,
+       const_15*a*a + const_16*a*a + const_17*a*a < const_18,
+       const_19*a*y + const_20*y*a + const_21*a*y < const_22),
+    Or(const_23*y*y < const_24,
+       const_25*a +
+       const_26*a*a +
+       const_27*a*a +
+       const_28*y*y <
+       const_29,
+       const_30*y*a*a + const_31*y*a*a + const_32*a*y <
+       const_33))
+Candidate:  And(Or(0*y*a + 0*y*a + 0*y*y + 0*a*a < 0,
+       0*y*y + 0*a*y + 2*a*a*a + 3*a*a < 1,
+       -1*a*y < 0),
+    Or(1*a*a*y + 0*a*a + 0*a*a + 0*a*a < 2,
+       -1*a*a + 0*a*a + 0*a*a < -1,
+       0*a*y + -1*y*a + 0*a*y < 0),
+    Or(0*y*y < 0,
+       -55609*a + 6865*a*a + 0*a*a + -57*y*y < -49656,
+       515*y*a*a + 0*y*a*a + 4102*a*y < 18432))
+Size of CE:  14
+Template:  And(Or(const_0*a*a + const_1*a*a + const_2*y*y + const_3*a*a <
+       const_4,
+       const_5*a*a < const_6,
+       const_7*a*a < const_8),
+    Or(const_9*a*a + const_10*a*a + -3*a + const_11*a*a <
+       const_12,
+       -3*a*a*a + const_13*a*a + const_14*a*a < -3,
+       const_15*a*a*a + const_16*a*a + -3*a*a < const_17),
+    Or(const_18*a*a*a + -3*a*y + const_19*a*a < const_20,
+       const_21*a*a*y + const_22*a*a + const_23*a*y <
+       const_24,
+       const_25*y*a + const_26*y + const_27*a*a < const_28))
+Candidate:  And(Or(-5*a*a + -8*a*a + 76730*y*y + 4*a*a < 169494366,
+       9*a*a < 0,
+       -1*a*a < 0),
+    Or(-5*a*a + 0*a*a + -3*a + 0*a*a < 1,
+       -3*a*a*a + -6*a*a + -4*a*a < -3,
+       0*a*a*a + 0*a*a + -3*a*a < 0),
+    Or(1*a*a*a + -3*a*y + -51*a*a < -744,
+       416*a*a*y + -831*a*a + 414*a*y < -831,
+       0*y*a + 2*y + 9*a*a < 9))
+Size of CE:  15
+Template:  And(Or(const_0*a*a + const_1*a*a + const_2*a*y + const_3*a*a <
+       -3,
+       const_4*a*a < const_5,
+       const_6*a*a < const_7),
+    Or(const_8*a*a + const_9*a*a + -3*a + const_10*a*a < -3,
+       -3*a*a*a + const_11*a*a + const_12*a*a < -3,
+       const_13*a*a*a < const_14),
+    Or(-3*a*a + const_15*a*a + const_16*a*a*a < const_17,
+       const_18*a*a < -3,
+       const_19*a*a + -3*a*a + const_20*a*a*a < const_21))
+Candidate:  And(Or(0*a*a + 2*a*a + -831*a*y + 0*a*a < -3,
+       0*a*a < 0,
+       1*a*a < 1),
+    Or(0*a*a + 0*a*a + -3*a + 0*a*a < -3,
+       -3*a*a*a + 0*a*a + 0*a*a < -3,
+       -1*a*a*a < 8),
+    Or(-3*a*a + 0*a*a + 0*a*a*a < 0,
+       10*a*a < -3,
+       0*a*a + -3*a*a + 0*a*a*a < 1))
+Size of CE:  16
+Template:  And(Or(const_0*a*a + const_1*a*a + const_2*a*y + const_3*a*a <
+       -3,
+       const_4*a*a < const_5,
+       const_6*a*a < const_7),
+    Or(-3*a*a + const_8*a*a*a + const_9*a*a + const_10*a*a*a <
+       const_11,
+       const_12*a*a < -3,
+       const_13*a*a*a +
+       2*a*a +
+       const_14*a*a*a +
+       const_15*a*a <
+       -3),
+    Or(-3*a*a < -3, const_16*y*a < 2, const_17*a*y*a < -3))
+Candidate:  And(Or(0*a*a + -1*a*a + -3*a*y + 0*a*a < -3,
+       1*a*a < 1,
+       0*a*a < 0),
+    Or(-3*a*a + 2*a*a*a + 0*a*a + 0*a*a*a < 573856191,
+       0*a*a < -3,
+       2*a*a*a + 2*a*a + 1*a*a*a + -1563*a*a < -3),
+    Or(-3*a*a < -3, -1*y*a < 2, -1*a*y*a < -3))
+Size of CE:  17
+Template:  And(Or(const_0*a*a + const_1*a*a + const_2*a*a < -3,
+       -3*a*a*a < const_3,
+       -3*a*a + -3*a*a*a + const_4*a*a < 2),
+    Or(const_5*a*a < const_6,
+       const_7*a*a*a < -3,
+       const_8*a*a < -3),
+    Or(2*a*a*a + const_9*a*a*a + const_10*a*a*a < -3,
+       const_11*a*a < -3,
+       -3*a + const_12*a*a + const_13*a*a < const_14))
+Candidate:  And(Or(7*a*a + 6*a*a + -6*a*a < -3,
+       -3*a*a*a < -1,
+       -3*a*a + -3*a*a*a + 0*a*a < 2),
+    Or(-3*a*a < 1, -4*a*a*a < -3, -7*a*a < -3),
+    Or(2*a*a*a + 0*a*a*a + -3*a*a*a < -3,
+       0*a*a < -3,
+       -3*a + 0*a*a + 0*a*a < 1))
+Size of CE:  18
+Template:  And(Or(const_0*a*a + const_1*a*a + -3*a*a < -3,
+       -3*a*a*a < const_2,
+       -3*a*a + -3*a*a*a + 2*a*a*a < -3),
+    Or(-3*a*a < -3, -3*a*a*a < -3, 2*a*a*a < const_3),
+    Or(-3*a*a*a < -3, const_4*a*a*a < -3, const_5*a*a < -3))
+Solving unsat
+Template:  And(Or(const_0*a +
+       const_1*a*a +
+       const_2*a*a*a +
+       const_3*a*a*a <
+       const_4,
+       const_5*a*a*a < const_6,
+       const_7*a*a*a +
+       const_8*a*a*a +
+       const_9*a*a*a +
+       const_10*a*a*a <
+       const_11),
+    Or(const_12*a*a*a +
+       const_13*a*a +
+       const_14*a*a +
+       const_15*a*a*a <
+       const_16,
+       const_17*a*a*a +
+       const_18*a*a*a +
+       const_19*a*a +
+       const_20*a*a*a <
+       const_21,
+       const_22*a*a*a + const_23*a*a + const_24*a*a <
+       const_25),
+    Or(const_26*a*a*a +
+       const_27*a*a +
+       const_28*y +
+       const_29*a*a*a <
+       const_30,
+       const_31*a*a*a +
+       const_32*a*a +
+       const_33*a*a +
+       const_34*n*n <
+       const_35,
+       n < const_36))
+Candidate:  And(Or(1*a + 0*a*a + 0*a*a*a + -1*a*a*a < 4,
+       0*a*a*a < 6,
+       0*a*a*a + -2*a*a*a + 0*a*a*a + 0*a*a*a < 0),
+    Or(0*a*a*a + 0*a*a + 0*a*a + 0*a*a*a < 140878402,
+       4*a*a*a + -3*a*a*a + 0*a*a + 4*a*a*a < 1,
+       0*a*a*a + -458133*a*a + 0*a*a < -458130),
+    Or(4*a*a*a + -2781*a*a + 41361*y + 0*a*a*a < -2788,
+       -121*a*a*a + 0*a*a + 106616*a*a + 6*n*n < 106498,
+       n < -7))
+0
+Checking timeout
+Template:  And(Or(const_0*a + const_1*a + const_2*a*a + const_3*a <
+       const_4,
+       const_5*a + const_6*a + const_7*a + const_8*a <
+       const_9,
+       a + a + const_10*a + const_11*a*a*a < const_12),
+    Or(const_13*a + const_14*a*a + const_15*a*a + a <
+       const_16,
+       const_17*a +
+       const_18*a*a*a +
+       const_19*a*a*a +
+       const_20*a <
+       const_21,
+       const_22*a*a + const_23*a*a + a + const_24*a*a*a <
+       const_25),
+    Or(a + const_26*y + const_27*a + const_28*a < const_29,
+       const_30*a + const_31*a + const_32*y + const_33*a <
+       const_34,
+       const_35*a + const_36*a + const_37*y + const_38*y <
+       const_39))
+b'canceled'
+Candidate:  And(Or(0*a + 0*a + -1*a*a + -12*a < 8,
+       0*a + 0*a + -3*a + 0*a < -518,
+       a + a + -129*a + 1*a*a*a < 16),
+    Or(-6*a + 0*a*a + 0*a*a + a < 0,
+       0*a + 0*a*a*a + -1*a*a*a + -1*a < 1,
+       -65*a*a + 0*a*a + a + 0*a*a*a < 0),
+    Or(a + 1832530*y + 0*a + 0*a < 3665058,
+       0*a + 13*a + 0*y + 0*a < 0,
+       5*a + 0*a + 1*y + 125*y < 895))
+Size of CE:  19
+Template:  And(Or(const_0*y + const_1*a + const_2*a + z < const_3,
+       a + const_4*a + const_5*a + const_6*a == const_7,
+       a + a + const_8*a + const_9*a < const_10),
+    Or(const_11*a + const_12*a + const_13*a + const_14*a <
+       const_15,
+       const_16*a + const_17*a + const_18*a + a == const_19,
+       a + const_20*a + const_21*a + const_22*a == const_23),
+    Or(const_24*y*a + a + -1*y + const_25*a < const_26,
+       const_27*a + y + const_28*y + const_29*a < const_30,
+       const_31*a + const_32*a + -1*y + const_33*a ==
+       const_34))
+Candidate:  And(Or(25*y + 0*a + -11*a + z < 32,
+       a + 0*a + 0*a + -1*a == -1,
+       a + a + 0*a + 0*a < -4),
+    Or(0*a + 0*a + -1*a + 0*a < 1,
+       0*a + -2*a + 0*a + a == 0,
+       a + -2*a + 0*a + 0*a == 0),
+    Or(1*y*a + a + -1*y + -7*a < 2,
+       -91*a + y + -516*y + -1*a < -47840,
+       0*a + 0*a + -1*y + -3*a == 6))
+Size of CE:  20
+Template:  And(Or(const_0*y + const_1*a + const_2*a + z == const_3,
+       a + const_4*a + const_5*y + const_6*a == const_7,
+       a + a + const_8*a + const_9*a == const_10),
+    Or(const_11*a + const_12*a + const_13*a + const_14*a <
+       const_15,
+       const_16*a + const_17*z + const_18*a + const_19*a ==
+       const_20,
+       const_21*a + const_22*y + const_23*y + const_24*a <
+       const_25))
+Candidate:  And(Or(-2*y + 0*a + 0*a + z == 4,
+       a + 0*a + -1*y + 51*a == 0,
+       a + a + -1*a + 0*a == 448),
+    Or(0*a + 0*a + 0*a + -1*a < -127,
+       0*a + -1*z + 17*a + 0*a == -25,
+       0*a + -1*y + 2*y + -3*a < 2))
+Size of CE:  21
+Template:  And(Or(const_0*y + const_1*a + const_2*a + z == const_3,
+       a + const_4*a + const_5*y + const_6*a == const_7,
+       z + a + const_8*y + const_9*a == const_10),
+    Or(const_11*a + const_12*a + const_13*a + const_14*a <
+       const_15,
+       const_16*a + const_17*z + const_18*a + const_19*a ==
+       const_20,
+       const_21*a + const_22*y + const_23*y + const_24*z <
+       const_25))
+Candidate:  And(Or(-831*y + -1*a + 7*a + z == 0,
+       a + -1*a + 1*y + 0*a == 1,
+       z + a + 1376404*y + -4*a == -4129208),
+    Or(-1*a + 0*a + 0*a + 0*a < -448,
+       0*a + -2*z + 0*a + -7*a == -12,
+       -1108*a + 45*y + -5*y + 38*z < -839))
+Size of CE:  22
+Template:  And(Or(const_0*y + const_1*z + const_2*a + z == const_3,
+       a + const_4*a + const_5*y + const_6*a == const_7,
+       z + a + const_8*y + const_9*a == const_10),
+    Or(const_11*a + const_12*a + const_13*a + const_14*a ==
+       const_15,
+       const_16*a + const_17*z + const_18*a + const_19*z ==
+       const_20,
+       const_21*a + const_22*y + const_23*y + const_24*z <
+       const_25))
+Solving timeout
+Template:  And(Or(const_0*y + const_1*z + const_2*z + z == const_3,
+       a + const_4*a + const_5*y + const_6*a == const_7,
+       z + a + const_8*y + a == const_9),
+    Or(const_10*a + z + 1*a*a + const_11*a*z <= -1))
+Solving unsat
+Template:  And(Or(const_0*y + 1*z + const_1*z*n + y < const_2,
+       a < const_3,
+       const_4*a == const_5),
+    Or(x == -1, -1*a + a + -2*y + a <= 0),
+    Or(1*a*x < -1))
+Solving unsat
+Template:  And(Or(const_0*y + 0*z + const_1*z*n + const_2*a*z < const_3,
+       -1*z*y*n*a + -1*y + const_4*x*z*x*n < -1),
+    Or(a + const_5*a*a <= 0),
+    Or(1*a*x < -1))
+Solving unsat
+Template:  And(Or(const_0*y + 0*z + 3*z*n < -1, 1*a < 0),
+    Or(4*a == 3,
+       const_1*x*z*x*a <= 3,
+       0*a + const_2*a*a*y + a == 0),
+    Or(x < 0))
+Solving unsat
+Template:  And(Or(const_0*y + 0*z + 3*a*n == -1, 3*a < 0),
+    Or(2*a == 3, const_1*x <= -1, z + 0*a <= 0),
+    Or(0*a + 0*y <= 6))
+Solving unsat
+Template:  And(Or(const_0*y + 1*z*y + -1*n*z*y*a < const_1,
+       const_2*x + -1*n < const_3,
+       const_4*a + -1*a*a == 3),
+    Or(x <= 0, const_5*x + const_6*y <= 6, 0*x*a <= -2),
+    Or(x == 0, 2*x*x*x + x + 1*x < 3))
+Candidate:  And(Or(278*y + 1*z*y + -1*n*z*y*a < 5478,
+       1*x + -1*n < -342,
+       -6*a + -1*a*a == 3),
+    Or(x <= 0, 3*x + 2*y <= 6, 0*x*a <= -2),
+    Or(x == 0, 2*x*x*x + x + 1*x < 3))
+
+
+
+1
+Checking timeout
+Template:  And(Or(const_0*y + 1*z*y + -1*n*z*y*a + const_1*a < 1,
+       -1*n + const_2*x + const_3*a + const_4*a*n <= 0,
+       0*x*y*a + a + 0*a + -1*n*a == 3),
+    Or(n + z + 1*a*z*z*z + a <= -1,
+       x + 1*z <= -2,
+       const_5*x + 1*z + -3*a*x + -1*y*x == 1),
+    Or(2*z + y + 1*y + 1*n < 1,
+       0*a + 0*y == -3,
+       -3*n + 1*x + 0*y*a*a == -1))
+b'canceled'
+Solving unsat
+Template:  And(Or(const_0*y + 1*z*y + -1*n*z*y*a + const_1*a < const_2,
+       -1*n + const_3*x + const_4*a + const_5*a*n <= 0,
+       a + 0*a + a + 0*a == const_6),
+    Or(a + 0*a*n <= 2, a == const_7, a + a + 4*x*a*x*z == 4),
+    Or(x + 1*z == -3,
+       const_8*a + -1*n < 0,
+       2*z + y + 1*y + 1*n < 1))
+Solving unsat
+Template:  And(Or(const_0*y*z + const_1*y + const_2*n + const_3*a*z <
+       const_4,
+       n + const_5*n + const_6*x + const_7*a < -1,
+       x + y + a + 0*a <= 1),
+    Or(const_8*y + y + a == 0,
+       2*z*y + x + z == 0,
+       x + 4*x*a*x*z + 0*n + const_9*z == const_10),
+    Or(1*x + -1*y*x == 1, 0*n*z*a < 3))
+Candidate:  And(Or(-1*y*z + 0*y + -7*n + 0*a*z < 0,
+       n + -3*n + 0*x + 0*a < -1,
+       x + y + a + 0*a <= 1),
+    Or(10*y + y + a == 0,
+       2*z*y + x + z == 0,
+       x + 4*x*a*x*z + 0*n + 0*z == 0),
+    Or(1*x + -1*y*x == 1, 0*n*z*a < 3))
+Size of CE:  23
+Template:  And(Or(const_0*y*z + const_1*y + const_2*n + const_3*a*z <
+       const_4,
+       n + const_5*n*a + 4*z + const_6*x < const_7,
+       z + 1*a*x + const_8*n + const_9*x <= const_10),
+    Or(3*z + 0*a*n <= 2, z == const_11),
+    Or(x <= 0))
+Candidate:  And(Or(-1*y*z + 0*y + 0*n + 0*a*z < 0,
+       n + -1136*n*a + 4*z + 0*x < -1153,
+       z + 1*a*x + 0*n + 0*x <= -257),
+    Or(3*z + 0*a*n <= 2, z == 6),
+    Or(x <= 0))
+Size of CE:  24
+Template:  And(Or(const_0*y*z + const_1*y + const_2*n + const_3*a*z <
+       const_4,
+       n + const_5*n*z + 4*z + const_6*x < const_7,
+       z + const_8*a*x + const_9*n + const_10*x <= const_11),
+    Or(3*z + 0*a*n <= 4, z == const_12),
+    Or(x == 0))
+Candidate:  And(Or(-1*y*z + 0*y + 0*n + 0*a*z < 0,
+       n + 43695*n*z + 4*z + -10*x < -11011392,
+       z + -3*a*x + 0*n + -5*x <= -2752806),
+    Or(3*z + 0*a*n <= 4, z == 6),
+    Or(x == 0))
+Size of CE:  25
+Template:  And(Or(const_0*z*z + const_1*y + const_2*n + const_3*a*z <
+       const_4,
+       n + const_5*n*n + 4*z + const_6*n < const_7,
+       z + const_8*a*x + const_9*n + n <= 1),
+    Or(n + z + 0*a*n == 4, z == const_10),
+    Or(x == 0))
+Candidate:  And(Or(0*z*z + -1*y + 0*n + 0*a*z < 0,
+       n + 2*n*n + 4*z + 0*n < 1764,
+       z + 8*a*x + -1*n + n <= 1),
+    Or(n + z + 0*a*n == 4, z == 6),
+    Or(x == 0))
+Size of CE:  26
+Template:  And(Or(const_0*z*n + const_1*y + const_2*n + y < 0,
+       z + n == const_3,
+       z + const_4*y*n + z + n == const_5),
+    Or(x + const_6*n + const_7*x*n + y <= const_8,
+       const_9*x*a + 4*z*y + z + z <= 0,
+       n + a + x + z == const_10),
+    Or(z + 0*z + const_11*z*x + 4*y*x == const_12,
+       0*n*z*y + x < 3,
+       n + const_13*z == 0))
+Candidate:  And(Or(-1*z*n + -1*y + -385*n + y < 0,
+       z + n == 3,
+       z + -1*y*n + z + n == 12),
+    Or(x + -315*n + 23*x*n + y <= 12915,
+       0*x*a + 4*z*y + z + z <= 0,
+       n + a + x + z == 19),
+    Or(z + 0*z + 1*z*x + 4*y*x == 3,
+       0*n*z*y + x < 3,
+       n + -4*z == 0))
+Size of CE:  27
+Template:  And(Or(const_0*z*n + const_1*y + n + z < const_2,
+       n + const_3*n + const_4*n*n <= const_5,
+       const_6*n + 0*n*z + n + x <= const_7),
+    Or(n + n + n + n <= 0, a + n + y + z == const_8),
+    Or(x == 0))
+Candidate:  And(Or(-1*z*n + -2752812*y + n + z < -2752805,
+       n + -2*n + 0*n*n <= -1,
+       0*n + 0*n*z + n + x <= -11),
+    Or(n + n + n + n <= 0, a + n + y + z == -5046802),
+    Or(x == 0))
+Size of CE:  28
+Template:  And(Or(const_0*z*n + const_1*y + n + z < const_2,
+       a + y + z <= const_3,
+       4*z*z + n + 0*n*z + n == const_4),
+    Or(1*n + 1*n == const_5, x + const_6*x*a == -2, n == 0),
+    Or(a + x + a + x == 6,
+       0*z*y < -1,
+       const_7*z + -1*x*n + 0*n == 1))
+Solving unsat
+Template:  And(Or(const_0*z*n + const_1*y + const_2*n + const_3*a*z <
+       const_4,
+       n + const_5*n*n + 4*z*z + n < const_6,
+       z + const_7*x*x + const_8*n + n <= 1),
+    Or(n + z + x == 0, y + z + z + z <= 2),
+    Or(x + x <= const_9, n + z + n + n == const_10))
+Solving unsat
+Template:  And(Or(const_0*z*n + const_1*y < const_2,
+       const_3*a*z + a + const_4*n + const_5*n*n == const_6,
+       const_7*n + 0*n + 2*n*n + x <= 0),
+    Or(1*n + n + n < 0, a + 4*z*y + z + z == 0),
+    Or(x + -1*x*x < const_8,
+       n + -1*n + z + const_9*z*x == const_10,
+       n + 0*n + const_11*z*y + x == 3))
+Solving unsat
+Template:  And(Or(-3*z*n + const_0*y < const_1,
+       const_2*a*z + a + const_3*n + const_4*n*n == const_5,
+       const_6*n + 0*n <= const_7),
+    Or(const_8*y*z + const_9*n*x + const_10*y*n + 0*z <=
+       const_11,
+       const_12*z*y + 0*z*z + z == 2,
+       4*x*x + const_13*z*z*n + const_14*z*n + const_15*n <=
+       const_16),
+    Or(y + n + const_17*n + const_18*z <= 0,
+       y + -1*n + const_19*z == 0,
+       const_20*n*a + 0*n*z + const_21*z <= 0))
+Solving timeout
+Template:  And(Or(const_0*z*n + const_1*y + const_2*n + const_3*y*z <
+       const_4))
+Candidate:  And(Or(0*z*n + 20*y + -1*n + -1*y*z < 2254))
+Size of CE:  29
+Template:  And(Or(const_0*z*n + const_1*y + const_2*n + const_3*y <
+       const_4))
+Candidate:  And(Or(-1*z*n + 0*y + -5*n + 1*y < 2))
+Size of CE:  30
+Template:  And(Or(-3*z + const_0*z + const_1*n + const_2*y < -1))
+Candidate:  And(Or(-3*z + -7499160*z + 1299*n + 9479835*y < -1))
+Size of CE:  31
+Template:  And(Or(-3*z + const_0*z + const_1*z + const_2*y < -1))
+Candidate:  And(Or(-3*z + 0*z + 0*z + 1*y < -1))
+Size of CE:  32
+Template:  And(Or(-3*z + const_0*z + const_1*z + const_2*y < -1))
+Candidate:  And(Or(-3*z + 0*z + -3198*z + 25*y < -1))
+Size of CE:  33
+Template:  And(Or(-3*z + const_0*z + const_1*z + const_2*y < -1))
+Candidate:  And(Or(-3*z + 3*z + -1*z + 1*y < -1))
+Size of CE:  34
+Template:  And(Or(-3*z + const_0*z + const_1*z + const_2*y < -1))
+Candidate:  And(Or(-3*z + 0*z + 2*z + 0*y < -1))
+Size of CE:  35
+Template:  And(Or(-3*z + const_0*z + 1*z + const_1*y < -1))
+Candidate:  And(Or(-3*z + 0*z + 1*z + 2*y < -1))
+Size of CE:  36
+Template:  And(Or(-3*z + const_0*z + const_1*z + const_2*y < -1))
+Solving unsat
+Template:  And(Or(1*z + const_0*z + 1*z + const_1*y < -1))
+Solving unsat
+Template:  And(Or(3*z + const_0*z*y + const_1*x < const_2),
+    Or(const_3*z <= -3),
+    Or(const_4*z*x + y == -3))
+Solving unsat
+Template:  And(Or(const_0*z*z*n + const_1*z*z + -3*y < const_2,
+       const_3*y*n + -3*z == const_4,
+       const_5*x*z == const_6),
+    Or(-3*x*a*x + 0*x + const_7*x + z == -3),
+    Or(1*x*a*z <= -3))
+Solving unsat
+Template:  And(Or(y + const_0*n*z + 1*z + -3*y < const_1,
+       const_2*y*n + -3*z == const_3,
+       const_4*x*z == const_5),
+    Or(-3*x*a*x == -1),
+    Or(const_6*n*z + y + -3*z*z + 0*n*x*z*y < 1))
+Solving unsat
+Template:  And(Or(y + const_0*n + const_1*a < const_2,
+       const_3*z + const_4*z*y + -1*n*n*a*z + 0*y*x <= -1,
+       -3*z*y == const_5),
+    Or(3*x == const_6, y + 0*a*z == 1, x == -3))
+Candidate:  And(Or(y + -12*n + 12*a < -11,
+       -1*z + 0*z*y + -1*n*n*a*z + 0*y*x <= -1,
+       -3*z*y == -10423),
+    Or(3*x == 0, y + 0*a*z == 1, x == -3))
+Size of CE:  37
+Template:  And(Or(const_0*z + const_1*z*y < 1,
+       2*y == const_2,
+       y + -1*n*n*a*z < const_3))
+Solving unsat
+Template:  And(Or(const_0*z < const_1,
+       1*z + const_2*y*y + const_3*a*z + -2*z <= 1,
+       0*z + const_4*z*z + n + const_5*y == const_6),
+    Or(-3*x == -1, y + 0*y*z == -1, x == -3),
+    Or(-1*z*z == 3))
+Solving unsat
+Template:  And(Or(const_0*z + const_1*z + 1*z + const_2*y*y < const_3,
+       y + -1*n*n + z < 0,
+       -1*z + n + const_4*y + 0*x*y == const_5),
+    Or(const_6*z*y + const_7*a*z + -3*a*a*x + -1*n == -1),
+    Or(-1*x + const_8*a*x*x + 0*z*a*z*n + const_9*n*a <= 2))
+Solving unsat
+Template:  And(Or(const_0*z*z + -1*y*a + const_1*z + const_2*z <
+       const_3,
+       -3*z + const_4*a*z + 0*y*x + const_5*a*a*z < const_6,
+       4*y*z*n*x <= -1),
+    Or(n + -3*z*z*x + a + const_7*y == 3,
+       z + -1*x + const_8*a*x*x + z < const_9,
+       y + n + const_10*n*z + -1*x == -3),
+    Or(x < -1))
+Solving unsat
+Template:  And(Or(const_0*z + const_1*z + 1*z + const_2*y*y < const_3,
+       0*n + const_4*n + z < 0,
+       -1*z + -3*z*z*y + 0*x*y + const_5*x == -1),
+    Or(n + 4*z*z*x + a + const_6*y == 4,
+       z + -1*x + const_7*a*x + const_8*z < const_9,
+       y + n + const_10*n + 1*x*x == 1),
+    Or(x <= -1))
+Solving unsat
+Template:  And(Or(const_0*z + const_1*z + const_2*z + const_3*y*y <
+       const_4,
+       0*n + const_5*n + z + 0*y*x < -1,
+       -3*z*y == -3),
+    Or(const_6*x + const_7*x == const_8,
+       4*z*z*x + const_9*x <= const_10,
+       z + -1*z*a*x + const_11*a + 0*a*z == const_12),
+    Or(3*n + const_13*n*z + -1*x + 3*x*n*a == -3,
+       z + -3*x*n + const_14*x*z*y*x <= const_15,
+       z + -1*z <= -2))
+Solving timeout
+Template:  And(Or(const_0*z < const_1,
+       const_2*z + const_3*y*y*z + const_4*z*y <= -3,
+       const_5*z + 0*y*x + const_6*a + 0*z*y == 1),
+    Or(const_7*x + const_8*x == const_9, a + 1*x <= 0),
+    Or(3*z*z == 0))
+Solving unsat
+Template:  And(Or(const_0*z < const_1,
+       const_2*z + const_3*y + -3*a*a <= const_4,
+       const_5*n <= const_6),
+    Or(const_7*z + const_8*a + const_9*y + 3*x <= 0,
+       const_10*x + const_11*y + const_12*a*z*z + 0*a <=
+       const_13,
+       6*z*z == -1),
+    Or(3*a + 0*a + 3*z < const_14,
+       n == const_15,
+       1*x*x + y == -1))
+Candidate:  And(Or(-1*z < -4,
+       -227256*z + 241964232*y + -3*a*a <= -5903619724,
+       0*n <= -46272),
+    Or(0*z + -295387*a + 0*y + 3*x <= 0,
+       -24*x + 0*y + 1*a*z*z + 0*a <= -1,
+       6*z*z == -1),
+    Or(3*a + 0*a + 3*z < 5505637, n == -8, 1*x*x + y == -1))
+Size of CE:  38
+Template:  And(Or(const_0*z < const_1,
+       a + const_2*z + const_3*z <= const_4,
+       const_5*z + const_6*a*z + 2*y + 0*z < const_7),
+    Or(-3*x + 0*z + -3*n + -3*z == 1))
+Solving unsat
+Template:  And(Or(const_0*z + const_1*z + a + const_2*z < const_3,
+       const_4*z <= const_5,
+       n + -3*n + const_6*a + const_7*a == 3),
+    Or(3*x == -3,
+       const_8*x + const_9*y + -3*a*z*z*x + 4*x <= 4,
+       z + 4*z*a + 0*x == 6))
+Candidate:  And(Or(0*z + 0*z + a + -367044*z < -367054,
+       1*z <= -2752799,
+       n + -3*n + 0*a + 7*a == 3),
+    Or(3*x == -3,
+       -3*x + 0*y + -3*a*z*z*x + 4*x <= 4,
+       z + 4*z*a + 0*x == 6))
+Size of CE:  39
+Template:  And(Or(const_0*z + const_1*z + a + const_2*z < const_3,
+       const_4*z <= const_5,
+       n + -3*x + const_6*a + const_7*a == 3),
+    Or(3*x + const_8*n + const_9*x + const_10*y == const_11,
+       -3*x + a + 4*y + const_12*z <= 0,
+       x == 0))
+Candidate:  And(Or(0*z + 0*z + a + -367044*z < -367053,
+       0*z <= -1,
+       n + -3*x + 0*a + -371*a == 3),
+    Or(3*x + 5*n + 2*x + -34*y == -66,
+       -3*x + a + 4*y + -1*z <= 0,
+       x == 0))
+Size of CE:  40
+Template:  And(Or(const_0*z + n + const_1*a + const_2*z < const_3,
+       const_4*z <= const_5,
+       const_6*a + 3*z + const_7*z + const_8*a == 0),
+    Or(4*y <= const_9,
+       const_10*x*z*y*n + const_11*z + 0*a*a < const_12))
+Candidate:  And(Or(-12*z + n + -12*a + 0*z < -48,
+       0*z <= -1,
+       0*a + 3*z + -4*z + 0*a == 0),
+    Or(4*y <= -45,
+       2991*x*z*y*n + -319228959815908409*z + 0*a*a <
+       -1596143832502119685))
+Size of CE:  41
+Template:  And(Or(const_0*z + n + const_1*a + const_2*z < const_3,
+       const_4*z <= const_5,
+       const_6*a + 3*z + const_7*n + const_8*a == const_9),
+    Or(4*y <= const_10,
+       const_11*x*z*y*n + const_12*z + 0*a*a < const_13))
+Candidate:  And(Or(6*z + n + -25*a + -4*z < 53,
+       7*z <= 439713,
+       188449*a + 3*z + -188449*n + -1*a == 5),
+    Or(4*y <= -43, 0*x*z*y*n + -2*z + 0*a*a < -8))
+Size of CE:  42
+Template:  And(Or(const_0*z + n + const_1*a + const_2*z < const_3,
+       const_4*z <= const_5),
+    Or(const_6*z + const_7*y + 2*z + 3*x*z == const_8,
+       -3*a + x == const_9,
+       -2*n + const_10*z + 0*a*a == const_11))
+Candidate:  And(Or(-40*z + n + -12*a + 41*z < -9, 2*z <= 12),
+    Or(-330*z + 248848*y + 2*z + 3*x*z == -3981568,
+       -3*a + x == 63,
+       -2*n + 3*z + 0*a*a == 18))
+Size of CE:  43
+Template:  And(Or(const_0*z + n + const_1*a + const_2*z < const_3,
+       const_4*z + const_5*z + const_6*a <= 4),
+    Or(2*z + 3*x*z + 3*x*x*y*a + x == const_7))
+Candidate:  And(Or(0*z + n + -48*a + -1*z < 0, 0*z + 0*z + -5*a <= 4),
+    Or(2*z + 3*x*z + 3*x*x*y*a + x == 12))
+1
+Checking timeout
+Template:  And(Or(const_0*z*z + 3*y + const_1*n*z + const_2*z*a <
+       const_3,
+       const_4*a + const_5*z < 3),
+    Or(const_6*a < 3))
+Candidate:  And(Or(5*z*z + 3*y + -3*n*z + -62*z*a < 274, 1*a + 12*z < 3),
+    Or(-4*a < 3))
+Size of CE:  44
+Template:  And(Or(const_0*z*z + 3*y + const_1*n*z + const_2*z*a <
+       const_3,
+       const_4*a + const_5*z < 3),
+    Or(const_6*a < 3))
+Candidate:  And(Or(-2*z*z + 3*y + -1*n*z + 1*z*a < -92,
+       -15*a + -9*z < 3),
+    Or(0*a < 3))
+Size of CE:  45
+Template:  And(Or(const_0*z*z + 3*y + const_1*n*z + const_2*z*a <
+       const_3,
+       const_4*a + const_5*z < 3),
+    Or(const_6*a < 3))
+Candidate:  And(Or(1*z*z + 3*y + 1*n*z + -20*z*a < 41, -32*a + -5*z < 3),
+    Or(-4*a < 3))
+1
+Checking timeout
+Template:  And(Or(z + const_0*n + const_1*a + -1*z < const_2,
+       const_3*z <= const_4))
+Candidate:  And(Or(z + 23311*n + -23313*a + -1*z < -23311, -1*z <= -6))
+Size of CE:  46
+Template:  And(Or(z + const_0*n + const_1*a + -1*z < const_2,
+       const_3*z <= const_4))
+Candidate:  And(Or(z + 3842*n + -1140*a + -1*z < -7141566, -1*z <= -6))
+Size of CE:  47
+Template:  And(Or(z + const_0*n + const_1*a + -1*z < const_2,
+       const_3*z <= const_4))
+Candidate:  And(Or(z + 925*n + -146*a + -1*z < -1709973, -2*z <= -7))
+Size of CE:  48
+Template:  And(Or(z + const_0*n + const_1*a + -1*z < const_2,
+       const_3*z <= const_4))
+Candidate:  And(Or(z + 6006*n + -1912*a + -1*z < -11175342, -1*z <= -6))
+Size of CE:  49
+Template:  And(Or(z + const_0*n + const_1*a + -1*z < const_2,
+       const_3*z <= const_4))
+Candidate:  And(Or(z + 6267*n + -1861*a + -1*z < -11662887, -1*z <= -3))
+Size of CE:  50
+Template:  And(Or(z + const_0*n + const_1*a + -1*z < const_2,
+       const_3*z <= const_4))
+Candidate:  And(Or(z + 3877*n + -611*a + -1*z < -7159698, -1*z <= -6))
+Size of CE:  51
+Template:  And(Or(z + const_0*n + const_1*a + -1*z < const_2,
+       const_3*z <= const_4))
+Candidate:  And(Or(z + 95*n + 1826*a + -1*z < -15273, -1*z <= -6))
+Size of CE:  52
+Template:  And(Or(z + const_0*n + const_1*a + -1*z < const_2,
+       const_3*z <= const_4))
+Candidate:  And(Or(z + 19*n + 365*a + -1*z < -3072, -1*z <= -6))
+Size of CE:  53
+Template:  And(Or(z + const_0*n + const_1*a + -1*z < const_2,
+       const_3*z <= const_4))
+Candidate:  And(Or(z + 798*n + -126*a + -1*z < -1474743, -2*z <= -8))
+Size of CE:  54
+Template:  And(Or(z + const_0*n + const_1*a + -1*z < const_2,
+       const_3*z <= const_4))
+Candidate:  And(Or(z + 458809*n + -9*a + -1*z < -4129209, -1*z <= -6))
+Size of CE:  55
+Template:  And(Or(z + const_0*n + const_1*a + -1*z < const_2,
+       const_3*z <= const_4))
+Candidate:  And(Or(z + 11631*n + -1833*a + -1*z < -21464430, -1*z <= -6))
+Size of CE:  56
+Template:  And(Or(z + const_0*n + const_1*a + -1*z < const_2,
+       const_3*z <= const_4))
+Candidate:  And(Or(z + 1*n + 0*a + -1*z < -9, -1*z <= -6))
+Size of CE:  57
+Template:  And(Or(z + const_0*n + const_1*a + -1*z < const_2,
+       const_3*z <= const_4))
+Candidate:  And(Or(z + 3879*n + -611*a + -1*z < -7163364, -1*z <= -6))
+Size of CE:  58
+Template:  And(Or(z + const_0*n + const_1*a + -1*z < const_2,
+       const_3*z <= const_4))
+Candidate:  And(Or(z + 11710*n + -1847*a + -1*z < -21628370, -1*z <= -6))
+Size of CE:  59
+Template:  And(Or(z + const_0*n + const_1*a + -1*z < const_2,
+       const_3*z <= const_4))
+Candidate:  And(Or(z + -3631*n + -213*a + -1*z < -2497212, -1*z <= -6))
+Size of CE:  60
+Template:  And(Or(z + const_0*n + const_1*a + -1*z < const_2,
+       const_3*z <= const_4))
+Solving unsat
+Template:  And(Or(z + const_0*n + const_1*a + const_2*z < const_3,
+       const_4*z <= const_5))
+Candidate:  And(Or(z + 1*n + -1*a + -1467*z < -2930, 0*z <= -1))
+Size of CE:  61
+Template:  And(Or(z + const_0*n + const_1*a + const_2*z < const_3,
+       const_4*z + const_5*z + n + -3*n <= const_6))
+Candidate:  And(Or(z + 10*n + -18609*a + -18612*z < -4,
+       2*z + -1*z + n + -3*n <= -82))
+Size of CE:  62
+Template:  And(Or(z + const_0*n + const_1*a + const_2*z < const_3,
+       const_4*z + const_5*z + n + -3*n <= const_6,
+       const_7*a < const_8),
+    Or(-3*x + const_9*n*x + const_10*x*z*y*n + const_11*z ==
+       -3,
+       const_12*z == const_13,
+       -3*z + const_14*z + x + -1*x == const_15),
+    Or(-1*y + 0*a == const_16,
+       3*x + y + -1*n*x + 3*n*z == const_17))
+Candidate:  And(Or(z + -2*n + 1*a + -1*z < 2,
+       0*z + -5*z + n + -3*n <= -12,
+       0*a < 0),
+    Or(-3*x + -1*n*x + 1*x*z*y*n + -4600441010464274305129*z ==
+       -3,
+       -1*z == -6,
+       -3*z + 2*z + x + -1*x == 255),
+    Or(-1*y + 0*a == 32, 3*x + y + -1*n*x + 3*n*z == 1))
+Size of CE:  63
+Template:  And(Or(const_0*z + n + const_1*a + const_2*z < const_3,
+       const_4*z + const_5*z + n + -3*n <= const_6,
+       const_7*a < const_8),
+    Or(-3*x + const_9*n*x + const_10*x*z*y*n + const_11*z ==
+       -3,
+       const_12*z == const_13,
+       -3*z + const_14*z + x + -1*x == const_15),
+    Or(-1*y + 0*a == const_16,
+       3*x*a + -3*n*n + const_17*y + 3*a == 3))
+Candidate:  And(Or(-23*z + n + -1*a + 4*z < 19,
+       0*z + -86882*z + n + -3*n <= -5,
+       -1*a < -43443),
+    Or(-3*x + -1*n*x + 0*x*z*y*n + 2*z == -3,
+       1*z == 6,
+       -3*z + 2*z + x + -1*x == 0),
+    Or(-1*y + 0*a == -1, 3*x*a + -3*n*n + 10*y + 3*a == 3))
+1
+Checking timeout
+Template:  And(Or(const_0*z + n + const_1*a + const_2*z < const_3,
+       const_4*z + const_5*z*a + z + const_6*z <= const_7,
+       const_8*a*z + const_9*x == -3),
+    Or(const_10*n + const_11*z + const_12*n + const_13*z*x <=
+       1),
+    Or(const_14*z + -3*z + const_15*x == 0,
+       1*a + 3*z*n + -3*x == 0,
+       0*a*x + 4*y == -3))
+Candidate:  And(Or(1*z + n + -1*a + 9*z < -2050,
+       -5690*z + -5*z*a + z + 1*z <= -33834,
+       8*a*z + -37*x == -3),
+    Or(0*n + -23375*z + -6656*n + -1*z*x <= 1),
+    Or(3*z + -3*z + 0*x == 0,
+       1*a + 3*z*n + -3*x == 0,
+       0*a*x + 4*y == -3))
+Size of CE:  64
+Template:  And(Or(const_0*z + n + const_1*a + const_2*z < const_3,
+       const_4*z + const_5*z*a + z + const_6*z <= const_7,
+       const_8*a*z + const_9*x == -3),
+    Or(const_10*n + const_11*z + const_12*n + const_13*z*x <=
+       1),
+    Or(const_14*z + -3*z + const_15*z == 0,
+       1*a + 3*z*n + -3*x == 0,
+       0*a + const_16*a*y == -3))
+Candidate:  And(Or(30*z + n + -375*a + 0*z < -1877,
+       0*z + -1*z*a + z + -2*z <= -1,
+       1*a*z + -2*x == -3),
+    Or(-1*n + 0*z + 0*n + 0*z*x <= 1),
+    Or(0*z + -3*z + 3*z == 0,
+       1*a + 3*z*n + -3*x == 0,
+       0*a + 5*a*y == -3))
+Size of CE:  65
+Template:  And(Or(const_0*z + n + const_1*a < const_2,
+       const_3*z*a + const_4*y <= const_5,
+       a + const_6*z + const_7*n == const_8),
+    Or(const_9*x + const_10*z + const_11*x*n == const_12,
+       const_13*n + const_14*z*x + a == const_15,
+       const_16*z == -3),
+    Or(0*x + -1*x + 1*x == 0, x == 0))
+Solving timeout
+Template:  And(Or(const_0*z < const_1,
+       a + const_2*z <= const_3,
+       const_4*z + const_5*z + n + -3*n <= const_6),
+    Or(const_7*a*z + const_8*x == -3,
+       0*x*n + -1*z + 3*n + -3*z*x == 1,
+       const_9*n + 1*z*z*z*a + 0*x <= const_10),
+    Or(x <= 0))
+Candidate:  And(Or(-3*z < -3,
+       a + 0*z <= -11,
+       -1*z + 3*z + n + -3*n <= -53),
+    Or(-3491*a*z + 1*x == -3,
+       0*x*n + -1*z + 3*n + -3*z*x == 1,
+       -11367657672202194*n + 1*z*z*z*a + 0*x <=
+       1466427839714082927),
+    Or(x <= 0))
+Size of CE:  66
+Template:  And(Or(const_0*z < const_1,
+       const_2*z*n*z*y + -3*a*a*z*y <= const_3,
+       z + 3*z + const_4*n + const_5*a*z < const_6),
+    Or(-3*a + x == 3, -2*n*n + -3*z + 1*a == const_7),
+    Or(1*z*z*z*a + 0*x + 3*x == const_8))
+Solving unsat
+Template:  And(Or(const_0*z < const_1,
+       const_2*z*n*z*y + -3*a*a*z*y < const_3,
+       z < -3),
+    Or(const_4*z + 3*x < const_5),
+    Or(-3*a + x == 3, -2*n*n + -3*z*x*a + x == 4))
+Solving unsat
+Template:  And(Or(const_0*z < const_1,
+       a + const_2*z + const_3*z*a*a + -3*n*z < 2,
+       3*z + const_4*n == const_5),
+    Or(3*x + 6*y + 0*x*n == 3, 3*n == const_6),
+    Or(a + 4*y + z == 1,
+       const_7*x*y == 3,
+       const_8*z*x*z*n == 3))
+Solving unsat
+Template:  And(Or(const_0*z < const_1,
+       a + const_2*z + const_3*z*a*a + const_4*n < -3,
+       -3*n + const_5*a + -3*a == 2),
+    Or(-3*x == -3, const_6*x <= 1, -3*a*x*z*x + a < -2))
+Solving unsat
+Template:  And(Or(const_0*z < const_1,
+       const_2*z + -2*y + const_3*a + const_4*y <= 0,
+       const_5*x < 1),
+    Or(const_6*a < 2))
+Candidate:  And(Or(1*z < -68,
+       -138*z + -2*y + 2324*a + -138*y <= 0,
+       1*x < 1),
+    Or(-1*a < 2))
+Size of CE:  67
+Template:  And(Or(const_0*z < const_1,
+       const_2*z + -2*y + const_3*a + const_4*y <= 0,
+       const_5*x < 1),
+    Or(const_6*a < const_7))
+Candidate:  And(Or(1*z < -12,
+       -310553*z + -2*y + 1860840*a + 309320*y <= 0,
+       1*x < 1),
+    Or(-1*a < 2))
+Size of CE:  68
+Template:  And(Or(const_0*z + n < 3,
+       const_1*z*y <= const_2,
+       const_3*y + z + const_4*a*x*n*z + a == 2),
+    Or(const_5*y + -3*x + const_6*n*x <= const_7,
+       const_8*n + const_9*x + 0*a*a + 2*y == const_10))
+Candidate:  And(Or(-1851*z + n < 3,
+       -2*z*y <= -1195049,
+       -6266*y + z + -3*a*x*n*z + a == 2),
+    Or(2141*y + -3*x + 1*n*x <= -306830,
+       -6*n + 36423*x + 0*a*a + 2*y == 2))
+Size of CE:  69
+Template:  And(Or(const_0*z + n + y + 4*n < -2,
+       const_1*a + const_2*n <= const_3),
+    Or(1*z + a + const_4*a + z <= const_5))
+Candidate:  And(Or(-2*z + n + y + 4*n < -2,
+       -418*a + -7131*n <= -4904819),
+    Or(1*z + a + -13*a + z <= 112))
+Size of CE:  70
+Template:  And(Or(const_0*z + n + y + 4*n < -2,
+       const_1*a + const_2*n <= const_3),
+    Or(1*z + a + const_4*a + z <= const_5))
+Candidate:  And(Or(6*z + n + y + 4*n < -2, -1*a + -5234*n <= 0),
+    Or(1*z + a + -220*a + z <= 50))
+Size of CE:  71
+Template:  And(Or(const_0*z*n + 3*y + 4*n + const_1*y < const_2,
+       const_3*n + n + const_4*z + const_5*y < 4),
+    Or(z == const_6, x <= const_7))
+Candidate:  And(Or(1*z*n + 3*y + 4*n + 65*y < 1,
+       -32717*n + n + -32717*z + 32719*y < 4),
+    Or(z == 7, x <= 0))
+Size of CE:  72
+Template:  And(Or(const_0*z*n + 3*y + 4*n + const_1*y < const_2,
+       const_3*n + n + const_4*z + const_5*y < 4),
+    Or(z == const_6, x <= const_7))
+Candidate:  And(Or(-7*z*n + 3*y + 4*n + 0*y < 1,
+       -2292587*n + n + 0*z + 2*y < 4),
+    Or(z == 6, x <= -66283797906))
+Size of CE:  73
+Template:  And(Or(const_0*z*n + 3*y + 4*n + const_1*y < const_2,
+       const_3*n + n + const_4*z + const_5*y < 4),
+    Or(z == const_6, x <= const_7))
+Candidate:  And(Or(4*z*n + 3*y + 4*n + 1*y < -20,
+       -2268524*n + n + -21811*z + 21813*y < 4),
+    Or(z == -13, x <= 0))
+Size of CE:  74
+Template:  And(Or(const_0*z*n + 3*y + 4*n + const_1*y < const_2,
+       const_3*n + n + const_4*z + const_5*y < 4),
+    Or(z == const_6, x <= const_7))
+Candidate:  And(Or(1*z*n + 3*y + 4*n + -1*y < -522813,
+       -51*n + n + -2*z + 15*y < 4),
+    Or(z == 6, x <= -66283797907))
+Size of CE:  75
+Template:  And(Or(const_0*z*n + 3*y + 4*n + const_1*y < const_2,
+       const_3*n + n + const_4*z + const_5*y < 4),
+    Or(z == const_6, x <= const_7))
+Candidate:  And(Or(1*z*n + 3*y + 4*n + 994*y < -1179912,
+       -14*n + n + -2*z + 15*y < 4),
+    Or(z == 6, x <= -66283797907))
+Size of CE:  76
+Template:  And(Or(const_0*z*n + 3*y + 4*n + const_1*y < const_2,
+       const_3*n + n + const_4*z + const_5*y < 4),
+    Or(z == const_6, x <= const_7))
+Candidate:  And(Or(1*z*n + 3*y + 4*n + 1*y < 1,
+       -54529*n + n + -10906*z + 10907*y < 4),
+    Or(z == 7, x <= 0))
+Size of CE:  77
+Template:  And(Or(const_0*z*z + const_1*y + 4*n + const_2*y < const_3,
+       const_4*n + a + const_5*z + const_6*y < const_7))
+Candidate:  And(Or(0*z*z + 0*y + 4*n + 21360*y < 42717,
+       -1*n + a + -1327743*z + 1327741*y < -8))
+Size of CE:  78
+Template:  And(Or(const_0*z*z + const_1*y + 4*n + const_2*y < const_3,
+       const_4*n + a + const_5*z + const_6*y < const_7))
+Candidate:  And(Or(-15796*z*z + 0*y + 4*n + 86881*y < -394871,
+       591546200*n + a + -275364756251*z + 275364756249*y <
+       -8))
+Size of CE:  79
+Template:  And(Or(const_0*z*z + const_1*y + 4*n + const_2*y < const_3,
+       const_4*n + a + const_5*z + const_6*y < const_7))
+Candidate:  And(Or(-2*z*z + 0*y + 4*n + 10*y < -42,
+       -1*n + a + -17662*z + 17663*y < -4))
+Size of CE:  80
+Template:  And(Or(const_0*z*z + const_1*y + 4*n + const_2*y < const_3,
+       const_4*n + a + const_5*z + const_6*y < const_7))
+Candidate:  And(Or(-3*z*z + 4*y + 4*n + 0*y < -10,
+       -54*n + a + -16751*z + 16750*y < -8))
+Size of CE:  81
+Template:  And(Or(const_0*z*z + const_1*y + 4*n + const_2*y < const_3,
+       const_4*n + a + const_5*z + const_6*y < const_7))
+Candidate:  And(Or(-16*z*z + 0*y + 4*n + 55*y < 1,
+       -1*n + a + -2655525*z + 883507*y < -5289311))
+Size of CE:  82
+Template:  And(Or(const_0*z*z + const_1*y + 4*n + const_2*y < const_3,
+       const_4*n + a + const_5*z + const_6*y < const_7))
+Candidate:  And(Or(12360*z*z + 0*y + 4*n + 61727*y < 111228,
+       362515111970025*n +
+       a +
+       -2726275358774848*z +
+       2393576777874638*y <
+       -4325081551702714))
+Size of CE:  83
+Template:  And(Or(const_0*z*z + const_1*y + 4*n + const_2*y < const_3,
+       const_4*n + a + const_5*z + const_6*y < const_7))
+Candidate:  And(Or(4*z*z + 43475*y + 4*n + 0*y < 86942,
+       321211887388*n +
+       a +
+       -649614845518613256919*z +
+       649620518762968317304*y <
+       -3248040188448147809685))
+Size of CE:  84
+Traceback (most recent call last):
+  File "RunAllNonLinear.py", line 19, in <module>
+    timeUsed, answer = main(path_c, path_g, path_s)
+  File "/Users/westtide/LIPuS/main.py", line 35, in main
+    PT = pT_generator.generate_next(CE)
+  File "/Users/westtide/LIPuS/PT_generators/RL_Prunning/PT_generator.py", line 74, in generate_next
+    emb_CE = self.E(CE)
+  File "/Users/westtide/opt/anaconda3/envs/LIPuS/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/westtide/opt/anaconda3/envs/LIPuS/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/westtide/LIPuS/PT_generators/RL_Prunning/NNs/CounterExampleEmbedding.py", line 92, in forward
+    pca_i1, pca_i2 = tensor(pca(matx_i1, config.SIZE_PCA_NUM), dtype=torch.float32).reshape([-1,1,config.SIZE_PCA_NUM]), \
+  File "/Users/westtide/LIPuS/PT_generators/RL_Prunning/NNs/CounterExampleEmbedding.py", line 21, in pca
+    eig_val, eig_vec = np.linalg.eig(scatter_matrix)
+  File "<__array_function__ internals>", line 200, in eig
+  File "/Users/westtide/opt/anaconda3/envs/LIPuS/lib/python3.8/site-packages/numpy/linalg/linalg.py", line 1298, in eig
+    _assert_finite(a)
+  File "/Users/westtide/opt/anaconda3/envs/LIPuS/lib/python3.8/site-packages/numpy/linalg/linalg.py", line 194, in _assert_finite
+    if not isfinite(a).all():
+TypeError: ufunc 'isfinite' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''

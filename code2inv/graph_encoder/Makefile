@@ -1,6 +1,6 @@
 dir_guard = mkdir -p $(@D)
 FIND := find
-CXX := g++
+CXX := g++-13
 
 CXXFLAGS += -Wall -O3 -std=c++11
 LDFLAGS += -lm
