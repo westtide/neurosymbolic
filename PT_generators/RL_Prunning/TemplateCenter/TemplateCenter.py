@@ -3,6 +3,7 @@ from torch import tensor
 from z3 import *
 
 from PT_generators.RL_Prunning.Conifg import config
+from loginit import logger
 
 # RULE = {
 #     'non_nc': [And(Bool('non_nd')), And(Bool('non_nd'), Bool('non_nd')), And(Bool('non_nd'), Bool('non_nd'), Bool('non_nd'))],
@@ -69,6 +70,7 @@ def AvailableActionSelection(left_handle):
 
 
 def init_varSelection(vars):
+    logger.info(f'start: init_varSelection, vars = {vars} ')
     RULE['non_v'] = [Int(v) for v in vars]
     SIMPLEST_RULE['non_v'] = [Int(v) for v in vars]
 

@@ -1,0 +1,5013 @@
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2287),
+    Or(y + y + y < 2287),
+    Or(y + y + y < 2287))
+Size of CE:  767
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2290),
+    Or(y + y + y < 2290),
+    Or(y + y + y < 2290))
+Size of CE:  768
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2293),
+    Or(y + y + y < 2293),
+    Or(y + y + y < 2293))
+Size of CE:  769
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2296),
+    Or(y + y + y < 2296),
+    Or(y + y + y < 2296))
+Size of CE:  770
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2299),
+    Or(y + y + y < 2299),
+    Or(y + y + y < 2299))
+Size of CE:  771
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2302),
+    Or(y + y + y < 2302),
+    Or(y + y + y < 2302))
+Size of CE:  772
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2305),
+    Or(y + y + y < 2305),
+    Or(y + y + y < 2305))
+Size of CE:  773
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2308),
+    Or(y + y + y < 2308),
+    Or(y + y + y < 2308))
+Size of CE:  774
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2311),
+    Or(y + y + y < 2311),
+    Or(y + y + y < 2311))
+Size of CE:  775
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2314),
+    Or(y + y + y < 2314),
+    Or(y + y + y < 2314))
+Size of CE:  776
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2317),
+    Or(y + y + y < 2317),
+    Or(y + y + y < 2317))
+Size of CE:  777
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2320),
+    Or(y + y + y < 2320),
+    Or(y + y + y < 2320))
+Size of CE:  778
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2323),
+    Or(y + y + y < 2323),
+    Or(y + y + y < 2323))
+Size of CE:  779
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2326),
+    Or(y + y + y < 2326),
+    Or(y + y + y < 2326))
+Size of CE:  780
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2329),
+    Or(y + y + y < 2329),
+    Or(y + y + y < 2329))
+Size of CE:  781
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2332),
+    Or(y + y + y < 2332),
+    Or(y + y + y < 2332))
+Size of CE:  782
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2335),
+    Or(y + y + y < 2335),
+    Or(y + y + y < 2335))
+Size of CE:  783
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2338),
+    Or(y + y + y < 2338),
+    Or(y + y + y < 2338))
+Size of CE:  784
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2341),
+    Or(y + y + y < 2341),
+    Or(y + y + y < 2341))
+Size of CE:  785
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2344),
+    Or(y + y + y < 2344),
+    Or(y + y + y < 2344))
+Size of CE:  786
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2347),
+    Or(y + y + y < 2347),
+    Or(y + y + y < 2347))
+Size of CE:  787
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2350),
+    Or(y + y + y < 2350),
+    Or(y + y + y < 2350))
+Size of CE:  788
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2353),
+    Or(y + y + y < 2353),
+    Or(y + y + y < 2353))
+Size of CE:  789
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2356),
+    Or(y + y + y < 2356),
+    Or(y + y + y < 2356))
+Size of CE:  790
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2359),
+    Or(y + y + y < 2359),
+    Or(y + y + y < 2359))
+Size of CE:  791
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2362),
+    Or(y + y + y < 2362),
+    Or(y + y + y < 2362))
+Size of CE:  792
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2365),
+    Or(y + y + y < 2365),
+    Or(y + y + y < 2365))
+Size of CE:  793
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2368),
+    Or(y + y + y < 2368),
+    Or(y + y + y < 2368))
+Size of CE:  794
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2371),
+    Or(y + y + y < 2371),
+    Or(y + y + y < 2371))
+Size of CE:  795
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2374),
+    Or(y + y + y < 2374),
+    Or(y + y + y < 2374))
+Size of CE:  796
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2377),
+    Or(y + y + y < 2377),
+    Or(y + y + y < 2377))
+Size of CE:  797
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2380),
+    Or(y + y + y < 2380),
+    Or(y + y + y < 2380))
+Size of CE:  798
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2383),
+    Or(y + y + y < 2383),
+    Or(y + y + y < 2383))
+Size of CE:  799
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2386),
+    Or(y + y + y < 2386),
+    Or(y + y + y < 2386))
+Size of CE:  800
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2389),
+    Or(y + y + y < 2389),
+    Or(y + y + y < 2389))
+Size of CE:  801
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2392),
+    Or(y + y + y < 2392),
+    Or(y + y + y < 2392))
+Size of CE:  802
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2395),
+    Or(y + y + y < 2395),
+    Or(y + y + y < 2395))
+Size of CE:  803
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2398),
+    Or(y + y + y < 2398),
+    Or(y + y + y < 2398))
+Size of CE:  804
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2401),
+    Or(y + y + y < 2401),
+    Or(y + y + y < 2401))
+Size of CE:  805
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2404),
+    Or(y + y + y < 2404),
+    Or(y + y + y < 2404))
+Size of CE:  806
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2407),
+    Or(y + y + y < 2407),
+    Or(y + y + y < 2407))
+Size of CE:  807
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2410),
+    Or(y + y + y < 2410),
+    Or(y + y + y < 2410))
+Size of CE:  808
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2413),
+    Or(y + y + y < 2413),
+    Or(y + y + y < 2413))
+Size of CE:  809
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2416),
+    Or(y + y + y < 2416),
+    Or(y + y + y < 2416))
+Size of CE:  810
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2419),
+    Or(y + y + y < 2419),
+    Or(y + y + y < 2419))
+Size of CE:  811
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2422),
+    Or(y + y + y < 2422),
+    Or(y + y + y < 2422))
+Size of CE:  812
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2425),
+    Or(y + y + y < 2425),
+    Or(y + y + y < 2425))
+Size of CE:  813
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2428),
+    Or(y + y + y < 2428),
+    Or(y + y + y < 2428))
+Size of CE:  814
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2431),
+    Or(y + y + y < 2431),
+    Or(y + y + y < 2431))
+Size of CE:  815
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2434),
+    Or(y + y + y < 2434),
+    Or(y + y + y < 2434))
+Size of CE:  816
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2437),
+    Or(y + y + y < 2437),
+    Or(y + y + y < 2437))
+Size of CE:  817
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2440),
+    Or(y + y + y < 2440),
+    Or(y + y + y < 2440))
+Size of CE:  818
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2443),
+    Or(y + y + y < 2443),
+    Or(y + y + y < 2443))
+Size of CE:  819
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2446),
+    Or(y + y + y < 2446),
+    Or(y + y + y < 2446))
+Size of CE:  820
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2449),
+    Or(y + y + y < 2449),
+    Or(y + y + y < 2449))
+Size of CE:  821
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2452),
+    Or(y + y + y < 2452),
+    Or(y + y + y < 2452))
+Size of CE:  822
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2455),
+    Or(y + y + y < 2455),
+    Or(y + y + y < 2455))
+Size of CE:  823
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2458),
+    Or(y + y + y < 2458),
+    Or(y + y + y < 2458))
+Size of CE:  824
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2461),
+    Or(y + y + y < 2461),
+    Or(y + y + y < 2461))
+Size of CE:  825
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2464),
+    Or(y + y + y < 2464),
+    Or(y + y + y < 2464))
+Size of CE:  826
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2467),
+    Or(y + y + y < 2467),
+    Or(y + y + y < 2467))
+Size of CE:  827
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2470),
+    Or(y + y + y < 2470),
+    Or(y + y + y < 2470))
+Size of CE:  828
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2473),
+    Or(y + y + y < 2473),
+    Or(y + y + y < 2473))
+Size of CE:  829
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2476),
+    Or(y + y + y < 2476),
+    Or(y + y + y < 2476))
+Size of CE:  830
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2479),
+    Or(y + y + y < 2479),
+    Or(y + y + y < 2479))
+Size of CE:  831
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2482),
+    Or(y + y + y < 2482),
+    Or(y + y + y < 2482))
+Size of CE:  832
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2485),
+    Or(y + y + y < 2485),
+    Or(y + y + y < 2485))
+Size of CE:  833
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2488),
+    Or(y + y + y < 2488),
+    Or(y + y + y < 2488))
+Size of CE:  834
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2491),
+    Or(y + y + y < 2491),
+    Or(y + y + y < 2491))
+Size of CE:  835
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2494),
+    Or(y + y + y < 2494),
+    Or(y + y + y < 2494))
+Size of CE:  836
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2497),
+    Or(y + y + y < 2497),
+    Or(y + y + y < 2497))
+Size of CE:  837
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2500),
+    Or(y + y + y < 2500),
+    Or(y + y + y < 2500))
+Size of CE:  838
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2503),
+    Or(y + y + y < 2503),
+    Or(y + y + y < 2503))
+Size of CE:  839
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2506),
+    Or(y + y + y < 2506),
+    Or(y + y + y < 2506))
+Size of CE:  840
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2509),
+    Or(y + y + y < 2509),
+    Or(y + y + y < 2509))
+Size of CE:  841
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2512),
+    Or(y + y + y < 2512),
+    Or(y + y + y < 2512))
+Size of CE:  842
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2515),
+    Or(y + y + y < 2515),
+    Or(y + y + y < 2515))
+Size of CE:  843
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2518),
+    Or(y + y + y < 2518),
+    Or(y + y + y < 2518))
+Size of CE:  844
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2521),
+    Or(y + y + y < 2521),
+    Or(y + y + y < 2521))
+Size of CE:  845
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2524),
+    Or(y + y + y < 2524),
+    Or(y + y + y < 2524))
+Size of CE:  846
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2527),
+    Or(y + y + y < 2527),
+    Or(y + y + y < 2527))
+Size of CE:  847
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2530),
+    Or(y + y + y < 2530),
+    Or(y + y + y < 2530))
+Size of CE:  848
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2533),
+    Or(y + y + y < 2533),
+    Or(y + y + y < 2533))
+Size of CE:  849
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2536),
+    Or(y + y + y < 2536),
+    Or(y + y + y < 2536))
+Size of CE:  850
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2539),
+    Or(y + y + y < 2539),
+    Or(y + y + y < 2539))
+Size of CE:  851
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2542),
+    Or(y + y + y < 2542),
+    Or(y + y + y < 2542))
+Size of CE:  852
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2545),
+    Or(y + y + y < 2545),
+    Or(y + y + y < 2545))
+Size of CE:  853
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2548),
+    Or(y + y + y < 2548),
+    Or(y + y + y < 2548))
+Size of CE:  854
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2551),
+    Or(y + y + y < 2551),
+    Or(y + y + y < 2551))
+Size of CE:  855
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2554),
+    Or(y + y + y < 2554),
+    Or(y + y + y < 2554))
+Size of CE:  856
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2557),
+    Or(y + y + y < 2557),
+    Or(y + y + y < 2557))
+Size of CE:  857
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2560),
+    Or(y + y + y < 2560),
+    Or(y + y + y < 2560))
+Size of CE:  858
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2563),
+    Or(y + y + y < 2563),
+    Or(y + y + y < 2563))
+Size of CE:  859
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2566),
+    Or(y + y + y < 2566),
+    Or(y + y + y < 2566))
+Size of CE:  860
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2569),
+    Or(y + y + y < 2569),
+    Or(y + y + y < 2569))
+Size of CE:  861
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2572),
+    Or(y + y + y < 2572),
+    Or(y + y + y < 2572))
+Size of CE:  862
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2575),
+    Or(y + y + y < 2575),
+    Or(y + y + y < 2575))
+Size of CE:  863
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2578),
+    Or(y + y + y < 2578),
+    Or(y + y + y < 2578))
+Size of CE:  864
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2581),
+    Or(y + y + y < 2581),
+    Or(y + y + y < 2581))
+Size of CE:  865
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2584),
+    Or(y + y + y < 2584),
+    Or(y + y + y < 2584))
+Size of CE:  866
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2587),
+    Or(y + y + y < 2587),
+    Or(y + y + y < 2587))
+Size of CE:  867
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2590),
+    Or(y + y + y < 2590),
+    Or(y + y + y < 2590))
+Size of CE:  868
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2593),
+    Or(y + y + y < 2593),
+    Or(y + y + y < 2593))
+Size of CE:  869
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2596),
+    Or(y + y + y < 2596),
+    Or(y + y + y < 2596))
+Size of CE:  870
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2599),
+    Or(y + y + y < 2599),
+    Or(y + y + y < 2599))
+Size of CE:  871
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2602),
+    Or(y + y + y < 2602),
+    Or(y + y + y < 2602))
+Size of CE:  872
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2605),
+    Or(y + y + y < 2605),
+    Or(y + y + y < 2605))
+Size of CE:  873
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2608),
+    Or(y + y + y < 2608),
+    Or(y + y + y < 2608))
+Size of CE:  874
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2611),
+    Or(y + y + y < 2611),
+    Or(y + y + y < 2611))
+Size of CE:  875
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2614),
+    Or(y + y + y < 2614),
+    Or(y + y + y < 2614))
+Size of CE:  876
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2617),
+    Or(y + y + y < 2617),
+    Or(y + y + y < 2617))
+Size of CE:  877
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2620),
+    Or(y + y + y < 2620),
+    Or(y + y + y < 2620))
+Size of CE:  878
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2623),
+    Or(y + y + y < 2623),
+    Or(y + y + y < 2623))
+Size of CE:  879
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2626),
+    Or(y + y + y < 2626),
+    Or(y + y + y < 2626))
+Size of CE:  880
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2629),
+    Or(y + y + y < 2629),
+    Or(y + y + y < 2629))
+Size of CE:  881
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2632),
+    Or(y + y + y < 2632),
+    Or(y + y + y < 2632))
+Size of CE:  882
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2635),
+    Or(y + y + y < 2635),
+    Or(y + y + y < 2635))
+Size of CE:  883
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2638),
+    Or(y + y + y < 2638),
+    Or(y + y + y < 2638))
+Size of CE:  884
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2641),
+    Or(y + y + y < 2641),
+    Or(y + y + y < 2641))
+Size of CE:  885
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2644),
+    Or(y + y + y < 2644),
+    Or(y + y + y < 2644))
+Size of CE:  886
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2647),
+    Or(y + y + y < 2647),
+    Or(y + y + y < 2647))
+Size of CE:  887
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2650),
+    Or(y + y + y < 2650),
+    Or(y + y + y < 2650))
+Size of CE:  888
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2653),
+    Or(y + y + y < 2653),
+    Or(y + y + y < 2653))
+Size of CE:  889
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2656),
+    Or(y + y + y < 2656),
+    Or(y + y + y < 2656))
+Size of CE:  890
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2659),
+    Or(y + y + y < 2659),
+    Or(y + y + y < 2659))
+Size of CE:  891
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2662),
+    Or(y + y + y < 2662),
+    Or(y + y + y < 2662))
+Size of CE:  892
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2665),
+    Or(y + y + y < 2665),
+    Or(y + y + y < 2665))
+Size of CE:  893
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2668),
+    Or(y + y + y < 2668),
+    Or(y + y + y < 2668))
+Size of CE:  894
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2671),
+    Or(y + y + y < 2671),
+    Or(y + y + y < 2671))
+Size of CE:  895
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2674),
+    Or(y + y + y < 2674),
+    Or(y + y + y < 2674))
+Size of CE:  896
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2677),
+    Or(y + y + y < 2677),
+    Or(y + y + y < 2677))
+Size of CE:  897
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2680),
+    Or(y + y + y < 2680),
+    Or(y + y + y < 2680))
+Size of CE:  898
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2683),
+    Or(y + y + y < 2683),
+    Or(y + y + y < 2683))
+Size of CE:  899
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2686),
+    Or(y + y + y < 2686),
+    Or(y + y + y < 2686))
+Size of CE:  900
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2689),
+    Or(y + y + y < 2689),
+    Or(y + y + y < 2689))
+Size of CE:  901
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2692),
+    Or(y + y + y < 2692),
+    Or(y + y + y < 2692))
+Size of CE:  902
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2695),
+    Or(y + y + y < 2695),
+    Or(y + y + y < 2695))
+Size of CE:  903
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2698),
+    Or(y + y + y < 2698),
+    Or(y + y + y < 2698))
+Size of CE:  904
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2701),
+    Or(y + y + y < 2701),
+    Or(y + y + y < 2701))
+Size of CE:  905
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2704),
+    Or(y + y + y < 2704),
+    Or(y + y + y < 2704))
+Size of CE:  906
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2707),
+    Or(y + y + y < 2707),
+    Or(y + y + y < 2707))
+Size of CE:  907
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2710),
+    Or(y + y + y < 2710),
+    Or(y + y + y < 2710))
+Size of CE:  908
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2713),
+    Or(y + y + y < 2713),
+    Or(y + y + y < 2713))
+Size of CE:  909
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2716),
+    Or(y + y + y < 2716),
+    Or(y + y + y < 2716))
+Size of CE:  910
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2719),
+    Or(y + y + y < 2719),
+    Or(y + y + y < 2719))
+Size of CE:  911
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2722),
+    Or(y + y + y < 2722),
+    Or(y + y + y < 2722))
+Size of CE:  912
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2725),
+    Or(y + y + y < 2725),
+    Or(y + y + y < 2725))
+Size of CE:  913
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2728),
+    Or(y + y + y < 2728),
+    Or(y + y + y < 2728))
+Size of CE:  914
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2731),
+    Or(y + y + y < 2731),
+    Or(y + y + y < 2731))
+Size of CE:  915
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2734),
+    Or(y + y + y < 2734),
+    Or(y + y + y < 2734))
+Size of CE:  916
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2737),
+    Or(y + y + y < 2737),
+    Or(y + y + y < 2737))
+Size of CE:  917
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2740),
+    Or(y + y + y < 2740),
+    Or(y + y + y < 2740))
+Size of CE:  918
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2743),
+    Or(y + y + y < 2743),
+    Or(y + y + y < 2743))
+Size of CE:  919
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2746),
+    Or(y + y + y < 2746),
+    Or(y + y + y < 2746))
+Size of CE:  920
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2749),
+    Or(y + y + y < 2749),
+    Or(y + y + y < 2749))
+Size of CE:  921
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2752),
+    Or(y + y + y < 2752),
+    Or(y + y + y < 2752))
+Size of CE:  922
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2755),
+    Or(y + y + y < 2755),
+    Or(y + y + y < 2755))
+Size of CE:  923
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2758),
+    Or(y + y + y < 2758),
+    Or(y + y + y < 2758))
+Size of CE:  924
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2761),
+    Or(y + y + y < 2761),
+    Or(y + y + y < 2761))
+Size of CE:  925
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2764),
+    Or(y + y + y < 2764),
+    Or(y + y + y < 2764))
+Size of CE:  926
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2767),
+    Or(y + y + y < 2767),
+    Or(y + y + y < 2767))
+Size of CE:  927
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2770),
+    Or(y + y + y < 2770),
+    Or(y + y + y < 2770))
+Size of CE:  928
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2773),
+    Or(y + y + y < 2773),
+    Or(y + y + y < 2773))
+Size of CE:  929
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2776),
+    Or(y + y + y < 2776),
+    Or(y + y + y < 2776))
+Size of CE:  930
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2779),
+    Or(y + y + y < 2779),
+    Or(y + y + y < 2779))
+Size of CE:  931
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2782),
+    Or(y + y + y < 2782),
+    Or(y + y + y < 2782))
+Size of CE:  932
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2785),
+    Or(y + y + y < 2785),
+    Or(y + y + y < 2785))
+Size of CE:  933
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2788),
+    Or(y + y + y < 2788),
+    Or(y + y + y < 2788))
+Size of CE:  934
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2791),
+    Or(y + y + y < 2791),
+    Or(y + y + y < 2791))
+Size of CE:  935
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2794),
+    Or(y + y + y < 2794),
+    Or(y + y + y < 2794))
+Size of CE:  936
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2797),
+    Or(y + y + y < 2797),
+    Or(y + y + y < 2797))
+Size of CE:  937
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2800),
+    Or(y + y + y < 2800),
+    Or(y + y + y < 2800))
+Size of CE:  938
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2803),
+    Or(y + y + y < 2803),
+    Or(y + y + y < 2803))
+Size of CE:  939
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2806),
+    Or(y + y + y < 2806),
+    Or(y + y + y < 2806))
+Size of CE:  940
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2809),
+    Or(y + y + y < 2809),
+    Or(y + y + y < 2809))
+Size of CE:  941
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2812),
+    Or(y + y + y < 2812),
+    Or(y + y + y < 2812))
+Size of CE:  942
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2815),
+    Or(y + y + y < 2815),
+    Or(y + y + y < 2815))
+Size of CE:  943
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2818),
+    Or(y + y + y < 2818),
+    Or(y + y + y < 2818))
+Size of CE:  944
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2821),
+    Or(y + y + y < 2821),
+    Or(y + y + y < 2821))
+Size of CE:  945
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2824),
+    Or(y + y + y < 2824),
+    Or(y + y + y < 2824))
+Size of CE:  946
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2827),
+    Or(y + y + y < 2827),
+    Or(y + y + y < 2827))
+Size of CE:  947
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2830),
+    Or(y + y + y < 2830),
+    Or(y + y + y < 2830))
+Size of CE:  948
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2833),
+    Or(y + y + y < 2833),
+    Or(y + y + y < 2833))
+Size of CE:  949
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2836),
+    Or(y + y + y < 2836),
+    Or(y + y + y < 2836))
+Size of CE:  950
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2839),
+    Or(y + y + y < 2839),
+    Or(y + y + y < 2839))
+Size of CE:  951
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2842),
+    Or(y + y + y < 2842),
+    Or(y + y + y < 2842))
+Size of CE:  952
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2845),
+    Or(y + y + y < 2845),
+    Or(y + y + y < 2845))
+Size of CE:  953
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2848),
+    Or(y + y + y < 2848),
+    Or(y + y + y < 2848))
+Size of CE:  954
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2851),
+    Or(y + y + y < 2851),
+    Or(y + y + y < 2851))
+Size of CE:  955
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2854),
+    Or(y + y + y < 2854),
+    Or(y + y + y < 2854))
+Size of CE:  956
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2857),
+    Or(y + y + y < 2857),
+    Or(y + y + y < 2857))
+Size of CE:  957
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2860),
+    Or(y + y + y < 2860),
+    Or(y + y + y < 2860))
+Size of CE:  958
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2863),
+    Or(y + y + y < 2863),
+    Or(y + y + y < 2863))
+Size of CE:  959
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2866),
+    Or(y + y + y < 2866),
+    Or(y + y + y < 2866))
+Size of CE:  960
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2869),
+    Or(y + y + y < 2869),
+    Or(y + y + y < 2869))
+Size of CE:  961
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2872),
+    Or(y + y + y < 2872),
+    Or(y + y + y < 2872))
+Size of CE:  962
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2875),
+    Or(y + y + y < 2875),
+    Or(y + y + y < 2875))
+Size of CE:  963
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2878),
+    Or(y + y + y < 2878),
+    Or(y + y + y < 2878))
+Size of CE:  964
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2881),
+    Or(y + y + y < 2881),
+    Or(y + y + y < 2881))
+Size of CE:  965
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2884),
+    Or(y + y + y < 2884),
+    Or(y + y + y < 2884))
+Size of CE:  966
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2887),
+    Or(y + y + y < 2887),
+    Or(y + y + y < 2887))
+Size of CE:  967
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2890),
+    Or(y + y + y < 2890),
+    Or(y + y + y < 2890))
+Size of CE:  968
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2893),
+    Or(y + y + y < 2893),
+    Or(y + y + y < 2893))
+Size of CE:  969
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2896),
+    Or(y + y + y < 2896),
+    Or(y + y + y < 2896))
+Size of CE:  970
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2899),
+    Or(y + y + y < 2899),
+    Or(y + y + y < 2899))
+Size of CE:  971
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2902),
+    Or(y + y + y < 2902),
+    Or(y + y + y < 2902))
+Size of CE:  972
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2905),
+    Or(y + y + y < 2905),
+    Or(y + y + y < 2905))
+Size of CE:  973
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2908),
+    Or(y + y + y < 2908),
+    Or(y + y + y < 2908))
+Size of CE:  974
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2911),
+    Or(y + y + y < 2911),
+    Or(y + y + y < 2911))
+Size of CE:  975
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2914),
+    Or(y + y + y < 2914),
+    Or(y + y + y < 2914))
+Size of CE:  976
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2917),
+    Or(y + y + y < 2917),
+    Or(y + y + y < 2917))
+Size of CE:  977
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2920),
+    Or(y + y + y < 2920),
+    Or(y + y + y < 2920))
+Size of CE:  978
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2923),
+    Or(y + y + y < 2923),
+    Or(y + y + y < 2923))
+Size of CE:  979
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2926),
+    Or(y + y + y < 2926),
+    Or(y + y + y < 2926))
+Size of CE:  980
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2929),
+    Or(y + y + y < 2929),
+    Or(y + y + y < 2929))
+Size of CE:  981
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2932),
+    Or(y + y + y < 2932),
+    Or(y + y + y < 2932))
+Size of CE:  982
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2935),
+    Or(y + y + y < 2935),
+    Or(y + y + y < 2935))
+Size of CE:  983
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2938),
+    Or(y + y + y < 2938),
+    Or(y + y + y < 2938))
+Size of CE:  984
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2941),
+    Or(y + y + y < 2941),
+    Or(y + y + y < 2941))
+Size of CE:  985
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2944),
+    Or(y + y + y < 2944),
+    Or(y + y + y < 2944))
+Size of CE:  986
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2947),
+    Or(y + y + y < 2947),
+    Or(y + y + y < 2947))
+Size of CE:  987
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2950),
+    Or(y + y + y < 2950),
+    Or(y + y + y < 2950))
+Size of CE:  988
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2953),
+    Or(y + y + y < 2953),
+    Or(y + y + y < 2953))
+Size of CE:  989
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2956),
+    Or(y + y + y < 2956),
+    Or(y + y + y < 2956))
+Size of CE:  990
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2959),
+    Or(y + y + y < 2959),
+    Or(y + y + y < 2959))
+Size of CE:  991
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2962),
+    Or(y + y + y < 2962),
+    Or(y + y + y < 2962))
+Size of CE:  992
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2965),
+    Or(y + y + y < 2965),
+    Or(y + y + y < 2965))
+Size of CE:  993
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2968),
+    Or(y + y + y < 2968),
+    Or(y + y + y < 2968))
+Size of CE:  994
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2971),
+    Or(y + y + y < 2971),
+    Or(y + y + y < 2971))
+Size of CE:  995
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2974),
+    Or(y + y + y < 2974),
+    Or(y + y + y < 2974))
+Size of CE:  996
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2977),
+    Or(y + y + y < 2977),
+    Or(y + y + y < 2977))
+Size of CE:  997
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2980),
+    Or(y + y + y < 2980),
+    Or(y + y + y < 2980))
+Size of CE:  998
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2983),
+    Or(y + y + y < 2983),
+    Or(y + y + y < 2983))
+Size of CE:  999
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2986),
+    Or(y + y + y < 2986),
+    Or(y + y + y < 2986))
+Size of CE:  1000
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2989),
+    Or(y + y + y < 2989),
+    Or(y + y + y < 2989))
+Size of CE:  1001
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2992),
+    Or(y + y + y < 2992),
+    Or(y + y + y < 2992))
+Size of CE:  1002
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2995),
+    Or(y + y + y < 2995),
+    Or(y + y + y < 2995))
+Size of CE:  1003
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 2998),
+    Or(y + y + y < 2998),
+    Or(y + y + y < 2998))
+Size of CE:  1004
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3001),
+    Or(y + y + y < 3001),
+    Or(y + y + y < 3001))
+Size of CE:  1005
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3004),
+    Or(y + y + y < 3004),
+    Or(y + y + y < 3004))
+Size of CE:  1006
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3007),
+    Or(y + y + y < 3007),
+    Or(y + y + y < 3007))
+Size of CE:  1007
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3010),
+    Or(y + y + y < 3010),
+    Or(y + y + y < 3010))
+Size of CE:  1008
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3013),
+    Or(y + y + y < 3013),
+    Or(y + y + y < 3013))
+Size of CE:  1009
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3016),
+    Or(y + y + y < 3016),
+    Or(y + y + y < 3016))
+Size of CE:  1010
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3019),
+    Or(y + y + y < 3019),
+    Or(y + y + y < 3019))
+Size of CE:  1011
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3022),
+    Or(y + y + y < 3022),
+    Or(y + y + y < 3022))
+Size of CE:  1012
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3025),
+    Or(y + y + y < 3025),
+    Or(y + y + y < 3025))
+Size of CE:  1013
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3028),
+    Or(y + y + y < 3028),
+    Or(y + y + y < 3028))
+Size of CE:  1014
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3031),
+    Or(y + y + y < 3031),
+    Or(y + y + y < 3031))
+Size of CE:  1015
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3034),
+    Or(y + y + y < 3034),
+    Or(y + y + y < 3034))
+Size of CE:  1016
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3037),
+    Or(y + y + y < 3037),
+    Or(y + y + y < 3037))
+Size of CE:  1017
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3040),
+    Or(y + y + y < 3040),
+    Or(y + y + y < 3040))
+Size of CE:  1018
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3043),
+    Or(y + y + y < 3043),
+    Or(y + y + y < 3043))
+Size of CE:  1019
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3046),
+    Or(y + y + y < 3046),
+    Or(y + y + y < 3046))
+Size of CE:  1020
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3049),
+    Or(y + y + y < 3049),
+    Or(y + y + y < 3049))
+Size of CE:  1021
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3052),
+    Or(y + y + y < 3052),
+    Or(y + y + y < 3052))
+Size of CE:  1022
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3055),
+    Or(y + y + y < 3055),
+    Or(y + y + y < 3055))
+Size of CE:  1023
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3058),
+    Or(y + y + y < 3058),
+    Or(y + y + y < 3058))
+Size of CE:  1024
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3061),
+    Or(y + y + y < 3061),
+    Or(y + y + y < 3061))
+Size of CE:  1025
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3064),
+    Or(y + y + y < 3064),
+    Or(y + y + y < 3064))
+Size of CE:  1026
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3067),
+    Or(y + y + y < 3067),
+    Or(y + y + y < 3067))
+Size of CE:  1027
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3070),
+    Or(y + y + y < 3070),
+    Or(y + y + y < 3070))
+Size of CE:  1028
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3073),
+    Or(y + y + y < 3073),
+    Or(y + y + y < 3073))
+Size of CE:  1029
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3076),
+    Or(y + y + y < 3076),
+    Or(y + y + y < 3076))
+Size of CE:  1030
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3079),
+    Or(y + y + y < 3079),
+    Or(y + y + y < 3079))
+Size of CE:  1031
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3082),
+    Or(y + y + y < 3082),
+    Or(y + y + y < 3082))
+Size of CE:  1032
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3085),
+    Or(y + y + y < 3085),
+    Or(y + y + y < 3085))
+Size of CE:  1033
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3088),
+    Or(y + y + y < 3088),
+    Or(y + y + y < 3088))
+Size of CE:  1034
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3091),
+    Or(y + y + y < 3091),
+    Or(y + y + y < 3091))
+Size of CE:  1035
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3094),
+    Or(y + y + y < 3094),
+    Or(y + y + y < 3094))
+Size of CE:  1036
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3097),
+    Or(y + y + y < 3097),
+    Or(y + y + y < 3097))
+Size of CE:  1037
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3100),
+    Or(y + y + y < 3100),
+    Or(y + y + y < 3100))
+Size of CE:  1038
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3103),
+    Or(y + y + y < 3103),
+    Or(y + y + y < 3103))
+Size of CE:  1039
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3106),
+    Or(y + y + y < 3106),
+    Or(y + y + y < 3106))
+Size of CE:  1040
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3109),
+    Or(y + y + y < 3109),
+    Or(y + y + y < 3109))
+Size of CE:  1041
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3112),
+    Or(y + y + y < 3112),
+    Or(y + y + y < 3112))
+Size of CE:  1042
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3115),
+    Or(y + y + y < 3115),
+    Or(y + y + y < 3115))
+Size of CE:  1043
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3118),
+    Or(y + y + y < 3118),
+    Or(y + y + y < 3118))
+Size of CE:  1044
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3121),
+    Or(y + y + y < 3121),
+    Or(y + y + y < 3121))
+Size of CE:  1045
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3124),
+    Or(y + y + y < 3124),
+    Or(y + y + y < 3124))
+Size of CE:  1046
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3127),
+    Or(y + y + y < 3127),
+    Or(y + y + y < 3127))
+Size of CE:  1047
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3130),
+    Or(y + y + y < 3130),
+    Or(y + y + y < 3130))
+Size of CE:  1048
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3133),
+    Or(y + y + y < 3133),
+    Or(y + y + y < 3133))
+Size of CE:  1049
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3136),
+    Or(y + y + y < 3136),
+    Or(y + y + y < 3136))
+Size of CE:  1050
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3139),
+    Or(y + y + y < 3139),
+    Or(y + y + y < 3139))
+Size of CE:  1051
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3142),
+    Or(y + y + y < 3142),
+    Or(y + y + y < 3142))
+Size of CE:  1052
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3145),
+    Or(y + y + y < 3145),
+    Or(y + y + y < 3145))
+Size of CE:  1053
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3148),
+    Or(y + y + y < 3148),
+    Or(y + y + y < 3148))
+Size of CE:  1054
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3151),
+    Or(y + y + y < 3151),
+    Or(y + y + y < 3151))
+Size of CE:  1055
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3154),
+    Or(y + y + y < 3154),
+    Or(y + y + y < 3154))
+Size of CE:  1056
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3157),
+    Or(y + y + y < 3157),
+    Or(y + y + y < 3157))
+Size of CE:  1057
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3160),
+    Or(y + y + y < 3160),
+    Or(y + y + y < 3160))
+Size of CE:  1058
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3163),
+    Or(y + y + y < 3163),
+    Or(y + y + y < 3163))
+Size of CE:  1059
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3166),
+    Or(y + y + y < 3166),
+    Or(y + y + y < 3166))
+Size of CE:  1060
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3169),
+    Or(y + y + y < 3169),
+    Or(y + y + y < 3169))
+Size of CE:  1061
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3172),
+    Or(y + y + y < 3172),
+    Or(y + y + y < 3172))
+Size of CE:  1062
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3175),
+    Or(y + y + y < 3175),
+    Or(y + y + y < 3175))
+Size of CE:  1063
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3178),
+    Or(y + y + y < 3178),
+    Or(y + y + y < 3178))
+Size of CE:  1064
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3181),
+    Or(y + y + y < 3181),
+    Or(y + y + y < 3181))
+Size of CE:  1065
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3184),
+    Or(y + y + y < 3184),
+    Or(y + y + y < 3184))
+Size of CE:  1066
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3187),
+    Or(y + y + y < 3187),
+    Or(y + y + y < 3187))
+Size of CE:  1067
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3190),
+    Or(y + y + y < 3190),
+    Or(y + y + y < 3190))
+Size of CE:  1068
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3193),
+    Or(y + y + y < 3193),
+    Or(y + y + y < 3193))
+Size of CE:  1069
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3196),
+    Or(y + y + y < 3196),
+    Or(y + y + y < 3196))
+Size of CE:  1070
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3199),
+    Or(y + y + y < 3199),
+    Or(y + y + y < 3199))
+Size of CE:  1071
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3202),
+    Or(y + y + y < 3202),
+    Or(y + y + y < 3202))
+Size of CE:  1072
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3205),
+    Or(y + y + y < 3205),
+    Or(y + y + y < 3205))
+Size of CE:  1073
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3208),
+    Or(y + y + y < 3208),
+    Or(y + y + y < 3208))
+Size of CE:  1074
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3211),
+    Or(y + y + y < 3211),
+    Or(y + y + y < 3211))
+Size of CE:  1075
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3214),
+    Or(y + y + y < 3214),
+    Or(y + y + y < 3214))
+Size of CE:  1076
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3217),
+    Or(y + y + y < 3217),
+    Or(y + y + y < 3217))
+Size of CE:  1077
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3220),
+    Or(y + y + y < 3220),
+    Or(y + y + y < 3220))
+Size of CE:  1078
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3223),
+    Or(y + y + y < 3223),
+    Or(y + y + y < 3223))
+Size of CE:  1079
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3226),
+    Or(y + y + y < 3226),
+    Or(y + y + y < 3226))
+Size of CE:  1080
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3229),
+    Or(y + y + y < 3229),
+    Or(y + y + y < 3229))
+Size of CE:  1081
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3232),
+    Or(y + y + y < 3232),
+    Or(y + y + y < 3232))
+Size of CE:  1082
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3235),
+    Or(y + y + y < 3235),
+    Or(y + y + y < 3235))
+Size of CE:  1083
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3238),
+    Or(y + y + y < 3238),
+    Or(y + y + y < 3238))
+Size of CE:  1084
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3241),
+    Or(y + y + y < 3241),
+    Or(y + y + y < 3241))
+Size of CE:  1085
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3244),
+    Or(y + y + y < 3244),
+    Or(y + y + y < 3244))
+Size of CE:  1086
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3247),
+    Or(y + y + y < 3247),
+    Or(y + y + y < 3247))
+Size of CE:  1087
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3250),
+    Or(y + y + y < 3250),
+    Or(y + y + y < 3250))
+Size of CE:  1088
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3253),
+    Or(y + y + y < 3253),
+    Or(y + y + y < 3253))
+Size of CE:  1089
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3256),
+    Or(y + y + y < 3256),
+    Or(y + y + y < 3256))
+Size of CE:  1090
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3259),
+    Or(y + y + y < 3259),
+    Or(y + y + y < 3259))
+Size of CE:  1091
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3262),
+    Or(y + y + y < 3262),
+    Or(y + y + y < 3262))
+Size of CE:  1092
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3265),
+    Or(y + y + y < 3265),
+    Or(y + y + y < 3265))
+Size of CE:  1093
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3268),
+    Or(y + y + y < 3268),
+    Or(y + y + y < 3268))
+Size of CE:  1094
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3271),
+    Or(y + y + y < 3271),
+    Or(y + y + y < 3271))
+Size of CE:  1095
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3274),
+    Or(y + y + y < 3274),
+    Or(y + y + y < 3274))
+Size of CE:  1096
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3277),
+    Or(y + y + y < 3277),
+    Or(y + y + y < 3277))
+Size of CE:  1097
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3280),
+    Or(y + y + y < 3280),
+    Or(y + y + y < 3280))
+Size of CE:  1098
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3283),
+    Or(y + y + y < 3283),
+    Or(y + y + y < 3283))
+Size of CE:  1099
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3286),
+    Or(y + y + y < 3286),
+    Or(y + y + y < 3286))
+Size of CE:  1100
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3289),
+    Or(y + y + y < 3289),
+    Or(y + y + y < 3289))
+Size of CE:  1101
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3292),
+    Or(y + y + y < 3292),
+    Or(y + y + y < 3292))
+Size of CE:  1102
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3295),
+    Or(y + y + y < 3295),
+    Or(y + y + y < 3295))
+Size of CE:  1103
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3298),
+    Or(y + y + y < 3298),
+    Or(y + y + y < 3298))
+Size of CE:  1104
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3301),
+    Or(y + y + y < 3301),
+    Or(y + y + y < 3301))
+Size of CE:  1105
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3304),
+    Or(y + y + y < 3304),
+    Or(y + y + y < 3304))
+Size of CE:  1106
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3307),
+    Or(y + y + y < 3307),
+    Or(y + y + y < 3307))
+Size of CE:  1107
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3310),
+    Or(y + y + y < 3310),
+    Or(y + y + y < 3310))
+Size of CE:  1108
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3313),
+    Or(y + y + y < 3313),
+    Or(y + y + y < 3313))
+Size of CE:  1109
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3316),
+    Or(y + y + y < 3316),
+    Or(y + y + y < 3316))
+Size of CE:  1110
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3316),
+    Or(y + y + y < 3316),
+    Or(y + y + y < 3316))
+Size of CE:  1111
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3319),
+    Or(y + y + y < 3319),
+    Or(y + y + y < 3319))
+Size of CE:  1112
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3322),
+    Or(y + y + y < 3322),
+    Or(y + y + y < 3322))
+Size of CE:  1113
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3325),
+    Or(y + y + y < 3325),
+    Or(y + y + y < 3325))
+Size of CE:  1114
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3328),
+    Or(y + y + y < 3328),
+    Or(y + y + y < 3328))
+Size of CE:  1115
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3331),
+    Or(y + y + y < 3331),
+    Or(y + y + y < 3331))
+Size of CE:  1116
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3334),
+    Or(y + y + y < 3334),
+    Or(y + y + y < 3334))
+Size of CE:  1117
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3337),
+    Or(y + y + y < 3337),
+    Or(y + y + y < 3337))
+Size of CE:  1118
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3340),
+    Or(y + y + y < 3340),
+    Or(y + y + y < 3340))
+Size of CE:  1119
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3343),
+    Or(y + y + y < 3343),
+    Or(y + y + y < 3343))
+Size of CE:  1120
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3346),
+    Or(y + y + y < 3346),
+    Or(y + y + y < 3346))
+Size of CE:  1121
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3349),
+    Or(y + y + y < 3349),
+    Or(y + y + y < 3349))
+Size of CE:  1122
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3349),
+    Or(y + y + y < 3349),
+    Or(y + y + y < 3349))
+Size of CE:  1123
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3352),
+    Or(y + y + y < 3352),
+    Or(y + y + y < 3352))
+Size of CE:  1124
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3355),
+    Or(y + y + y < 3355),
+    Or(y + y + y < 3355))
+Size of CE:  1125
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3358),
+    Or(y + y + y < 3358),
+    Or(y + y + y < 3358))
+Size of CE:  1126
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3361),
+    Or(y + y + y < 3361),
+    Or(y + y + y < 3361))
+Size of CE:  1127
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3364),
+    Or(y + y + y < 3364),
+    Or(y + y + y < 3364))
+Size of CE:  1128
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3367),
+    Or(y + y + y < 3367),
+    Or(y + y + y < 3367))
+Size of CE:  1129
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3370),
+    Or(y + y + y < 3370),
+    Or(y + y + y < 3370))
+Size of CE:  1130
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3373),
+    Or(y + y + y < 3373),
+    Or(y + y + y < 3373))
+Size of CE:  1131
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3376),
+    Or(y + y + y < 3376),
+    Or(y + y + y < 3376))
+Size of CE:  1132
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3379),
+    Or(y + y + y < 3379),
+    Or(y + y + y < 3379))
+Size of CE:  1133
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3382),
+    Or(y + y + y < 3382),
+    Or(y + y + y < 3382))
+Size of CE:  1134
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3382),
+    Or(y + y + y < 3382),
+    Or(y + y + y < 3382))
+Size of CE:  1135
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3385),
+    Or(y + y + y < 3385),
+    Or(y + y + y < 3385))
+Size of CE:  1136
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3388),
+    Or(y + y + y < 3388),
+    Or(y + y + y < 3388))
+Size of CE:  1137
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3391),
+    Or(y + y + y < 3391),
+    Or(y + y + y < 3391))
+Size of CE:  1138
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3394),
+    Or(y + y + y < 3394),
+    Or(y + y + y < 3394))
+Size of CE:  1139
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3397),
+    Or(y + y + y < 3397),
+    Or(y + y + y < 3397))
+Size of CE:  1140
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3400),
+    Or(y + y + y < 3400),
+    Or(y + y + y < 3400))
+Size of CE:  1141
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3403),
+    Or(y + y + y < 3403),
+    Or(y + y + y < 3403))
+Size of CE:  1142
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3406),
+    Or(y + y + y < 3406),
+    Or(y + y + y < 3406))
+Size of CE:  1143
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3403),
+    Or(y + y + y < 3403),
+    Or(y + y + y < 3403))
+Size of CE:  1144
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3409),
+    Or(y + y + y < 3409),
+    Or(y + y + y < 3409))
+Size of CE:  1145
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3412),
+    Or(y + y + y < 3412),
+    Or(y + y + y < 3412))
+Size of CE:  1146
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3415),
+    Or(y + y + y < 3415),
+    Or(y + y + y < 3415))
+Size of CE:  1147
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3418),
+    Or(y + y + y < 3418),
+    Or(y + y + y < 3418))
+Size of CE:  1148
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3421),
+    Or(y + y + y < 3421),
+    Or(y + y + y < 3421))
+Size of CE:  1149
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3424),
+    Or(y + y + y < 3424),
+    Or(y + y + y < 3424))
+Size of CE:  1150
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3427),
+    Or(y + y + y < 3427),
+    Or(y + y + y < 3427))
+Size of CE:  1151
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3430),
+    Or(y + y + y < 3430),
+    Or(y + y + y < 3430))
+Size of CE:  1152
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3433),
+    Or(y + y + y < 3433),
+    Or(y + y + y < 3433))
+Size of CE:  1153
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3436),
+    Or(y + y + y < 3436),
+    Or(y + y + y < 3436))
+Size of CE:  1154
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3433),
+    Or(y + y + y < 3433),
+    Or(y + y + y < 3433))
+Size of CE:  1155
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3436),
+    Or(y + y + y < 3436),
+    Or(y + y + y < 3436))
+Size of CE:  1156
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3439),
+    Or(y + y + y < 3439),
+    Or(y + y + y < 3439))
+Size of CE:  1157
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3442),
+    Or(y + y + y < 3442),
+    Or(y + y + y < 3442))
+Size of CE:  1158
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3445),
+    Or(y + y + y < 3445),
+    Or(y + y + y < 3445))
+Size of CE:  1159
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3445),
+    Or(y + y + y < 3445),
+    Or(y + y + y < 3445))
+Size of CE:  1160
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3448),
+    Or(y + y + y < 3448),
+    Or(y + y + y < 3448))
+Size of CE:  1161
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3451),
+    Or(y + y + y < 3451),
+    Or(y + y + y < 3451))
+Size of CE:  1162
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3448),
+    Or(y + y + y < 3448),
+    Or(y + y + y < 3448))
+Size of CE:  1163
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3454),
+    Or(y + y + y < 3454),
+    Or(y + y + y < 3454))
+Size of CE:  1164
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3457),
+    Or(y + y + y < 3457),
+    Or(y + y + y < 3457))
+Size of CE:  1165
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3460),
+    Or(y + y + y < 3460),
+    Or(y + y + y < 3460))
+Size of CE:  1166
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3463),
+    Or(y + y + y < 3463),
+    Or(y + y + y < 3463))
+Size of CE:  1167
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3466),
+    Or(y + y + y < 3466),
+    Or(y + y + y < 3466))
+Size of CE:  1168
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3469),
+    Or(y + y + y < 3469),
+    Or(y + y + y < 3469))
+Size of CE:  1169
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3472),
+    Or(y + y + y < 3472),
+    Or(y + y + y < 3472))
+Size of CE:  1170
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3475),
+    Or(y + y + y < 3475),
+    Or(y + y + y < 3475))
+Size of CE:  1171
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3478),
+    Or(y + y + y < 3478),
+    Or(y + y + y < 3478))
+Size of CE:  1172
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3481),
+    Or(y + y + y < 3481),
+    Or(y + y + y < 3481))
+Size of CE:  1173
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3484),
+    Or(y + y + y < 3484),
+    Or(y + y + y < 3484))
+Size of CE:  1174
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3487),
+    Or(y + y + y < 3487),
+    Or(y + y + y < 3487))
+Size of CE:  1175
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3490),
+    Or(y + y + y < 3490),
+    Or(y + y + y < 3490))
+Size of CE:  1176
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3493),
+    Or(y + y + y < 3493),
+    Or(y + y + y < 3493))
+Size of CE:  1177
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3496),
+    Or(y + y + y < 3496),
+    Or(y + y + y < 3496))
+Size of CE:  1178
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3493),
+    Or(y + y + y < 3493),
+    Or(y + y + y < 3493))
+Size of CE:  1179
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3499),
+    Or(y + y + y < 3499),
+    Or(y + y + y < 3499))
+Size of CE:  1180
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3502),
+    Or(y + y + y < 3502),
+    Or(y + y + y < 3502))
+Size of CE:  1181
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3505),
+    Or(y + y + y < 3505),
+    Or(y + y + y < 3505))
+Size of CE:  1182
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3508),
+    Or(y + y + y < 3508),
+    Or(y + y + y < 3508))
+Size of CE:  1183
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3502),
+    Or(y + y + y < 3502),
+    Or(y + y + y < 3502))
+Size of CE:  1184
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3511),
+    Or(y + y + y < 3511),
+    Or(y + y + y < 3511))
+Size of CE:  1185
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3514),
+    Or(y + y + y < 3514),
+    Or(y + y + y < 3514))
+Size of CE:  1186
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3517),
+    Or(y + y + y < 3517),
+    Or(y + y + y < 3517))
+Size of CE:  1187
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3520),
+    Or(y + y + y < 3520),
+    Or(y + y + y < 3520))
+Size of CE:  1188
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3523),
+    Or(y + y + y < 3523),
+    Or(y + y + y < 3523))
+Size of CE:  1189
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3526),
+    Or(y + y + y < 3526),
+    Or(y + y + y < 3526))
+Size of CE:  1190
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3529),
+    Or(y + y + y < 3529),
+    Or(y + y + y < 3529))
+Size of CE:  1191
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3532),
+    Or(y + y + y < 3532),
+    Or(y + y + y < 3532))
+Size of CE:  1192
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3535),
+    Or(y + y + y < 3535),
+    Or(y + y + y < 3535))
+Size of CE:  1193
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3538),
+    Or(y + y + y < 3538),
+    Or(y + y + y < 3538))
+Size of CE:  1194
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3541),
+    Or(y + y + y < 3541),
+    Or(y + y + y < 3541))
+Size of CE:  1195
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3544),
+    Or(y + y + y < 3544),
+    Or(y + y + y < 3544))
+Size of CE:  1196
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3547),
+    Or(y + y + y < 3547),
+    Or(y + y + y < 3547))
+Size of CE:  1197
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3547),
+    Or(y + y + y < 3547),
+    Or(y + y + y < 3547))
+Size of CE:  1198
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3550),
+    Or(y + y + y < 3550),
+    Or(y + y + y < 3550))
+Size of CE:  1199
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3553),
+    Or(y + y + y < 3553),
+    Or(y + y + y < 3553))
+Size of CE:  1200
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3556),
+    Or(y + y + y < 3556),
+    Or(y + y + y < 3556))
+Size of CE:  1201
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3559),
+    Or(y + y + y < 3559),
+    Or(y + y + y < 3559))
+Size of CE:  1202
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3562),
+    Or(y + y + y < 3562),
+    Or(y + y + y < 3562))
+Size of CE:  1203
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3565),
+    Or(y + y + y < 3565),
+    Or(y + y + y < 3565))
+Size of CE:  1204
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3568),
+    Or(y + y + y < 3568),
+    Or(y + y + y < 3568))
+Size of CE:  1205
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3571),
+    Or(y + y + y < 3571),
+    Or(y + y + y < 3571))
+Size of CE:  1206
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3574),
+    Or(y + y + y < 3574),
+    Or(y + y + y < 3574))
+Size of CE:  1207
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3577),
+    Or(y + y + y < 3577),
+    Or(y + y + y < 3577))
+Size of CE:  1208
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3580),
+    Or(y + y + y < 3580),
+    Or(y + y + y < 3580))
+Size of CE:  1209
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3583),
+    Or(y + y + y < 3583),
+    Or(y + y + y < 3583))
+Size of CE:  1210
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3583),
+    Or(y + y + y < 3583),
+    Or(y + y + y < 3583))
+Size of CE:  1211
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3586),
+    Or(y + y + y < 3586),
+    Or(y + y + y < 3586))
+Size of CE:  1212
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3589),
+    Or(y + y + y < 3589),
+    Or(y + y + y < 3589))
+Size of CE:  1213
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3592),
+    Or(y + y + y < 3592),
+    Or(y + y + y < 3592))
+Size of CE:  1214
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3595),
+    Or(y + y + y < 3595),
+    Or(y + y + y < 3595))
+Size of CE:  1215
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3598),
+    Or(y + y + y < 3598),
+    Or(y + y + y < 3598))
+Size of CE:  1216
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3598),
+    Or(y + y + y < 3598),
+    Or(y + y + y < 3598))
+Size of CE:  1217
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3601),
+    Or(y + y + y < 3601),
+    Or(y + y + y < 3601))
+Size of CE:  1218
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3604),
+    Or(y + y + y < 3604),
+    Or(y + y + y < 3604))
+Size of CE:  1219
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3607),
+    Or(y + y + y < 3607),
+    Or(y + y + y < 3607))
+Size of CE:  1220
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3610),
+    Or(y + y + y < 3610),
+    Or(y + y + y < 3610))
+Size of CE:  1221
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3613),
+    Or(y + y + y < 3613),
+    Or(y + y + y < 3613))
+Size of CE:  1222
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3616),
+    Or(y + y + y < 3616),
+    Or(y + y + y < 3616))
+Size of CE:  1223
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3619),
+    Or(y + y + y < 3619),
+    Or(y + y + y < 3619))
+Size of CE:  1224
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3619),
+    Or(y + y + y < 3619),
+    Or(y + y + y < 3619))
+Size of CE:  1225
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3622),
+    Or(y + y + y < 3622),
+    Or(y + y + y < 3622))
+Size of CE:  1226
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3625),
+    Or(y + y + y < 3625),
+    Or(y + y + y < 3625))
+Size of CE:  1227
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3628),
+    Or(y + y + y < 3628),
+    Or(y + y + y < 3628))
+Size of CE:  1228
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3631),
+    Or(y + y + y < 3631),
+    Or(y + y + y < 3631))
+Size of CE:  1229
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3634),
+    Or(y + y + y < 3634),
+    Or(y + y + y < 3634))
+Size of CE:  1230
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3637),
+    Or(y + y + y < 3637),
+    Or(y + y + y < 3637))
+Size of CE:  1231
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3640),
+    Or(y + y + y < 3640),
+    Or(y + y + y < 3640))
+Size of CE:  1232
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3643),
+    Or(y + y + y < 3643),
+    Or(y + y + y < 3643))
+Size of CE:  1233
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3646),
+    Or(y + y + y < 3646),
+    Or(y + y + y < 3646))
+Size of CE:  1234
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3649),
+    Or(y + y + y < 3649),
+    Or(y + y + y < 3649))
+Size of CE:  1235
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3652),
+    Or(y + y + y < 3652),
+    Or(y + y + y < 3652))
+Size of CE:  1236
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3655),
+    Or(y + y + y < 3655),
+    Or(y + y + y < 3655))
+Size of CE:  1237
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3658),
+    Or(y + y + y < 3658),
+    Or(y + y + y < 3658))
+Size of CE:  1238
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3661),
+    Or(y + y + y < 3661),
+    Or(y + y + y < 3661))
+Size of CE:  1239
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3664),
+    Or(y + y + y < 3664),
+    Or(y + y + y < 3664))
+Size of CE:  1240
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3667),
+    Or(y + y + y < 3667),
+    Or(y + y + y < 3667))
+Size of CE:  1241
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3670),
+    Or(y + y + y < 3670),
+    Or(y + y + y < 3670))
+Size of CE:  1242
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3673),
+    Or(y + y + y < 3673),
+    Or(y + y + y < 3673))
+Size of CE:  1243
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3676),
+    Or(y + y + y < 3676),
+    Or(y + y + y < 3676))
+Size of CE:  1244
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3679),
+    Or(y + y + y < 3679),
+    Or(y + y + y < 3679))
+Size of CE:  1245
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3682),
+    Or(y + y + y < 3682),
+    Or(y + y + y < 3682))
+Size of CE:  1246
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3685),
+    Or(y + y + y < 3685),
+    Or(y + y + y < 3685))
+Size of CE:  1247
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3685),
+    Or(y + y + y < 3685),
+    Or(y + y + y < 3685))
+Size of CE:  1248
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3688),
+    Or(y + y + y < 3688),
+    Or(y + y + y < 3688))
+Size of CE:  1249
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3691),
+    Or(y + y + y < 3691),
+    Or(y + y + y < 3691))
+Size of CE:  1250
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3688),
+    Or(y + y + y < 3688),
+    Or(y + y + y < 3688))
+Size of CE:  1251
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3694),
+    Or(y + y + y < 3694),
+    Or(y + y + y < 3694))
+Size of CE:  1252
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3694),
+    Or(y + y + y < 3694),
+    Or(y + y + y < 3694))
+Size of CE:  1253
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3697),
+    Or(y + y + y < 3697),
+    Or(y + y + y < 3697))
+Size of CE:  1254
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3700),
+    Or(y + y + y < 3700),
+    Or(y + y + y < 3700))
+Size of CE:  1255
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3703),
+    Or(y + y + y < 3703),
+    Or(y + y + y < 3703))
+Size of CE:  1256
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3697),
+    Or(y + y + y < 3697),
+    Or(y + y + y < 3697))
+Size of CE:  1257
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3706),
+    Or(y + y + y < 3706),
+    Or(y + y + y < 3706))
+Size of CE:  1258
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3709),
+    Or(y + y + y < 3709),
+    Or(y + y + y < 3709))
+Size of CE:  1259
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3706),
+    Or(y + y + y < 3706),
+    Or(y + y + y < 3706))
+Size of CE:  1260
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3709),
+    Or(y + y + y < 3709),
+    Or(y + y + y < 3709))
+Size of CE:  1261
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3709),
+    Or(y + y + y < 3709),
+    Or(y + y + y < 3709))
+Size of CE:  1262
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3712),
+    Or(y + y + y < 3712),
+    Or(y + y + y < 3712))
+Size of CE:  1263
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3715),
+    Or(y + y + y < 3715),
+    Or(y + y + y < 3715))
+Size of CE:  1264
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3718),
+    Or(y + y + y < 3718),
+    Or(y + y + y < 3718))
+Size of CE:  1265
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3721),
+    Or(y + y + y < 3721),
+    Or(y + y + y < 3721))
+Size of CE:  1266
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3721),
+    Or(y + y + y < 3721),
+    Or(y + y + y < 3721))
+Size of CE:  1267
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3724),
+    Or(y + y + y < 3724),
+    Or(y + y + y < 3724))
+Size of CE:  1268
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3724),
+    Or(y + y + y < 3724),
+    Or(y + y + y < 3724))
+Size of CE:  1269
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3727),
+    Or(y + y + y < 3727),
+    Or(y + y + y < 3727))
+Size of CE:  1270
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3727),
+    Or(y + y + y < 3727),
+    Or(y + y + y < 3727))
+Size of CE:  1271
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3724),
+    Or(y + y + y < 3724),
+    Or(y + y + y < 3724))
+Size of CE:  1272
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3730),
+    Or(y + y + y < 3730),
+    Or(y + y + y < 3730))
+Size of CE:  1273
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3733),
+    Or(y + y + y < 3733),
+    Or(y + y + y < 3733))
+Size of CE:  1274
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3733),
+    Or(y + y + y < 3733),
+    Or(y + y + y < 3733))
+Size of CE:  1275
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3736),
+    Or(y + y + y < 3736),
+    Or(y + y + y < 3736))
+Size of CE:  1276
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3739),
+    Or(y + y + y < 3739),
+    Or(y + y + y < 3739))
+Size of CE:  1277
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3742),
+    Or(y + y + y < 3742),
+    Or(y + y + y < 3742))
+Size of CE:  1278
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3745),
+    Or(y + y + y < 3745),
+    Or(y + y + y < 3745))
+Size of CE:  1279
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3748),
+    Or(y + y + y < 3748),
+    Or(y + y + y < 3748))
+Size of CE:  1280
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3748),
+    Or(y + y + y < 3748),
+    Or(y + y + y < 3748))
+Size of CE:  1281
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3751),
+    Or(y + y + y < 3751),
+    Or(y + y + y < 3751))
+Size of CE:  1282
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3754),
+    Or(y + y + y < 3754),
+    Or(y + y + y < 3754))
+Size of CE:  1283
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3757),
+    Or(y + y + y < 3757),
+    Or(y + y + y < 3757))
+Size of CE:  1284
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3760),
+    Or(y + y + y < 3760),
+    Or(y + y + y < 3760))
+Size of CE:  1285
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3763),
+    Or(y + y + y < 3763),
+    Or(y + y + y < 3763))
+Size of CE:  1286
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3766),
+    Or(y + y + y < 3766),
+    Or(y + y + y < 3766))
+Size of CE:  1287
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3769),
+    Or(y + y + y < 3769),
+    Or(y + y + y < 3769))
+Size of CE:  1288
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3772),
+    Or(y + y + y < 3772),
+    Or(y + y + y < 3772))
+Size of CE:  1289
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3775),
+    Or(y + y + y < 3775),
+    Or(y + y + y < 3775))
+Size of CE:  1290
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3778),
+    Or(y + y + y < 3778),
+    Or(y + y + y < 3778))
+Size of CE:  1291
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3781),
+    Or(y + y + y < 3781),
+    Or(y + y + y < 3781))
+Size of CE:  1292
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3784),
+    Or(y + y + y < 3784),
+    Or(y + y + y < 3784))
+Size of CE:  1293
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3787),
+    Or(y + y + y < 3787),
+    Or(y + y + y < 3787))
+Size of CE:  1294
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3790),
+    Or(y + y + y < 3790),
+    Or(y + y + y < 3790))
+Size of CE:  1295
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3790),
+    Or(y + y + y < 3790),
+    Or(y + y + y < 3790))
+Size of CE:  1296
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3793),
+    Or(y + y + y < 3793),
+    Or(y + y + y < 3793))
+Size of CE:  1297
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3796),
+    Or(y + y + y < 3796),
+    Or(y + y + y < 3796))
+Size of CE:  1298
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3799),
+    Or(y + y + y < 3799),
+    Or(y + y + y < 3799))
+Size of CE:  1299
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3802),
+    Or(y + y + y < 3802),
+    Or(y + y + y < 3802))
+Size of CE:  1300
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3805),
+    Or(y + y + y < 3805),
+    Or(y + y + y < 3805))
+Size of CE:  1301
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3808),
+    Or(y + y + y < 3808),
+    Or(y + y + y < 3808))
+Size of CE:  1302
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3811),
+    Or(y + y + y < 3811),
+    Or(y + y + y < 3811))
+Size of CE:  1303
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3814),
+    Or(y + y + y < 3814),
+    Or(y + y + y < 3814))
+Size of CE:  1304
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3817),
+    Or(y + y + y < 3817),
+    Or(y + y + y < 3817))
+Size of CE:  1305
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3820),
+    Or(y + y + y < 3820),
+    Or(y + y + y < 3820))
+Size of CE:  1306
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3823),
+    Or(y + y + y < 3823),
+    Or(y + y + y < 3823))
+Size of CE:  1307
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3826),
+    Or(y + y + y < 3826),
+    Or(y + y + y < 3826))
+Size of CE:  1308
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3826),
+    Or(y + y + y < 3826),
+    Or(y + y + y < 3826))
+Size of CE:  1309
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3829),
+    Or(y + y + y < 3829),
+    Or(y + y + y < 3829))
+Size of CE:  1310
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3832),
+    Or(y + y + y < 3832),
+    Or(y + y + y < 3832))
+Size of CE:  1311
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3835),
+    Or(y + y + y < 3835),
+    Or(y + y + y < 3835))
+Size of CE:  1312
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3838),
+    Or(y + y + y < 3838),
+    Or(y + y + y < 3838))
+Size of CE:  1313
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3841),
+    Or(y + y + y < 3841),
+    Or(y + y + y < 3841))
+Size of CE:  1314
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3844),
+    Or(y + y + y < 3844),
+    Or(y + y + y < 3844))
+Size of CE:  1315
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3847),
+    Or(y + y + y < 3847),
+    Or(y + y + y < 3847))
+Size of CE:  1316
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3844),
+    Or(y + y + y < 3844),
+    Or(y + y + y < 3844))
+Size of CE:  1317
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3850),
+    Or(y + y + y < 3850),
+    Or(y + y + y < 3850))
+Size of CE:  1318
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3853),
+    Or(y + y + y < 3853),
+    Or(y + y + y < 3853))
+Size of CE:  1319
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3856),
+    Or(y + y + y < 3856),
+    Or(y + y + y < 3856))
+Size of CE:  1320
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3859),
+    Or(y + y + y < 3859),
+    Or(y + y + y < 3859))
+Size of CE:  1321
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3859),
+    Or(y + y + y < 3859),
+    Or(y + y + y < 3859))
+Size of CE:  1322
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3862),
+    Or(y + y + y < 3862),
+    Or(y + y + y < 3862))
+Size of CE:  1323
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3859),
+    Or(y + y + y < 3859),
+    Or(y + y + y < 3859))
+Size of CE:  1324
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3862),
+    Or(y + y + y < 3862),
+    Or(y + y + y < 3862))
+Size of CE:  1325
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3865),
+    Or(y + y + y < 3865),
+    Or(y + y + y < 3865))
+Size of CE:  1326
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3865),
+    Or(y + y + y < 3865),
+    Or(y + y + y < 3865))
+Size of CE:  1327
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3859),
+    Or(y + y + y < 3859),
+    Or(y + y + y < 3859))
+Size of CE:  1328
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3868),
+    Or(y + y + y < 3868),
+    Or(y + y + y < 3868))
+Size of CE:  1329
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3871),
+    Or(y + y + y < 3871),
+    Or(y + y + y < 3871))
+Size of CE:  1330
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3871),
+    Or(y + y + y < 3871),
+    Or(y + y + y < 3871))
+Size of CE:  1331
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3874),
+    Or(y + y + y < 3874),
+    Or(y + y + y < 3874))
+Size of CE:  1332
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3874),
+    Or(y + y + y < 3874),
+    Or(y + y + y < 3874))
+Size of CE:  1333
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3871),
+    Or(y + y + y < 3871),
+    Or(y + y + y < 3871))
+Size of CE:  1334
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3877),
+    Or(y + y + y < 3877),
+    Or(y + y + y < 3877))
+Size of CE:  1335
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3880),
+    Or(y + y + y < 3880),
+    Or(y + y + y < 3880))
+Size of CE:  1336
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3883),
+    Or(y + y + y < 3883),
+    Or(y + y + y < 3883))
+Size of CE:  1337
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3886),
+    Or(y + y + y < 3886),
+    Or(y + y + y < 3886))
+Size of CE:  1338
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3889),
+    Or(y + y + y < 3889),
+    Or(y + y + y < 3889))
+Size of CE:  1339
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3889),
+    Or(y + y + y < 3889),
+    Or(y + y + y < 3889))
+Size of CE:  1340
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3892),
+    Or(y + y + y < 3892),
+    Or(y + y + y < 3892))
+Size of CE:  1341
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3895),
+    Or(y + y + y < 3895),
+    Or(y + y + y < 3895))
+Size of CE:  1342
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3898),
+    Or(y + y + y < 3898),
+    Or(y + y + y < 3898))
+Size of CE:  1343
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3901),
+    Or(y + y + y < 3901),
+    Or(y + y + y < 3901))
+Size of CE:  1344
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3904),
+    Or(y + y + y < 3904),
+    Or(y + y + y < 3904))
+Size of CE:  1345
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3904),
+    Or(y + y + y < 3904),
+    Or(y + y + y < 3904))
+Size of CE:  1346
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3907),
+    Or(y + y + y < 3907),
+    Or(y + y + y < 3907))
+Size of CE:  1347
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3907),
+    Or(y + y + y < 3907),
+    Or(y + y + y < 3907))
+Size of CE:  1348
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3907),
+    Or(y + y + y < 3907),
+    Or(y + y + y < 3907))
+Size of CE:  1349
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3907),
+    Or(y + y + y < 3907),
+    Or(y + y + y < 3907))
+Size of CE:  1350
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3910),
+    Or(y + y + y < 3910),
+    Or(y + y + y < 3910))
+Size of CE:  1351
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3913),
+    Or(y + y + y < 3913),
+    Or(y + y + y < 3913))
+Size of CE:  1352
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3913),
+    Or(y + y + y < 3913),
+    Or(y + y + y < 3913))
+Size of CE:  1353
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3916),
+    Or(y + y + y < 3916),
+    Or(y + y + y < 3916))
+Size of CE:  1354
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3916),
+    Or(y + y + y < 3916),
+    Or(y + y + y < 3916))
+Size of CE:  1355
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3916),
+    Or(y + y + y < 3916),
+    Or(y + y + y < 3916))
+Size of CE:  1356
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3919),
+    Or(y + y + y < 3919),
+    Or(y + y + y < 3919))
+Size of CE:  1357
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3919),
+    Or(y + y + y < 3919),
+    Or(y + y + y < 3919))
+Size of CE:  1358
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3922),
+    Or(y + y + y < 3922),
+    Or(y + y + y < 3922))
+Size of CE:  1359
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3925),
+    Or(y + y + y < 3925),
+    Or(y + y + y < 3925))
+Size of CE:  1360
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3928),
+    Or(y + y + y < 3928),
+    Or(y + y + y < 3928))
+Size of CE:  1361
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3931),
+    Or(y + y + y < 3931),
+    Or(y + y + y < 3931))
+Size of CE:  1362
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3934),
+    Or(y + y + y < 3934),
+    Or(y + y + y < 3934))
+Size of CE:  1363
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3931),
+    Or(y + y + y < 3931),
+    Or(y + y + y < 3931))
+Size of CE:  1364
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3937),
+    Or(y + y + y < 3937),
+    Or(y + y + y < 3937))
+Size of CE:  1365
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3940),
+    Or(y + y + y < 3940),
+    Or(y + y + y < 3940))
+Size of CE:  1366
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3943),
+    Or(y + y + y < 3943),
+    Or(y + y + y < 3943))
+Size of CE:  1367
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3943),
+    Or(y + y + y < 3943),
+    Or(y + y + y < 3943))
+Size of CE:  1368
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3946),
+    Or(y + y + y < 3946),
+    Or(y + y + y < 3946))
+Size of CE:  1369
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3949),
+    Or(y + y + y < 3949),
+    Or(y + y + y < 3949))
+Size of CE:  1370
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3952),
+    Or(y + y + y < 3952),
+    Or(y + y + y < 3952))
+Size of CE:  1371
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3949),
+    Or(y + y + y < 3949),
+    Or(y + y + y < 3949))
+Size of CE:  1372
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3955),
+    Or(y + y + y < 3955),
+    Or(y + y + y < 3955))
+Size of CE:  1373
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3958),
+    Or(y + y + y < 3958),
+    Or(y + y + y < 3958))
+Size of CE:  1374
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3961),
+    Or(y + y + y < 3961),
+    Or(y + y + y < 3961))
+Size of CE:  1375
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3964),
+    Or(y + y + y < 3964),
+    Or(y + y + y < 3964))
+Size of CE:  1376
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3967),
+    Or(y + y + y < 3967),
+    Or(y + y + y < 3967))
+Size of CE:  1377
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3970),
+    Or(y + y + y < 3970),
+    Or(y + y + y < 3970))
+Size of CE:  1378
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3973),
+    Or(y + y + y < 3973),
+    Or(y + y + y < 3973))
+Size of CE:  1379
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3976),
+    Or(y + y + y < 3976),
+    Or(y + y + y < 3976))
+Size of CE:  1380
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3976),
+    Or(y + y + y < 3976),
+    Or(y + y + y < 3976))
+Size of CE:  1381
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3979),
+    Or(y + y + y < 3979),
+    Or(y + y + y < 3979))
+Size of CE:  1382
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3982),
+    Or(y + y + y < 3982),
+    Or(y + y + y < 3982))
+Size of CE:  1383
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3985),
+    Or(y + y + y < 3985),
+    Or(y + y + y < 3985))
+Size of CE:  1384
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3985),
+    Or(y + y + y < 3985),
+    Or(y + y + y < 3985))
+Size of CE:  1385
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3988),
+    Or(y + y + y < 3988),
+    Or(y + y + y < 3988))
+Size of CE:  1386
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3991),
+    Or(y + y + y < 3991),
+    Or(y + y + y < 3991))
+Size of CE:  1387
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3994),
+    Or(y + y + y < 3994),
+    Or(y + y + y < 3994))
+Size of CE:  1388
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3997),
+    Or(y + y + y < 3997),
+    Or(y + y + y < 3997))
+Size of CE:  1389
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 3997),
+    Or(y + y + y < 3997),
+    Or(y + y + y < 3997))
+Size of CE:  1390
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4000),
+    Or(y + y + y < 4000),
+    Or(y + y + y < 4000))
+Size of CE:  1391
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4003),
+    Or(y + y + y < 4003),
+    Or(y + y + y < 4003))
+Size of CE:  1392
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4006),
+    Or(y + y + y < 4006),
+    Or(y + y + y < 4006))
+Size of CE:  1393
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4009),
+    Or(y + y + y < 4009),
+    Or(y + y + y < 4009))
+Size of CE:  1394
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4012),
+    Or(y + y + y < 4012),
+    Or(y + y + y < 4012))
+Size of CE:  1395
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4015),
+    Or(y + y + y < 4015),
+    Or(y + y + y < 4015))
+Size of CE:  1396
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4018),
+    Or(y + y + y < 4018),
+    Or(y + y + y < 4018))
+Size of CE:  1397
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4018),
+    Or(y + y + y < 4018),
+    Or(y + y + y < 4018))
+Size of CE:  1398
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4021),
+    Or(y + y + y < 4021),
+    Or(y + y + y < 4021))
+Size of CE:  1399
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4024),
+    Or(y + y + y < 4024),
+    Or(y + y + y < 4024))
+Size of CE:  1400
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4027),
+    Or(y + y + y < 4027),
+    Or(y + y + y < 4027))
+Size of CE:  1401
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4027),
+    Or(y + y + y < 4027),
+    Or(y + y + y < 4027))
+Size of CE:  1402
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4030),
+    Or(y + y + y < 4030),
+    Or(y + y + y < 4030))
+Size of CE:  1403
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4033),
+    Or(y + y + y < 4033),
+    Or(y + y + y < 4033))
+Size of CE:  1404
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4036),
+    Or(y + y + y < 4036),
+    Or(y + y + y < 4036))
+Size of CE:  1405
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4033),
+    Or(y + y + y < 4033),
+    Or(y + y + y < 4033))
+Size of CE:  1406
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4039),
+    Or(y + y + y < 4039),
+    Or(y + y + y < 4039))
+Size of CE:  1407
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4042),
+    Or(y + y + y < 4042),
+    Or(y + y + y < 4042))
+Size of CE:  1408
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4045),
+    Or(y + y + y < 4045),
+    Or(y + y + y < 4045))
+Size of CE:  1409
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4048),
+    Or(y + y + y < 4048),
+    Or(y + y + y < 4048))
+Size of CE:  1410
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4051),
+    Or(y + y + y < 4051),
+    Or(y + y + y < 4051))
+Size of CE:  1411
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4051),
+    Or(y + y + y < 4051),
+    Or(y + y + y < 4051))
+Size of CE:  1412
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4051),
+    Or(y + y + y < 4051),
+    Or(y + y + y < 4051))
+Size of CE:  1413
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4054),
+    Or(y + y + y < 4054),
+    Or(y + y + y < 4054))
+Size of CE:  1414
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4057),
+    Or(y + y + y < 4057),
+    Or(y + y + y < 4057))
+Size of CE:  1415
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4060),
+    Or(y + y + y < 4060),
+    Or(y + y + y < 4060))
+Size of CE:  1416
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4060),
+    Or(y + y + y < 4060),
+    Or(y + y + y < 4060))
+Size of CE:  1417
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4063),
+    Or(y + y + y < 4063),
+    Or(y + y + y < 4063))
+Size of CE:  1418
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4063),
+    Or(y + y + y < 4063),
+    Or(y + y + y < 4063))
+Size of CE:  1419
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4066),
+    Or(y + y + y < 4066),
+    Or(y + y + y < 4066))
+Size of CE:  1420
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4069),
+    Or(y + y + y < 4069),
+    Or(y + y + y < 4069))
+Size of CE:  1421
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4072),
+    Or(y + y + y < 4072),
+    Or(y + y + y < 4072))
+Size of CE:  1422
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4075),
+    Or(y + y + y < 4075),
+    Or(y + y + y < 4075))
+Size of CE:  1423
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4078),
+    Or(y + y + y < 4078),
+    Or(y + y + y < 4078))
+Size of CE:  1424
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4081),
+    Or(y + y + y < 4081),
+    Or(y + y + y < 4081))
+Size of CE:  1425
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4081),
+    Or(y + y + y < 4081),
+    Or(y + y + y < 4081))
+Size of CE:  1426
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4084),
+    Or(y + y + y < 4084),
+    Or(y + y + y < 4084))
+Size of CE:  1427
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4087),
+    Or(y + y + y < 4087),
+    Or(y + y + y < 4087))
+Size of CE:  1428
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4090),
+    Or(y + y + y < 4090),
+    Or(y + y + y < 4090))
+Size of CE:  1429
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4093),
+    Or(y + y + y < 4093),
+    Or(y + y + y < 4093))
+Size of CE:  1430
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4096),
+    Or(y + y + y < 4096),
+    Or(y + y + y < 4096))
+Size of CE:  1431
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4093),
+    Or(y + y + y < 4093),
+    Or(y + y + y < 4093))
+Size of CE:  1432
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4099),
+    Or(y + y + y < 4099),
+    Or(y + y + y < 4099))
+Size of CE:  1433
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4102),
+    Or(y + y + y < 4102),
+    Or(y + y + y < 4102))
+Size of CE:  1434
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4105),
+    Or(y + y + y < 4105),
+    Or(y + y + y < 4105))
+Size of CE:  1435
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4108),
+    Or(y + y + y < 4108),
+    Or(y + y + y < 4108))
+Size of CE:  1436
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4105),
+    Or(y + y + y < 4105),
+    Or(y + y + y < 4105))
+Size of CE:  1437
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4108),
+    Or(y + y + y < 4108),
+    Or(y + y + y < 4108))
+Size of CE:  1438
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4105),
+    Or(y + y + y < 4105),
+    Or(y + y + y < 4105))
+Size of CE:  1439
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4108),
+    Or(y + y + y < 4108),
+    Or(y + y + y < 4108))
+Size of CE:  1440
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4111),
+    Or(y + y + y < 4111),
+    Or(y + y + y < 4111))
+Size of CE:  1441
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4114),
+    Or(y + y + y < 4114),
+    Or(y + y + y < 4114))
+Size of CE:  1442
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4117),
+    Or(y + y + y < 4117),
+    Or(y + y + y < 4117))
+Size of CE:  1443
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4120),
+    Or(y + y + y < 4120),
+    Or(y + y + y < 4120))
+Size of CE:  1444
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4123),
+    Or(y + y + y < 4123),
+    Or(y + y + y < 4123))
+Size of CE:  1445
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4123),
+    Or(y + y + y < 4123),
+    Or(y + y + y < 4123))
+Size of CE:  1446
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4123),
+    Or(y + y + y < 4123),
+    Or(y + y + y < 4123))
+Size of CE:  1447
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4123),
+    Or(y + y + y < 4123),
+    Or(y + y + y < 4123))
+Size of CE:  1448
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4123),
+    Or(y + y + y < 4123),
+    Or(y + y + y < 4123))
+Size of CE:  1449
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4126),
+    Or(y + y + y < 4126),
+    Or(y + y + y < 4126))
+Size of CE:  1450
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4129),
+    Or(y + y + y < 4129),
+    Or(y + y + y < 4129))
+Size of CE:  1451
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4129),
+    Or(y + y + y < 4129),
+    Or(y + y + y < 4129))
+Size of CE:  1452
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4132),
+    Or(y + y + y < 4132),
+    Or(y + y + y < 4132))
+Size of CE:  1453
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4132),
+    Or(y + y + y < 4132),
+    Or(y + y + y < 4132))
+Size of CE:  1454
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4135),
+    Or(y + y + y < 4135),
+    Or(y + y + y < 4135))
+Size of CE:  1455
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4138),
+    Or(y + y + y < 4138),
+    Or(y + y + y < 4138))
+Size of CE:  1456
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4141),
+    Or(y + y + y < 4141),
+    Or(y + y + y < 4141))
+Size of CE:  1457
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4144),
+    Or(y + y + y < 4144),
+    Or(y + y + y < 4144))
+Size of CE:  1458
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4147),
+    Or(y + y + y < 4147),
+    Or(y + y + y < 4147))
+Size of CE:  1459
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4147),
+    Or(y + y + y < 4147),
+    Or(y + y + y < 4147))
+Size of CE:  1460
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4150),
+    Or(y + y + y < 4150),
+    Or(y + y + y < 4150))
+Size of CE:  1461
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4153),
+    Or(y + y + y < 4153),
+    Or(y + y + y < 4153))
+Size of CE:  1462
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4153),
+    Or(y + y + y < 4153),
+    Or(y + y + y < 4153))
+Size of CE:  1463
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4153),
+    Or(y + y + y < 4153),
+    Or(y + y + y < 4153))
+Size of CE:  1464
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4156),
+    Or(y + y + y < 4156),
+    Or(y + y + y < 4156))
+Size of CE:  1465
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4153),
+    Or(y + y + y < 4153),
+    Or(y + y + y < 4153))
+Size of CE:  1466
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4159),
+    Or(y + y + y < 4159),
+    Or(y + y + y < 4159))
+Size of CE:  1467
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4159),
+    Or(y + y + y < 4159),
+    Or(y + y + y < 4159))
+Size of CE:  1468
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4162),
+    Or(y + y + y < 4162),
+    Or(y + y + y < 4162))
+Size of CE:  1469
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4162),
+    Or(y + y + y < 4162),
+    Or(y + y + y < 4162))
+Size of CE:  1470
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4153),
+    Or(y + y + y < 4153),
+    Or(y + y + y < 4153))
+Size of CE:  1471
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4165),
+    Or(y + y + y < 4165),
+    Or(y + y + y < 4165))
+Size of CE:  1472
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4168),
+    Or(y + y + y < 4168),
+    Or(y + y + y < 4168))
+Size of CE:  1473
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4171),
+    Or(y + y + y < 4171),
+    Or(y + y + y < 4171))
+Size of CE:  1474
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4174),
+    Or(y + y + y < 4174),
+    Or(y + y + y < 4174))
+Size of CE:  1475
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4171),
+    Or(y + y + y < 4171),
+    Or(y + y + y < 4171))
+Size of CE:  1476
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4177),
+    Or(y + y + y < 4177),
+    Or(y + y + y < 4177))
+Size of CE:  1477
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4177),
+    Or(y + y + y < 4177),
+    Or(y + y + y < 4177))
+Size of CE:  1478
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4171),
+    Or(y + y + y < 4171),
+    Or(y + y + y < 4171))
+Size of CE:  1479
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4180),
+    Or(y + y + y < 4180),
+    Or(y + y + y < 4180))
+Size of CE:  1480
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4183),
+    Or(y + y + y < 4183),
+    Or(y + y + y < 4183))
+Size of CE:  1481
+Template:  And(Or(y + y + y < const_0),
+    Or(y + y + y < const_1),
+    Or(y + y + y < const_2))
+Candidate:  And(Or(y + y + y < 4183),
+    Or(y + y + y < 4183),
+    Or(y + y + y < 4183))
+Size of CE:  1482
+
+

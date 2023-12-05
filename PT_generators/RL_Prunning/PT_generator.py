@@ -14,16 +14,23 @@ from PT_generators.RL_Prunning.TemplateCenter.TemplateCenter import InitPT, getL
 from Utilities.Cparser import get_varnames_from_source_code, get_consts_from_source_code
 import torch.nn.functional as F
 
+from loginit import logger
+
 
 class PT_generator:
     def __init__(self, path2CFile, path2CFG, path2SMT):
+        logger.info(f'start: PT_generator')
+        logger.info(f'PT_generator: path2CFile = {path2CFile}, path2CFG = {path2CFG}, path2SMT = {path2SMT} ')
         self.LR = config.LearningRate
         # Step1. Parse the inputs
         self.cfg = parseCFG(path2CFG)
         self.smt = parseSMT(path2SMT)
         self.path2CFile = path2CFile
+
         self.vars = get_varnames_from_source_code(self.path2CFile)
+        logger.info(f'PT_generator: vars = {self.vars} ')
         self.consts = get_consts_from_source_code(self.path2CFile)
+        logger.info(f'PT_generator: consts = {self.consts} ')
 
         init_varSelection(self.vars)
 
@@ -62,6 +69,10 @@ class PT_generator:
 
 
     def generate_next(self, CE):
+        '''
+        根据当前的例子生成一个新的部分模板
+        :param CE: 字典，包含正例，反例，归纳例
+        '''
         self.depth = 0
         PT = InitPT()
         self.stateVec = self.T(PT)
