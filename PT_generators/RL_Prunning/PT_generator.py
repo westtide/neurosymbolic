@@ -220,6 +220,7 @@ class PT_generator:
         self.adam.step()
 
     def init_learner_par(self):
+
         paras = {}
         paras.update(SymbolEmbeddings)
         paras.update(self.T.GetParameters())

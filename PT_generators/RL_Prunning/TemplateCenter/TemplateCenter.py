@@ -51,7 +51,14 @@ def InitPT():
     return Bool('non_nc')
 
 
+
 def getLeftHandle(PT):
+    """
+    getLeftHandle函数的作用是在抽象语法树（Abstract Syntax Tree，AST）中找到最左边的"Handle"。
+    这里的"Handle"是指可以被替换或者归约的部分，它的标志是节点名称以'non_'开头。
+    函数通过递归的方式遍历AST，当找到一个节点名称以'non_'开头时，就返回这个节点，否则就继续遍历其子节点。
+    在自底向上的语法分析过程中，"Handle"是指在待归约串中，可以按某个产生式直接归约的部分。也就是说，"Handle"是待归约串中与某个产生式右部匹配的那一部分。s
+    """
     if 'non_' in str(PT.decl()):
         return PT
     else:
