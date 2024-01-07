@@ -9,6 +9,9 @@ from Utilities.TimeController import time_limit_calling
 
 
 def Substitute(PT, assignment):
+    """
+    替换PT中的变量
+    """
     assignedVars = assignment.keys()
     canI = PT
     for avar in assignedVars:
@@ -24,7 +27,14 @@ def Substitute(PT, assignment):
 
 
 def solve(PT, CE):
+    """
+    量化自由非线性整数算术的求解函数: 替换 PT 中的变量, 再尝试求解
+    Args:
+        PT: 模板
+        CE: 反例
 
+    Returns: 如果找到解，函数将返回一个包含解的字典。如果没有找到解，函数将返回None。如果求解器超时，函数将抛出一个超时错误。
+    """
     sol = z3.SolverFor("QF_NIA")
     sol.set(auto_config=False)
     sol.set("timeout", config.PT_SOLVING_TIME)

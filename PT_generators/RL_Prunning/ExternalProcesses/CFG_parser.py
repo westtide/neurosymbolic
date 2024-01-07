@@ -10,6 +10,11 @@ def parseCFG(path2CFG):
 
 
 def GetAllCGraphfilePath():
+    """
+    获取所有CFG文件的路径
+    Returns: 所有CFG文件的路径
+
+    """
     filepaths = []
     dir_linear = r"Benchmarks/Linear/c_graph/"
     dir_nonlinear = r"Benchmarks/NL/c_graph/"

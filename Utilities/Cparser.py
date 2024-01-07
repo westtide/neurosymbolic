@@ -14,7 +14,7 @@ class VarDefVisitor(c_ast.NodeVisitor):
 
 def get_varnames_from_source_code(path2CFile):
     try:
-        astnode = parse_file(path2CFile, use_cpp=True,cpp_path='/opt/homebrew/bin/cpp-13')
+        astnode = parse_file(path2CFile, use_cpp=True, cpp_path='/opt/homebrew/bin/cpp-13')
     except c_parser.ParseError as e:
         return "Parse error:" + str(e)
     v = VarDefVisitor()

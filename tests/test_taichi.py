@@ -4,7 +4,6 @@ import numpy as np
 ti.init(arch=ti.cpu)
 
 benchmark = True
-
 N = 15000
 
 f = ti.field(dtype=ti.i32, shape=(N + 1, N + 1))

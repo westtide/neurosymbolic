@@ -20,5 +20,5 @@ int main(){
        z=z+6;
   }
   // post-condition
-  assert( (n==a+1) && (y == 3*n*n + 3*n + 1) && (x == n*n*n) && (z == 6*n + 6));
+  assert((n==a+1) && (y == 3*n*n + 3*n + 1) && (x == n*n*n) && (z == 6*n + 6));
 }
