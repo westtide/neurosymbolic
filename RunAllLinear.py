@@ -1,7 +1,7 @@
 from main import main
 from loginit import logger
 
-CUDA_VISIBLE_DEVICES="0"
+# CUDA_VISIBLE_DEVICES="0"
 if __name__ == "__main__":
     logger.info(f'start: RUNALLLINEAR')
     result_file = open(r"Result/RL_Prunning_Linear.txt", "w")

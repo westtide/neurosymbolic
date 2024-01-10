@@ -17,11 +17,20 @@ class IntLize(nn.Module):
     def forward(self, action_vector, left_handle):
         # print("value", self.layer2(self.layer1(action_vector)))
         if str(left_handle.decl()) == 'non_nc' or str(left_handle.decl()) == 'non_nd':
+            # 则将action_vector通过layer1_n和layer2_n两个线性层进行处理，
+            # 然后与一个值为1的张量进行拼接，取最大值，
+            # 再与一个值为4的张量进行拼接，取最小值
             return torch.min(
-                torch.cat([torch.max(
-                    torch.cat([self.layer2_n(self.layer1_n(action_vector)),
-                               tensor([[1]],dtype=torch.float32)],0)).reshape(1,1),
-                           tensor([[4]],dtype=torch.float32)],0))
+                torch.cat([
+                    torch.max(
+                        torch.cat([self.layer2_n(self.layer1_n(action_vector)), tensor([[1]],dtype=torch.float32)],
+                                  0
+                                  )
+                    ).reshape(1,1),
+                    tensor([[4]],dtype=torch.float32)],
+                    0
+                )
+            )
         assert False # should not be here now
         # else:
         #     return self.layer2(self.layer1(action_vector))

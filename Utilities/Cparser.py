@@ -43,4 +43,5 @@ def get_consts_from_source_code(path2CFile):
     for extrac in [0, 1, -1, 2, -2, 3, -3, 6, 4]:
         if extrac not in consters:
             consters.append(extrac)
+            logger.info(f'{extrac} not in consters, add it')
     return consters

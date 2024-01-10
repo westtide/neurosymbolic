@@ -19,6 +19,13 @@ from loginit import logger
 
 class PT_generator:
     def __init__(self, path2CFile, path2CFG, path2SMT):
+        """
+
+        Args:
+            path2CFile: C 文件的路径
+            path2CFG: CFG 文件的路径
+            path2SMT: SMT-LIB 文件的路径
+        """
         logger.info(f'start: PT_generator')
         logger.info(f'PT_generator: path2CFile = {path2CFile}, path2CFG = {path2CFG}, path2SMT = {path2SMT} ')
 
@@ -28,8 +35,11 @@ class PT_generator:
         self.smt = parseSMT(path2SMT)
         self.path2CFile = path2CFile
 
+        # 遍历 ast 获得所有的变量
         self.vars = get_varnames_from_source_code(self.path2CFile)
         logger.info(f'PT_generator: vars = {self.vars} ')
+
+        # 遍历 ast 获得所有的常数
         self.consts = get_consts_from_source_code(self.path2CFile)
         logger.info(f'PT_generator: consts = {self.consts} ')
 
@@ -40,12 +50,12 @@ class PT_generator:
         init_symbolEmbeddings()
 
         # Step2. Construct the NNs and Load the parameters
-        self.T = constructT()
-        self.G = constructG(self.cfg)
-        self.E = constructE(self.vars)
-        self.P = constructP()
-        self.pi = constructpi(self)
-        self.distributionlize = construct_distributionlize()
+        self.T = constructT()                                   # TreeLSTM
+        self.G = constructG(self.cfg)                           # CFG_Embedding
+        self.E = constructE(self.vars)                          # CEEmbedding
+        self.P = constructP()                                   # RewardPredictor
+        self.pi = constructpi(self)                             # PolicyNetwork
+        self.distributionlize = construct_distributionlize()    # DistributionLize
         # self.intValuelzie = construct_intValuelzie()
 
         # Step3. Init the learner and parameters

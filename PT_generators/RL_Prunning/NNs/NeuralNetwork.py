@@ -41,7 +41,10 @@ def construct_intValuelzie():
 
 
 def init_symbolEmbeddings():
-    Rule_keys =RULE.keys()
+    """
+    对于每个非终端符号和它的每个动作，以及每个可能的深度，它都分配一个随机生成的参数张量作为它的嵌入。
+    """
+    Rule_keys = RULE.keys()
     for non_terminal in Rule_keys:
         SymbolEmbeddings[non_terminal] = Parameter(torch.randn((1, config.SIZE_EXP_NODE_FEATURE)), requires_grad=True)
         actions = RULE[non_terminal]
@@ -55,6 +58,9 @@ def init_symbolEmbeddings():
             SymbolEmbeddings[problems + "_" + str(depth)] = Parameter(torch.randn((1, config.SIZE_EXP_NODE_FEATURE)), requires_grad=True)
 
 def GetProgramFearture(path2CFile, depth):
+    """
+    根据给定的文件路径和深度，返回对应的程序特征
+    """
     problemID = path2CFile.split('/')[-1].split('.')[0]
     if 'NL' in problemID:
         problemStr = "Problem_NL" + problemID.split('NL')[-1]
@@ -66,10 +72,14 @@ def GetProgramFearture(path2CFile, depth):
         return SymbolEmbeddings['?']
 
 def GPUlizeSymbols():
+    """
+     将 SymbolEmbeddings 中的所有元素转移到 GPU
+    """
     for keyname in SymbolEmbeddings.keys():
         SymbolEmbeddings[keyname] = Parameter(SymbolEmbeddings[keyname].cuda())
 
 def initialize_paramethers(path):
+    """根据给定的路径初始化参数"""
     if "NL" in path:
         ppPath = r"code2inv/templeter/NL_initial.psdlf"
     else:
@@ -80,6 +90,15 @@ def initialize_paramethers(path):
 
 
 def GetActionIndex(last_left_handle,last_action):
+    """
+    返回给定的最后一个左句柄和最后一个动作在规则中的索引。如果在 CUDA 可用的情况下，返回的张量将在 CUDA 上
+    Args:
+        last_left_handle:
+        last_action:
+
+    Returns:
+
+    """
     for i, action in enumerate(RULE[str(last_left_handle)]):
         if str(action) == str(last_action):
             if torch.cuda.is_available():
