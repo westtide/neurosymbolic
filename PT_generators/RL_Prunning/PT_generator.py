@@ -115,7 +115,7 @@ class PT_generator:
                 outputed_list.append(action_raw)
                 # 根据所选动作更新部分模板
                 PT = update_PT_rule_selction(PT, left_handle, action_selected)
-                logger.info(f'depth = {self.depth}, action_selected_list = {action_selected_list}')
+                # logger.info(f'depth = {self.depth}, action_selected_list = {action_selected_list}')
             else:
                 assert False
                 # should not be here now
@@ -133,7 +133,7 @@ class PT_generator:
             self.stateVec = self.T(PT)
             self.depth += 1
 
-        slast_predicted_reward_list = predicted_reward_list
+        self.last_predicted_reward_list = predicted_reward_list
         self.last_action_selected_list = action_selected_list
         self.last_outputed_list = outputed_list
         self.last_action_or_value = action_or_value
