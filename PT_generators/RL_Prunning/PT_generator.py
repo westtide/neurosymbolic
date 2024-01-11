@@ -20,7 +20,7 @@ from loginit import logger
 class PT_generator:
     def __init__(self, path2CFile, path2CFG, path2SMT):
         """
-
+        PT包含: LR学习率,C,CFG,SMT,vars,consts,T,G,E,P,pi,distributionlize,intValuelzie,depth,stateVec
         Args:
             path2CFile: C 文件的路径
             path2CFG: CFG 文件的路径
@@ -58,7 +58,7 @@ class PT_generator:
         self.distributionlize = construct_distributionlize()    # DistributionLize
         # self.intValuelzie = construct_intValuelzie()
 
-        # Step3. Init the learner and parameters
+        # Step3. Init the learner and parameters 初始化学习器和参数
         self.init_learner_par()
 
         # if config.CONTINUE_TRAINING:
@@ -70,12 +70,10 @@ class PT_generator:
             self.gpulize()
 
     def generate_next(self, CE):
-
         """
         根据当前的例子生成一个新的部分模板
-        :param CE: 字典，包含正例，反例，归纳例
+        :param CE: [正例,反例,归纳例]
         """
-
         self.depth = 0
         PT = InitPT()
         self.stateVec = self.T(PT)
@@ -89,26 +87,34 @@ class PT_generator:
         self.emb_smt = self.T.forward_three(self.smt)
         left_handle = getLeftHandle(PT)
         while left_handle is not None:
+            # 根据给定的 C 文件、CFG 文件和 SMT-LIB 文件，生成一个部分模板 PT
             left_handles.append(left_handle)
+            # 根据当前的 left_handle 选择可用的动作或值
             act_or_val, available_acts = AvailableActionSelection(left_handle)
-
+            # 整合来自不同源的特征
             overall_feature = self.G(self.emb_smt, emb_CE, self.stateVec)
+            # 根据当前的状态向量和整合后的特征，预测奖励值
             predicted_reward = self.P(self.stateVec, overall_feature)
             predicted_reward_list.append(predicted_reward)
+            # 使用策略网络（Policy Network）根据当前的状态向量和整合特征生成一个动作向量
             action_vector = self.pi(self.stateVec, overall_feature)
+            # 判断是选择动作还是值
             if act_or_val == config.SELECT_AN_ACTION:
+                # 根据动作向量和可用动作生成一个动作分布
                 action_dirtibution, action_raw = self.distributionlize(action_vector, available_acts)
+                # 从动作分布中采样一个动作
                 action_selected = sampling(action_dirtibution, available_acts)
-
+                # 如果深度达到了最大值 (config.MAX_DEPTH)，则选择一个简单的动作来避免过深的递归
                 if self.depth >= config.MAX_DEPTH:
                     action_selected = simplestAction(left_handle)
                 action_selected_list.append(action_selected)
                 outputed_list.append(action_raw)
-
+                # 根据所选动作更新部分模板
                 PT = update_PT_rule_selction(PT, left_handle, action_selected)
 
             else:
-                assert False  # should not be here now
+                assert False
+                # should not be here now
                 # value = self.intValuelzie(action_vector, left_handle)
                 # value_of_int = int(value)
                 # action_selected_list.append(value_of_int)
@@ -117,7 +123,9 @@ class PT_generator:
                 # PT = update_PT_value(PT, left_handle, value_of_int)
 
             action_or_value.append(act_or_val)
+            # 更新 left_handle 为部分模板中的下一个待处理元素
             left_handle = getLeftHandle(PT)
+            # 更新状态向量为新的部分模板的状态
             self.stateVec = self.T(PT)
             self.depth += 1
 
@@ -155,9 +163,8 @@ class PT_generator:
                     else:
                         assert SorL == 'LOOSE'
                         SD = LossnessDirtribution(self.last_left_handles[i], Whom)
-                    Loss_strictness = -torch.mm(SD, torch.log_softmax(self.last_outputed_list[i].reshape(1, -1),
-                                                                      1).transpose(0,
-                                                                                   1)) * gama
+                    Loss_strictness = -torch.mm(SD, torch.log_softmax(self.last_outputed_list[i].reshape(1, -1), 1).transpose(0,
+                                                                                                                   1)) * gama
                 else:
                     assert False  # should not be here
                     # Loss_strictness = F.mse_loss(self.last_outputed_list[i],
@@ -199,10 +206,10 @@ class PT_generator:
             if torch.cuda.is_available():
                 # 如果可以使用 CUDA 在GPU上计算损失，并累加到总损失上
                 p_loss += (tensor(r_i, dtype=torch.float32) - pr_i_1).cuda() * losser.reshape([1, 1])
-                logger.info(f'ALoss: CUDA is available, p_loss = {p_loss} ')
+                # logger.info(f'ALoss: CUDA is available, p_loss = {p_loss} ')
             else:
                 p_loss += (tensor(r_i, dtype=torch.float32) - pr_i_1) * losser.reshape([1, 1])
-                logger.info(f'ALoss: CUDA is not available, p_loss = {p_loss} ')
+                # logger.info(f'ALoss: CUDA is not available, p_loss = {p_loss} ')
 
         p_loss = p_loss / len(reward_list)
         logger.info(f'ALoss: p_loss = {p_loss} ')

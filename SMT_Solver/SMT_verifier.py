@@ -2,7 +2,7 @@ from z3 import *
 set_param('parallel.enable', True)
 from SMT_Solver.Config import config
 from Utilities.TimeController import time_limit_calling
-
+from loginit import logger
 
 class Counterexample:
     kind = "?"
@@ -27,13 +27,17 @@ class SMT_verifier:
                 if "SPLIT_HERE_asdfghjklzxcvbnmqwertyuiop" in vc_line:
                     vc_sections.append("")
                 else:
+                    logger.info(f'vc_sections[-1] += vc_line = {vc_line}')
                     vc_sections[-1] += vc_line
         assert len(vc_sections) == 5
 
         self.tpl = [vc_sections[0]]
+        logger.info(f'tpl = {self.tpl}, vc_sections[0] = {vc_sections[0]}')
 
         for i in range(2, 5):
             self.tpl.append(vc_sections[1] + vc_sections[i])
+            logger.info(f'i = {i}, vc_sections[i] = {vc_sections[i]}, tpl = {self.tpl}')
+
 
     def verify(self, Can_I, path2SMT):
         """
@@ -55,10 +59,13 @@ class SMT_verifier:
         # Z3表达式（Can_I）转换为SMT-LIB字符串
         Can_I_smt = \
             Z3_benchmark_to_smtlib_string(Can_I.ctx_ref(), "benchmark", "NIA", "unknown", "", 0, (Ast * 0)() , Can_I.as_ast())
+        logger.info(f'Can_I.ctx_ref() = {Can_I.ctx_ref()}, Ast * 0 = {(Ast * 0)()}, Can_I.as_ast() = {Can_I.as_ast()}')
+        logger.info(f'Can_I_smt = {Can_I_smt}')
         # Z3表达式的上下文引用（Can_I.ctx_ref()），一个字符串（"benchmark"），
         # 逻辑名称（"NIA"），状态（"unknown"），
         # 一个空字符串，一个零，一个空的Ast数组，以及Z3表达式的抽象语法树（Can_I.as_ast()）
         Can_I_smt = Can_I_smt.split('(assert\n')[-1].split('(check-sat)')[0][:-2]
+        logger.info(f'after spilt: Can_I_smt = {Can_I_smt}')
         # 使用(assert\n)作为分隔符，取最后一部分
         # 使用(check-sat)作为分隔符，取第一部分。
         # 最后，去掉字符串末尾的两个字符。这样，我们就得到了一个只包含Z3表达式的SMT-LIB字符串。

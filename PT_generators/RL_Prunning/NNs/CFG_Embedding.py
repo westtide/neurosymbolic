@@ -56,8 +56,8 @@ class CFG_Embedding(nn.Module):
         three_emb = torch.cat((cfg_emb, emb_smt, emb_CE), 0).reshape([3, config.SIZE_EXP_NODE_FEATURE])
         # 计算归一化的权重和大的嵌入向量的矩阵乘积，得到最终的特征向量
         overall_feature = torch.mm(swis, three_emb)
-        logger.info(f'CFG_Embedding 参数: emb_smt = {emb_smt}, emb_CE = {emb_CE}')
-        logger.info(f'CFG_Embedding 结果: self.cfg_emb = {self.cfg_emb}, weis = {weis}, swis = {swis}, three_emb = {three_emb}')
+        # logger.info(f'CFG_Embedding 参数: emb_smt = {emb_smt}, emb_CE = {emb_CE}')
+        # logger.info(f'CFG_Embedding 结果: self.cfg_emb = {self.cfg_emb}, weis = {weis}, swis = {swis}, three_emb = {three_emb}')
         return overall_feature
 
     def GetParameters(self):

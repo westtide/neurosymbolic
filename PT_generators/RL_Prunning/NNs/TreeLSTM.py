@@ -27,6 +27,14 @@ class TreeLSTM(nn.Module):
         self.softmaxer = nn.Softmax(dim=1)
 
     def forward(self, z3_exp):
+        """
+        主要负责单个表达式的特征提取。它通过递归地处理表达式的每个子节点，并将这些特征通过 LSTM 网络进行编码。
+        Args:
+            z3_exp:
+
+        Returns:
+
+        """
         if len(z3_exp.children()) > 0:
             k = str(z3_exp.decl())
             Rnn = self.RNNS[k]
@@ -44,6 +52,14 @@ class TreeLSTM(nn.Module):
                 return SymbolEmbeddings['?']
 
     def forward_three(self, args):
+        """
+        三个不同的表达式分别调用 forward 方法进行特征提取，然后将这些特征组合在一起进行进一步处理。这种方法考虑了三个表达式之间的关系，并将它们整合到一个统一的表示中
+        Args:
+            args:
+
+        Returns:
+
+        """
         pre_exp, trans_exp, post_exp = args
         pre_emb = self.forward(pre_exp)
         trans_emb = self.forward(trans_exp)

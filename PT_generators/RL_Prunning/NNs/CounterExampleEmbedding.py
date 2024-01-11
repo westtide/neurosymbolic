@@ -110,6 +110,10 @@ class CEEmbedding(nn.Module):
         # PCA 分析
         pca_p = tensor(pca(matx_p, config.SIZE_PCA_NUM), dtype=torch.float32).reshape([-1,1,config.SIZE_PCA_NUM])
         pca_n = tensor(pca(matx_n, config.SIZE_PCA_NUM), dtype=torch.float32).reshape([-1,1,config.SIZE_PCA_NUM])
+        """/Users/westtide/Developer/LIPuS/PT_generators/RL_Prunning/NNs/CounterExampleEmbedding.py:112: 
+        UserWarning: Casting complex values to real discards the imaginary part 
+        (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/native/Copy.cpp:301.)
+        pca_n = tensor(pca(matx_n, config.SIZE_PCA_NUM), dtype=torch.float32).reshape([-1,1,config.SIZE_PCA_NUM])"""
         pca_i1, pca_i2 = tensor(pca(matx_i1, config.SIZE_PCA_NUM), dtype=torch.float32).reshape([-1,1,config.SIZE_PCA_NUM]), \
                          tensor(pca(matx_i2, config.SIZE_PCA_NUM), dtype=torch.float32).reshape([-1,1,config.SIZE_PCA_NUM])
         if torch.cuda.is_available():

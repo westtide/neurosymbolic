@@ -53,6 +53,7 @@ const_ID = 0
 
 
 def InitPT():
+    """ 生成全局变量 const_ID, 返回一个 z3 布尔表达式 Bool('non_nc') """
     global const_ID
     const_ID = 0
     return Bool('non_nc')
