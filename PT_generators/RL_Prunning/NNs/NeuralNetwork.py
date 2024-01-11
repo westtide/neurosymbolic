@@ -31,6 +31,10 @@ def constructP():
     return RewardPredictor()
 
 def constructpi(ptg):
+    """
+    通过 self.pi = constructpi(self) 初始化 PolicyNetwork
+    实际上是在执行 PolicyNetwork 的 forward 方法，将当前的状态向量和整合特征传入网络，生成动作向量
+    """
     return PolicyNetwork(ptg, GetProgramFearture)
 
 def construct_distributionlize():

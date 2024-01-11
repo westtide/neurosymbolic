@@ -90,6 +90,7 @@ class PT_generator:
             # 根据给定的 C 文件、CFG 文件和 SMT-LIB 文件，生成一个部分模板 PT
             left_handles.append(left_handle)
             # 根据当前的 left_handle 选择可用的动作或值
+            # act_or_val = config.SELECT_AN_ACTION, available_acts = RULE[str(left_handle.decl())]
             act_or_val, available_acts = AvailableActionSelection(left_handle)
             # 整合来自不同源的特征
             overall_feature = self.G(self.emb_smt, emb_CE, self.stateVec)
@@ -100,18 +101,21 @@ class PT_generator:
             action_vector = self.pi(self.stateVec, overall_feature)
             # 判断是选择动作还是值
             if act_or_val == config.SELECT_AN_ACTION:
+                # SELECT_AN_ACTION = 0
                 # 根据动作向量和可用动作生成一个动作分布
                 action_dirtibution, action_raw = self.distributionlize(action_vector, available_acts)
                 # 从动作分布中采样一个动作
                 action_selected = sampling(action_dirtibution, available_acts)
-                # 如果深度达到了最大值 (config.MAX_DEPTH)，则选择一个简单的动作来避免过深的递归
+                # 如果深度达到了最大值 (config.MAX_DEPTH)，则选择一个简单的动作来避免过深递归
                 if self.depth >= config.MAX_DEPTH:
+                    # 安全检查: 防止递归过深, 这里 MAX_DEPTH = 150
+                    # 递归太深了, 选择一个简单的动作来避免过深递归
                     action_selected = simplestAction(left_handle)
                 action_selected_list.append(action_selected)
                 outputed_list.append(action_raw)
                 # 根据所选动作更新部分模板
                 PT = update_PT_rule_selction(PT, left_handle, action_selected)
-
+                logger.info(f'depth = {self.depth}, action_selected_list = {action_selected_list}')
             else:
                 assert False
                 # should not be here now
@@ -129,7 +133,7 @@ class PT_generator:
             self.stateVec = self.T(PT)
             self.depth += 1
 
-        self.last_predicted_reward_list = predicted_reward_list
+        slast_predicted_reward_list = predicted_reward_list
         self.last_action_selected_list = action_selected_list
         self.last_outputed_list = outputed_list
         self.last_action_or_value = action_or_value
@@ -137,8 +141,8 @@ class PT_generator:
         return PT
 
     def punish(self, SorL, Deg, Whom):
-        gama = 0
-        reward = 0
+        gama = 0    # 折扣因子
+        reward = 0  # 负奖励
         if Deg == "VERY":
             reward = -10
             gama = 0.1
@@ -163,6 +167,12 @@ class PT_generator:
                     else:
                         assert SorL == 'LOOSE'
                         SD = LossnessDirtribution(self.last_left_handles[i], Whom)
+                    # 基于所选择的损失分布 SD 和历史行动的输出值计算严格损失
+                    # 损失分布 SD 和智能体选择的动作的原始输出向量 self.last_outputed_list[i]
+                    # 先转换为一维张量, 再使用适用于多分类问题的对数softmax,将其转换为概率分布
+                    # 两矩阵相乘, 计算损失分布和行动输出概率分布的负交叉熵损失, 用于衡量两个概率分布之间的差异
+                    # 乘以折扣因子 gama, 折扣因子用于调整损失的影响，取负值则是因为优化过程通常是在寻找损失函数的最小值，
+                    # 而在强化学习中，我们希望奖励（即负损失）尽可能大
                     Loss_strictness = -torch.mm(SD, torch.log_softmax(self.last_outputed_list[i].reshape(1, -1), 1).transpose(0,
                                                                                                                    1)) * gama
                 else:

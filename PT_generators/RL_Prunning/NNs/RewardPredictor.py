@@ -13,17 +13,23 @@ class RewardPredictor(nn.Module):
         self.layer3 = nn.Linear(config.SIZE_EXP_NODE_FEATURE // 2, 1)
 
     def forward(self, stateVec, overall_feature):
+        # 两个tensor 在第二个维度上进行拼接, 得到一个新的 tensor
         tensorflow = torch.cat([stateVec, overall_feature], 1).clone().detach()
         if torch.cuda.is_available():
             tensorflow = tensorflow.cuda()
         if torch.cuda.is_available():
             tensorflow = tensorflow.cuda()
+        # 第一层
         l1out = self.layer1(tensorflow)
+        # 常数张量，分别表示 -10 和 10
         m10 = tensor([[-10]])
         p10 = tensor([[10]])
         if torch.cuda.is_available():
             m10 = m10.cuda()
             p10 = p10.cuda()
+        # 先将网络输出与 -10 拼接，然后使用 torch.max 确保输出不低于 -10
+        # 将这个结果与 10 拼接，使用 torch.min 确保输出不高于 10
+        # 限制输出在 -10 到 10 的范围内
         return torch.min(torch.cat([torch.max(torch.cat([self.layer3(self.layer2(l1out)), m10], 1)).reshape(1,1), p10], 1)).reshape(1,1)
 
     def GetParameters(self):

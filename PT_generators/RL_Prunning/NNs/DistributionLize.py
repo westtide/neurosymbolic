@@ -19,6 +19,7 @@ class DistributionLize(nn.Module):
         # for x in available_acts] 这是一个列表推导式，它对 available_acts 中的每个元素 x 执行上述的矩阵乘法操作，并将结果收集到一个列表中
         # torch.cat 将上述列表中的所有结果在第一个维度（dim=1）上进行拼接
         rawness = torch.cat([torch.mm(SymbolEmbeddings[str(x)], action_vector.transpose(0, 1)) for x in available_acts],1)
+        # 计算概率分布:softmax 函数会对 rawness 中的每个元素应用指数函数，然后对每列进行归一化，确保每列的元素之和为1
         likenesses = torch.softmax(rawness,1)
         return (likenesses, rawness)
 

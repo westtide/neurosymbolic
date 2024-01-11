@@ -188,6 +188,7 @@ def update_PT_value(PT, left_handle, value_of_int):
 def ShouldStrict(lefthandle, Whom):
     if Whom == "V":
         if str(lefthandle) in ['non_nc', 'non_nd', 'non_t', 'non_term']:
+            # conjunction, disjunction, +, *
             return True
         else:
             return False
@@ -195,6 +196,7 @@ def ShouldStrict(lefthandle, Whom):
         assert Whom == "S"
 
         if str(lefthandle) in ['non_nc', 'non_nd', 'non_t', 'non_term', 'non_s']:
+            # conjunction, disjunction, +, *, undecided
             return True
         else:
             return False
@@ -216,6 +218,15 @@ def ShouldStrict(lefthandle, Whom):
 #             return tensor([[1, 0]], dtype=torch.float32)
 
 def StrictnessDirtribution(lefthandle, Whom):
+    """
+    根据给定的左句柄和动作类型，调整概率分布。
+    Args:
+        lefthandle: 最左边的非终结符节点
+        Whom: S 或 V
+
+    Returns: S 下,会调整乘法的概率分布, 更多是一元的乘法,V 模式下, 会调整乘法和加法的概率分布, 更多是一元/二元
+
+    """
     distri_dict = {
         'non_nc': [0.95, 0.05, 0.0],
         'non_nd': [0.95, 0.05, 0.0],
@@ -231,9 +242,11 @@ def StrictnessDirtribution(lefthandle, Whom):
         'non_s': [0]
     }
     if Whom == "S":
+        # conjunction, disjunction, +, *, undecided
         distri_dict['non_term'] = [0.99, 0.01, 0.0, 0.0, 0.0]
 
     if (len(RULE['non_s']) - 1) > 0:
+        # 如果 RULE['non_s'] 有多个元素，则为 non_s 类型动作分配均匀概率；如果只有一个元素，则概率为 1。
         distri_dict['non_s'].extend([1 / (len(RULE['non_s']) - 1)] * (len(RULE['non_s']) - 1))
     else:
         distri_dict['non_s'] = [1]
@@ -251,6 +264,15 @@ def StrictnessDirtribution(lefthandle, Whom):
 
 
 def LossnessDirtribution(lefthandle, Whom): #only S will ask it.
+    """
+    更加宽松, conjunction 集中在 3 元合取, disjunction 集中在 3 元析取, + 集中在 4 元加法, * 集中在 2 元乘法
+    Args:
+        lefthandle:
+        Whom:
+
+    Returns:
+
+    """
     distri_dict = {
         'non_nc': [0.0, 0.25, 0.75],
         'non_nd': [0.0, 0.25, 0.75],

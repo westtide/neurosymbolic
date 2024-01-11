@@ -29,11 +29,6 @@ class TreeLSTM(nn.Module):
     def forward(self, z3_exp):
         """
         主要负责单个表达式的特征提取。它通过递归地处理表达式的每个子节点，并将这些特征通过 LSTM 网络进行编码。
-        Args:
-            z3_exp:
-
-        Returns:
-
         """
         if len(z3_exp.children()) > 0:
             k = str(z3_exp.decl())
