@@ -14,6 +14,7 @@ from PT_generators.RL_Prunning.NNs.RewardPredictor import RewardPredictor
 from PT_generators.RL_Prunning.NNs.SymbolEmbeddings import SymbolEmbeddings
 from PT_generators.RL_Prunning.NNs.TreeLSTM import TreeLSTM
 from PT_generators.RL_Prunning.TemplateCenter.TemplateCenter import RULE
+from loginit import logger
 
 
 def constructT():
@@ -49,14 +50,22 @@ def init_symbolEmbeddings():
     对于每个非终端符号和它的每个动作，以及每个可能的深度，它都分配一个随机生成的参数张量作为它的嵌入。
     """
     Rule_keys = RULE.keys()
+
+    # 为每个非终结符号生成参数张量
     for non_terminal in Rule_keys:
         SymbolEmbeddings[non_terminal] = Parameter(torch.randn((1, config.SIZE_EXP_NODE_FEATURE)), requires_grad=True)
         actions = RULE[non_terminal]
+        # 为非终结符号的每个动作也生成参数张量
         for act in actions:
             SymbolEmbeddings[str(act)] = Parameter(torch.randn((1, config.SIZE_EXP_NODE_FEATURE)), requires_grad=True)
+
+    # 线性的程序
     for problems in config.LinearPrograms:
+        # 在每个可能的深度上分配一个随机生成的参数张量
         for depth in range(config.MAX_DEPTH):
             SymbolEmbeddings[problems + "_" + str(depth)] = Parameter(torch.randn((1, config.SIZE_EXP_NODE_FEATURE)), requires_grad=True)
+
+    # 非线性的程序
     for problems in config.NonLinearPrograms:
         for depth in range(config.MAX_DEPTH):
             SymbolEmbeddings[problems + "_" + str(depth)] = Parameter(torch.randn((1, config.SIZE_EXP_NODE_FEATURE)), requires_grad=True)
@@ -71,6 +80,8 @@ def GetProgramFearture(path2CFile, depth):
     else:
         problemStr = "Problem_L" + problemID
     try:
+        # logger.info(f'problemStr = {problemStr}')
+        # logger.info(f'SymbolEmbeddings = {SymbolEmbeddings[problemStr + "_" + str(depth)]}')
         return SymbolEmbeddings[problemStr + "_" + str(depth)]
     except:
         return SymbolEmbeddings['?']

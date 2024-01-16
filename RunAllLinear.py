@@ -13,6 +13,7 @@ if __name__ == "__main__":
     for i in range(1,134):
         if i in [26, 27, 31, 32, 61, 62, 72, 75, 106]:  # not solvable
             continue
+        # 创建文件路径
         gfilename = str(i) + ".c.json"
         path_g = benchmarks_g_path + gfilename
         sfilename = str(i) + ".c.smt"

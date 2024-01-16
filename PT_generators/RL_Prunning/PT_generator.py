@@ -10,11 +10,14 @@ from PT_generators.RL_Prunning.ExternalProcesses.Sampling import sampling
 from PT_generators.RL_Prunning.NNs.NeuralNetwork import *
 from PT_generators.RL_Prunning.TemplateCenter.TemplateCenter import InitPT, getLeftHandle, init_varSelection, \
     AvailableActionSelection, update_PT_rule_selction, update_PT_value, ShouldStrict, StrictnessDirtribution, const_ID, \
-    simplestAction, init_constSelection, LossnessDirtribution
+    simplestAction, init_constSelection, LossnessDirtribution, init_PT_Rules
 from Utilities.Cparser import get_varnames_from_source_code, get_consts_from_source_code
 import torch.nn.functional as F
 
 from loginit import logger
+
+
+
 
 
 class PT_generator:
@@ -43,10 +46,13 @@ class PT_generator:
         self.consts = get_consts_from_source_code(self.path2CFile)
         logger.info(f'PT_generator: consts = {self.consts} ')
 
+        # 初始化变量的选择规则
         init_varSelection(self.vars)
 
+        # 初始化常量的选择规则
         init_constSelection(self.consts)
 
+        # 初始化符号的 Embedding
         init_symbolEmbeddings()
 
         # Step2. Construct the NNs and Load the parameters
@@ -68,6 +74,36 @@ class PT_generator:
         # if we can use gpu
         if torch.cuda.is_available():
             self.gpulize()
+
+        self.element_counter = {
+            'var': {
+                'sum' : 0,
+            },
+            'constant': {
+                'sum': 0,
+            },
+            'coefficients': {
+                'sum': 0,
+            },
+            'operators': {
+                'sum': 0,
+            },
+            'conjunctions': {
+                'sum': 0,
+            },
+            'disjunctions': {
+                'sum': 0,
+            },
+            'clauses': {
+                'sum': 0,
+            }
+        }
+
+        init_PT_Rules(self.element_counter)
+
+
+
+
 
     def generate_next(self, CE):
         """

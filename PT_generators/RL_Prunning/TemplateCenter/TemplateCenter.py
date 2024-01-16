@@ -21,6 +21,7 @@ from loginit import logger
 #     # 'non_decided': ['VALUE'],
 #     'non_v': []  # dynamically initialize this one
 # }
+
 RULE = {
     # conjunction: 1元/2元/3元的
     'non_nc': [And(Bool('non_nd')), And(Bool('non_nd'), Bool('non_nd')),
@@ -328,6 +329,9 @@ SIMPLEST_RULE = {
 def simplestAction(left_handle):
     return SIMPLEST_RULE[str(left_handle)][0]
 
+def init_PT_Rules(element_counter):
+
+    pass
 
 # liitel test
 if __name__ == "__main__":

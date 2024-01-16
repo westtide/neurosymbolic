@@ -19,7 +19,8 @@ def main(path2CFile, path2CFG, path2SMT):
     #path2CFile, path2CFG, path2SMT = parseArgs()
     # Step 2. Load the Partial Template Generator.
     logger.info(f'start: main -> PT_generator()')
-    pT_generator = PT_generator(path2CFile, path2CFG, path2SMT) # 初始化模板生成器, LSTM, Embedding, RewardPredictor 等网络
+    # 初始化模板, LSTM, Embedding, RewardPredictor 等网络
+    pT_generator = PT_generator(path2CFile, path2CFG, path2SMT)
     sMT_verifier = SMT_verifier()                               # 负责读取 smt-lib 文件和进行 SMT 验证
     # Step 3. ENTER the ICE Solving Loop
     solved = False
