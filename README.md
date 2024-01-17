@@ -1,7 +1,9 @@
 # LIPuS
 
 A Reinforcement-Learning-based loop invariant inference tool.
-
+作者论文: Loop Invariant Inference through SMT Solving Enhanced Reinforcement Learning
+Reference: Shiwen Yu, Ting Wang, and Ji Wang. 2023. Loop Invariant Inference through SMT Solving Enhanced Reinforcement Learning. In Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA ’23), July 17–21, 2023, Seattle, WA, USA. ACM, New York, NY, USA, 13 pages. https://doi.org/10.1145/3597926.3598047
+原地址: https://zenodo.org/records/7909725
 ### Install
 
 0. `git clone https://neurosymbolic.coding.net/p/lipus/d/LIPuS/git`, could take a long time.
