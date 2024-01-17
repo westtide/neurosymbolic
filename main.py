@@ -3,6 +3,8 @@ import argparse
 import time
 
 from PT_generators.RL_Prunning.PT_generator import PT_generator
+from PT_generators.StaticAnalysis.AstAnalysis import get_loop_var
+from PT_generators.StaticAnalysis.PrePostAnalysis import infer_inv_from_pre_post
 from SMT_Solver import Template_solver
 from SMT_Solver.Config import config
 from SMT_Solver.SMT_verifier import SMT_verifier
@@ -30,6 +32,8 @@ def main(path2CFile, path2CFG, path2SMT):
     print("Begin_process:   ", path2CFile)
     Iteration = 0
     counterNumber = 0
+
+
     while not solved:
         current_time = time.time()
         if current_time - start_time >= config.Limited_time:

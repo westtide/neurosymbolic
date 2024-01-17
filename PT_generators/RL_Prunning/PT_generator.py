@@ -11,6 +11,8 @@ from PT_generators.RL_Prunning.NNs.NeuralNetwork import *
 from PT_generators.RL_Prunning.TemplateCenter.TemplateCenter import InitPT, getLeftHandle, init_varSelection, \
     AvailableActionSelection, update_PT_rule_selction, update_PT_value, ShouldStrict, StrictnessDirtribution, const_ID, \
     simplestAction, init_constSelection, LossnessDirtribution, init_PT_Rules
+from PT_generators.StaticAnalysis.AstAnalysis import get_loop_var
+from PT_generators.StaticAnalysis.PrePostAnalysis import infer_inv_from_pre_post
 from Utilities.Cparser import get_varnames_from_source_code, get_consts_from_source_code
 import torch.nn.functional as F
 
@@ -75,9 +77,10 @@ class PT_generator:
         if torch.cuda.is_available():
             self.gpulize()
 
+        ########################################## 新增 ##########################################
         self.element_counter = {
             'var': {
-                'sum' : 0,
+                'sum': 0,
             },
             'constant': {
                 'sum': 0,
@@ -100,8 +103,13 @@ class PT_generator:
         }
 
         init_PT_Rules(self.element_counter)
+        loop_variables = []
+        loop_variables.append(get_loop_var(path2CFile, path2CFG))
 
+        infer_inv = []
+        infer_inv.append(infer_inv_from_pre_post(path2CFile, path2CFG))
 
+        ########################################## 新增 ##########################################
 
 
 

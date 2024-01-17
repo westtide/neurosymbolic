@@ -1,6 +1,6 @@
 from pycparser import *
 from pycparser import parse_file
-from loginit import logger
+# from loginit import logger
 
 class VarDefVisitor(c_ast.NodeVisitor):
     def __init__(self):
@@ -34,7 +34,7 @@ class ConstDefVisitor(c_ast.NodeVisitor):
 def get_consts_from_source_code(path2CFile):
     try:
         astnode = parse_file(path2CFile, use_cpp=True, cpp_path='/opt/homebrew/bin/cpp-13')
-        logger.info(f'astnode ={astnode}')
+        # logger.info(f'astnode ={astnode}')
     except c_parser.ParseError as e:
         return "Parse error:" + str(e)
     v = ConstDefVisitor()
@@ -43,5 +43,5 @@ def get_consts_from_source_code(path2CFile):
     for extrac in [0, 1, -1, 2, -2, 3, -3, 6, 4]:
         if extrac not in consters:
             consters.append(extrac)
-            logger.info(f'{extrac} not in consters, add it')
+            #logger.info(f'{extrac} not in consters, add it')
     return consters
