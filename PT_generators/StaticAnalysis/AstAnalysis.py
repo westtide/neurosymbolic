@@ -1,5 +1,6 @@
 from pycparser import c_ast, parse_file, c_parser
 
+
 class AstVisitor(c_ast.NodeVisitor):
     def __init__(self):
         self.loop_vars = set()
@@ -20,6 +21,7 @@ class AstVisitor(c_ast.NodeVisitor):
         self.in_while = True
         self.visit(node.stmt)
         self.in_while = False
+
 
 def get_loop_var(path2CFile):
     """
@@ -42,30 +44,46 @@ def get_loop_var(path2CFile):
 
     return loop, list(vars_in_loop), list(consts_in_loop)
 
-loop_body, vars_in_loop, cons_in_loop = get_loop_var("59.c")
+
+# loop_body, vars_in_loop, cons_in_loop = get_loop_var("59.c")
+# print(loop_body, vars_in_loop, cons_in_loop)
+
+def check_for_pre_condition_comment(path2CFile):
+    with open(path2CFile, 'r') as file:
+        for line in file:
+            if "// pre-conditions" in line:
+                return True
+    return False
+
+from pycparser import c_parser, c_ast, parse_file
 
 class PreConditionVisitor(c_ast.NodeVisitor):
-    def __init__(self):
+    def __init__(self, has_pre_condition_comment):
         self.pre_conditions = []
-        self.record = False
+        self.in_pre_condition = False
+        self.has_pre_condition_comment = has_pre_condition_comment
 
-    def visit_Compound(self, node):
-        for i, child in enumerate(node.block_items):
-            if isinstance(child, c_ast.Comment) and child.coord.line == i+1:
-                if "// pre-conditions" in child.text:
-                    self.record = True
-                elif "// loop body" in child.text:
-                    self.record = False
-            elif self.record:
-                self.pre_conditions.append(child)
+    def visit_FuncDef(self, node):
+        if not self.has_pre_condition_comment:
+            # 如果没有“// pre-conditions”注释，假设整个函数体都是前置条件
+            self.in_pre_condition = True
+        self.generic_visit(node)
+
+    def visit_While(self, node):
+        if not self.has_pre_condition_comment or self.in_pre_condition:
+            # 当进入while循环时，如果之前已经在收集前置条件，则停止收集
+            self.in_pre_condition = False
+        # 如果有“// pre-conditions”注释，不做任何操作，因为收集逻辑由注释控制
+
+    # visit_Assignment和visit_FuncCall方法与之前相同
 
 def get_pre_conditions_from_source_code(path2CFile):
-    try:
-        astnode = parse_file(path2CFile, use_cpp=True, cpp_path='/opt/homebrew/bin/cpp-13')
-    except c_parser.ParseError as e:
-        return "Parse error:" + str(e)
-    v = PreConditionVisitor()
+    has_pre_condition_comment = check_for_pre_condition_comment(path2CFile)
+    astnode = parse_file(path2CFile, use_cpp=True, cpp_path='/opt/homebrew/bin/cpp-13')
+    v = PreConditionVisitor(has_pre_condition_comment)
     v.visit(astnode)
     return v.pre_conditions
 
-pre_conditions = get_pre_conditions_from_source_code("59.c")
+# 示例使用
+# pre_conditions = get_pre_conditions_from_source_code("3.c")
+# print(pre_conditions)

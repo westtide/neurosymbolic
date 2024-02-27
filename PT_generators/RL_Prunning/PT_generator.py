@@ -104,10 +104,10 @@ class PT_generator:
 
         init_PT_Rules(self.element_counter)
         loop_variables = []
-        loop_variables.append(get_loop_var(path2CFile, path2CFG))
+        # loop_variables.append(get_loop_var(path2CFile, path2CFG))
 
         infer_inv = []
-        infer_inv.append(infer_inv_from_pre_post(path2CFile, path2CFG))
+        # infer_inv.append(infer_inv_from_pre_post(path2CFile, path2CFG))
 
         ########################################## 新增 ##########################################
 
@@ -266,7 +266,7 @@ class PT_generator:
                 # logger.info(f'ALoss: CUDA is not available, p_loss = {p_loss} ')
 
         p_loss = p_loss / len(reward_list)
-        logger.info(f'ALoss: p_loss = {p_loss} ')
+        # logger.info(f'ALoss: p_loss = {p_loss} ')
 
         # 检查是否可以使用CUDA: 均方误差损失函数
         if torch.cuda.is_available():

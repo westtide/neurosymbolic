@@ -57,7 +57,7 @@ def main(path2CFile, path2CFG, path2SMT):
             #raise TimeoutError # try this thing out
         except TimeoutError as OOT:  # Out Of Time, we punish
 
-            pT_generator.punish('STRPTICT', 'VERY', 'S')  # Case 1: Template Solving is out of time.
+            pT_generator.punish('STRICT', 'VERY', 'S')  # Case 1: Template Solving is out of time.
             print("Solving timeout")
             logger.warning(f'Iteration = {Iteration}, Case 1: Template OOT')
             continue

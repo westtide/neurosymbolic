@@ -22,6 +22,7 @@ if __name__ == "__main__":
         path_c = benchmarks_c_path + cfilename
         logger.info(f'i = {i} benchmark start: path_c = {path_c}, path_g = {path_g}, path_s = {path_s}')
 
+
         timeUsed, answer = main(path_c, path_g, path_s)
 
         results.append(timeUsed)

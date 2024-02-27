@@ -23,7 +23,7 @@ def Substitute(PT, assignment):
         theValue = IntVal(str(assignment[avar]))
         avar = Int(str(avar))
         canI = z3.z3.substitute(canI, (avar, theValue))
-        logger.info('canI = ' + str(canI))
+        # logger.info('canI = ' + str(canI))
         # except Exception as e:
         #     print(e)
 
@@ -79,19 +79,19 @@ def solve(PT, CE):
     for counterexample in P_sampled:
         # 用 CE 代替 PT 里面的值
         i += 1
-        logger.info(f'i = {i}, counterexample = {counterexample}')
+        # logger.info(f'i = {i}, counterexample = {counterexample}')
         pterm = Substitute(PT, counterexample)
         Query = And(Query, pterm)
-        logger.info(f'i = {i}, p_pterm = {pterm}, Query = {Query}')
+        # logger.info(f'i = {i}, p_pterm = {pterm}, Query = {Query}')
     for counterexample in N_sampled:
         pterm = Substitute(PT, counterexample)
         Query = And(Query, Not(pterm))
-        logger.info(f'i = {i}, n_pterm = {pterm}, Query = {Query}')
+        # logger.info(f'i = {i}, n_pterm = {pterm}, Query = {Query}')
     for counterexample in I_sampled:
         pre = Substitute(PT, counterexample[0])
         post = Substitute(PT, counterexample[1])
         Query = And(Query, Implies(pre, post))
-        logger.info(f'i = {i}, i_pterm = {pterm}, Query = {Query}')
+        # logger.info(f'i = {i}, pre = {pre}, post = {post}, Query = {Query}')
 
     # Try to find a solution.
     try:

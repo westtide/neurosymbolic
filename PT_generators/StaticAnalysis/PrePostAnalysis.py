@@ -33,8 +33,27 @@ import re
 import pycparser
 
 from loginit import logger
+containPre = False
+containLoop = False
+linePre = 0
+lineLoop = 0
+tmp = 0
+filename = "3.c"
+with open(filename, "r") as f:
+    for line in f:
+        tmp += 1
+        if "// pre-conditions" in line:
+            containPre = True
+            linePre = tmp
+        if "// loop body" in line:
+            containLoop = True
+            lineLoop = tmp
+        if containPre and containLoop:
+            print(f'{filename} contains pre-conditions and loop')
+            break
 
-def infer_inv_from_pre_post(path2CFile, path2CFG):
+if not containPre and not containLoop:
     pass
 
-
+if containPre and containLoop:
+    pass
