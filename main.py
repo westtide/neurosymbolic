@@ -3,8 +3,6 @@ import argparse
 import time
 
 from PT_generators.RL_Prunning.PT_generator import PT_generator
-from PT_generators.StaticAnalysis.AstAnalysis import get_loop_var
-from PT_generators.StaticAnalysis.PrePostAnalysis import infer_inv_from_pre_post
 from SMT_Solver import Template_solver
 from SMT_Solver.Config import config
 from SMT_Solver.SMT_verifier import SMT_verifier
@@ -18,12 +16,13 @@ def main(path2CFile, path2CFG, path2SMT):
     logger.info(f'main: path2CFile = {path2CFile}, path2CFG = {path2CFG}, path2SMT = {path2SMT} ')
     start_time = time.time()
     # Step 1. Input the three formation of the code.
-    #path2CFile, path2CFG, path2SMT = parseArgs()
+    # path2CFile, path2CFG, path2SMT = parseArgs()
     # Step 2. Load the Partial Template Generator.
     logger.info(f'start: main -> PT_generator()')
     # 初始化模板, LSTM, Embedding, RewardPredictor 等网络
     pT_generator = PT_generator(path2CFile, path2CFG, path2SMT)
-    sMT_verifier = SMT_verifier()                               # 负责读取 smt-lib 文件和进行 SMT 验证
+    # 负责读取 smt-lib 文件和进行 SMT 验证
+    sMT_verifier = SMT_verifier()
     # Step 3. ENTER the ICE Solving Loop
     solved = False
     CE = {'p': [],  # positive counterexample

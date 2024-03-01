@@ -5,6 +5,7 @@ int main() {
   // pre-conditions
   (c = 0);
   assume((n > 0));
+  (assume(c >= 0));
   // loop body
   if(unknown()){
   }

@@ -1,4 +1,9 @@
-from pycparser import c_ast, parse_file, c_parser
+from pycparser import c_ast, parse_file, c_parser, c_generator
+import sys
+import os
+sys.path.extend(['.', '..'])
+
+
 
 
 class AstVisitor(c_ast.NodeVisitor):
@@ -85,5 +90,109 @@ def get_pre_conditions_from_source_code(path2CFile):
     return v.pre_conditions
 
 # 示例使用
-# pre_conditions = get_pre_conditions_from_source_code("3.c")
+# pre_conditions = get_pre_conditions_from_source_code("59.c")
 # print(pre_conditions)
+
+
+import re
+
+with open('59.c', 'r') as file:
+    content = file.read()
+
+pre_exp = ""
+loop_exp = ""
+post_exp = ""
+
+# 提取 pre-conditions 部分的代码
+pre_conditions = re.search('// pre-conditions(.*?)// loop body', content, re.DOTALL)
+if pre_conditions:
+    pre_exp = pre_conditions.group(1)
+    # print(f'pre_conditions = {pre_conditions.group(1)}')
+
+
+
+# 提取 loop body 部分的代码
+loop_body = re.search('// loop body(.*?)// post-condition', content, re.DOTALL)
+if loop_body:
+    loop_exp = loop_body.group(1)
+    # print(f'loop_body: {loop_body.group(1)}')
+
+# 提取 post-condition 部分的代码
+post_condition = re.search('// post-condition(.*?)(?=})', content, re.DOTALL)
+if post_condition:
+    post_exp = post_condition.group(1)
+    # print(f'post_condition: {post_condition.group(1)}')
+
+
+base1 = """
+int main(){ """
+
+base2 = """}"""
+
+ccode = [""] * 4
+ccode[0] = base1 + pre_exp + base2
+ccode[1] = base1 + loop_exp + base2  
+ccode[2] = base1 + post_exp + base2
+
+
+
+
+for i in range(0,3):
+    parser = c_parser.CParser()
+
+    astnode = parser.parse(text = ccode[i], filename='<none>')
+
+    file_ast = astnode
+    # file_ast.show()
+    # 定义一个用于遍历AST节点的函数
+    exp_assume = []
+    exp_assert = []
+    def find_func_calls(ast):
+        if isinstance(ast, c_ast.FuncCall):
+            # 打印函数名称
+            if ast.name.name == "assume":
+                exp_assume.append(ast.args)
+            if ast.name.name == "assert":
+                exp_assert.append(ast.args)
+            print(f"函数调用: {ast.name.name}")
+            # 如果 name == assume, 提取表达式
+            # 如果 name == assert, 提取表达式
+        for _, child in ast.children():
+            find_func_calls(child)
+    # 使用定义的函数遍历AST
+    find_func_calls(file_ast)
+    for item in exp_assume:
+        generator = c_generator.CGenerator()
+        expr = c_ast.ExprList(item)
+        print(f'exp_assume: {generator.visit(expr)}')
+
+    for item in exp_assert:
+        generator = c_generator.CGenerator()
+        expr = c_ast.ExprList(item)
+        print(f'exp_assert: {generator.visit(expr)}')
+
+
+    # 定义一个用于遍历AST节点并查找for循环的函数
+    def find_for_loops(node):
+        if isinstance(node, c_ast.For):
+            print("找到一个for循环")
+            # 可以进一步分析循环的初始化、条件和迭代部分
+        for _, child in node.children():
+            find_for_loops(child)
+
+    # 使用定义的函数遍历AST
+    find_for_loops(file_ast)
+
+    # 定义一个用于遍历AST节点并查找while循环的函数
+    def find_while_loops(node):
+        if isinstance(node, c_ast.While):
+            print("找到一个while循环")
+            # 可以进一步分析循环的条件部分
+        for _, child in node.children():
+            find_while_loops(child)
+
+    # 使用定义的函数遍历AST
+    find_while_loops(file_ast)
+
+
+

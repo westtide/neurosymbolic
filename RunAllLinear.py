@@ -10,7 +10,7 @@ if __name__ == "__main__":
     benchmarks_s_path = r"Benchmarks/Linear/c_smt2/"
     results = []
 
-    for i in range(1,134):
+    for i in range(1, 134):
         if i in [26, 27, 31, 32, 61, 62, 72, 75, 106]:  # not solvable
             continue
         # 创建文件路径
@@ -21,7 +21,6 @@ if __name__ == "__main__":
         cfilename = str(i) + ".c"
         path_c = benchmarks_c_path + cfilename
         logger.info(f'i = {i} benchmark start: path_c = {path_c}, path_g = {path_g}, path_s = {path_s}')
-
 
         timeUsed, answer = main(path_c, path_g, path_s)
 
