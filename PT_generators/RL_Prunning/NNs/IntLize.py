@@ -4,6 +4,7 @@ from torch import nn, tensor
 from PT_generators.RL_Prunning.Conifg import config
 from PT_generators.RL_Prunning.NNs.SymbolEmbeddings import SymbolEmbeddings
 from PT_generators.RL_Prunning.NNs.Utility import getParFromModule
+from loginit import logger
 
 
 class IntLize(nn.Module):
@@ -15,6 +16,7 @@ class IntLize(nn.Module):
         self.layer2_n = nn.Linear(config.SIZE_EXP_NODE_FEATURE//2, 1)
 
     def forward(self, action_vector, left_handle):
+        logger.info(f'action_vector = {action_vector}, left_handle = {left_handle}')
         # print("value", self.layer2(self.layer1(action_vector)))
         if str(left_handle.decl()) == 'non_nc' or str(left_handle.decl()) == 'non_nd':
             # 则将action_vector通过layer1_n和layer2_n两个线性层进行处理，

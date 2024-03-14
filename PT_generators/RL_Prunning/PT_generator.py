@@ -11,8 +11,6 @@ from PT_generators.RL_Prunning.NNs.NeuralNetwork import *
 from PT_generators.RL_Prunning.TemplateCenter.TemplateCenter import InitPT, getLeftHandle, init_varSelection, \
     AvailableActionSelection, update_PT_rule_selction, update_PT_value, ShouldStrict, StrictnessDirtribution, const_ID, \
     simplestAction, init_constSelection, LossnessDirtribution, init_PT_Rules
-from PT_generators.StaticAnalysis.AstAnalysis import get_loop_var
-from PT_generators.StaticAnalysis.PrePostAnalysis import infer_inv_from_pre_post
 from Utilities.Cparser import get_varnames_from_source_code, get_consts_from_source_code
 import torch.nn.functional as F
 
@@ -119,16 +117,24 @@ class PT_generator:
         :param CE: [正例,反例,归纳例]
         """
         self.depth = 0
+        # 初始化部分模板，PT = Bool('none_nc'), 先从合取式开始
         PT = InitPT()
+        # TreeLSTM 的输入是部分模板，将部分模板转换为状态向量
         self.stateVec = self.T(PT)
-        # the lists will be used when punish or prised.
+
+        # 生成奖励函数list，动作选择list，输出list，动作或值list，以及待处理元素list
         predicted_reward_list = []
         action_selected_list = []
         outputed_list = []
         action_or_value = []
         left_handles = []
+
+        # 根据当前的反例 CE 生成 CE 的嵌入
         emb_CE = self.E(CE)
+        # 根据给定的 C 文件、CFG 文件和 SMT-LIB 文件，生成一个部分模板 PT
+        # key1
         self.emb_smt = self.T.forward_three(self.smt)
+        # key2
         left_handle = getLeftHandle(PT)
         while left_handle is not None:
             # 根据给定的 C 文件、CFG 文件和 SMT-LIB 文件，生成一个部分模板 PT
@@ -159,7 +165,7 @@ class PT_generator:
                 outputed_list.append(action_raw)
                 # 根据所选动作更新部分模板
                 PT = update_PT_rule_selction(PT, left_handle, action_selected)
-                # logger.info(f'depth = {self.depth}, action_selected_list = {action_selected_list}')
+                logger.info(f'depth = {self.depth}, action_selected_list = {action_selected_list}')
             else:
                 assert False
                 # should not be here now
@@ -168,7 +174,7 @@ class PT_generator:
                 # action_selected_list.append(value_of_int)
                 # outputed_list.append(value)
                 #
-                # PT = update_PT_value(PT, left_handle, value_of_int)
+                PT = update_PT_value(PT, left_handle, value_of_int)
 
             action_or_value.append(act_or_val)
             # 更新 left_handle 为部分模板中的下一个待处理元素

@@ -25,35 +25,5 @@
 # @Contact   :   tocokeo@outlook.com
 # @Date      :   2024/1/16
 # @License   :   MIT License
-# @Desc      :   结合 Pre, Post 条件, 推理 Loop Inv 的上近似
+# @Desc      :   转换为 Z3-Solver 支持的表达式
 # #############################################
-
-import os
-import re
-import pycparser
-
-from loginit import logger
-containPre = False
-containLoop = False
-linePre = 0
-lineLoop = 0
-tmp = 0
-filename = "3.c"
-with open(filename, "r") as f:
-    for line in f:
-        tmp += 1
-        if "// pre-conditions" in line:
-            containPre = True
-            linePre = tmp
-        if "// loop body" in line:
-            containLoop = True
-            lineLoop = tmp
-        if containPre and containLoop:
-            print(f'{filename} contains pre-conditions and loop')
-            break
-
-if not containPre and not containLoop:
-    pass
-
-if containPre and containLoop:
-    pass

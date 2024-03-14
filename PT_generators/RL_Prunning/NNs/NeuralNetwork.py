@@ -88,9 +88,10 @@ def GetProgramFearture(path2CFile, depth):
 
 def GPUlizeSymbols():
     """
-     将 SymbolEmbeddings 中的所有元素转移到 GPU
+     参数的CUDA迁移和封装: 将 SymbolEmbeddings 中的所有元素转移到 GPU
     """
     for keyname in SymbolEmbeddings.keys():
+        # Parameter封装，这些向量被标记为模型的参数，这意味着在模型训练过程中，它们将被优化器优化
         SymbolEmbeddings[keyname] = Parameter(SymbolEmbeddings[keyname].cuda())
 
 def initialize_paramethers(path):

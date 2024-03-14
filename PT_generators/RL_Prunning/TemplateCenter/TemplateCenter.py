@@ -23,16 +23,16 @@ from loginit import logger
 # }
 
 RULE = {
-    # conjunction: 1元/2元/3元的
+    # conjunction: 1元/2元/3元的，最高3元
     'non_nc': [And(Bool('non_nd')), And(Bool('non_nd'), Bool('non_nd')),
                And(Bool('non_nd'), Bool('non_nd'), Bool('non_nd'))],
-    # disjunction: 1元/2元/3元的
+    # disjunction: 1元/2元/3元的，最高3元
     'non_nd': [Or(Bool('non_p')), Or(Bool('non_p'), Bool('non_p')), Or(Bool('non_p'), Bool('non_p'), Bool('non_p'))],
     # predicate 谓词 p := t < s | t <= s | t == s
     'non_p': [Int('non_t') < Int('non_s'),
               Int('non_t') <= Int('non_s'),
               Int('non_t') == Int('non_s')],
-    # t := term | term+term | term+term+term | term+term+term+term
+    # t := term | term+term | term+term+term | term+term+term+term，最高4元的加法：可以合并吗？
     'non_t': [Int('non_term'),
               Int('non_term') + Int('non_term'),
               Int('non_term') + Int('non_term') + Int('non_term'),
@@ -66,11 +66,13 @@ def getLeftHandle(PT):
     getLeftHandle函数的作用是在AST中找到最左边的"Handle"。
     这里的"Handle"是指可以被替换或者归约的部分，它的标志是节点名称以'non_'开头。
     函数通过递归的方式遍历AST，当找到一个节点名称以'non_'开头时，就返回这个节点，否则就继续遍历其子节点。
-    在自底向上的语法分析过程中，"Handle"是指在待归约串中，可以按某个产生式直接归约的部分。也就是说，"Handle"是待归约串中与某个产生式右部匹配的那一部分。
+    在自底向上的语法分析过程中，"Handle"是指在待归约串中，可以按某个产生式直接归约的部分。
+    也就是说，"Handle"是待归约串中与某个产生式右部匹配的那一部分。
     if PT = And(Bool('non_nd'), Or(Bool('non_p'), Bool('non_p')))
     return Bool('non_nd')
     """
-    if 'non_' in str(PT.decl()):    # decl() 方法用于获取该表达式的声明
+    if 'non_' in str(PT.decl()):    # decl() 方法用于获取构成该表达式的函数或操作符的名字
+        logger.info(f'TemplateCenter: getLeftHandle = non_ in {PT.decl()}')
         return PT                   # 如果一个表达式的声明以 'non_' 开头，那么这个表达式就是一个非终结符，可以根据生成规则进一步展开。
     else:
         for child in PT.children():
@@ -84,6 +86,7 @@ def AvailableActionSelection(left_handle):
     # if len(RULE[str(left_handle.decl())]) == 1 and str(RULE[str(left_handle.decl())][0]) == 'VALUE':
     #     return SET_AN_VALUE, None
     # else:
+    # 根据最左的非终止符，选择对应的RULE中的策略，这是一个字典
     return config.SELECT_AN_ACTION, RULE[str(left_handle.decl())]
 
 
@@ -259,6 +262,7 @@ def StrictnessDirtribution(lefthandle, Whom):
             raise e
 
     res = tensor([distri_dict[str(lefthandle)]], dtype=torch.float32)
+    logger.info(f'Strictness Dirtribution = {res}')
     if torch.cuda.is_available():
         res = res.cuda()
     return res
@@ -301,6 +305,7 @@ def LossnessDirtribution(lefthandle, Whom): #only S will ask it.
     res = tensor([distri_dict[str(lefthandle)]], dtype=torch.float32)
     if torch.cuda.is_available():
         res = res.cuda()
+    logger.info(f'Lossness Dirtribution = {res}')
     return res
 
 

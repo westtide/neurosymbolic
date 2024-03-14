@@ -1,8 +1,8 @@
-from PT_generators.StaticAnalysis.Preprocess import preprocess_file
+from PT_generators.StaticAnalysis.Pre_process import preprocess_file
 import sys
 sys.path.extend([".", ".."])
 
-benchmarks_c_path = r"/Users/westtide/Developer/LIPuS/Benchmarks/Linear/c/"
+benchmarks_c_path = r"～/Developer/LIPuS/Benchmarks/Linear/c/"
 
 
 for i in range(1, 134):

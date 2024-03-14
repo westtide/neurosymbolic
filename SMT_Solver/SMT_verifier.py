@@ -1,10 +1,11 @@
 from z3 import *
-set_param('parallel.enable', True)
+set_param('parallel.enable', True)  # 启用并行求解
 from SMT_Solver.Config import config
 from Utilities.TimeController import time_limit_calling
 from loginit import logger
 
 class Counterexample:
+    # 反例类
     kind = "?"
     assignment = {}
 
@@ -14,7 +15,7 @@ class SMT_verifier:
 
     def initTpl(self, path2SMT):
         """
-        初始化模,读取文件中的所有行，并根据特定的字符串将它们分割成不同的部分。然后，它将这些部分存储在self.tpl列表
+        读取一个SMT文件，并根据特定的分隔符将文件内容分割成不同的部分，用于构造求解时需要的模板。
         Args:
             path2SMT: SMT 文件的路径
 
@@ -41,12 +42,12 @@ class SMT_verifier:
 
     def verify(self, Can_I, path2SMT):
         """
-        验证函数: 将Can_I转换为SMT-LIB字符串，然后将其添加到模板中。然后，它将模板传递给SMT求解器，并等待求解器的响应。
+        验证函数: 将Can_I转换为SMT-LIB字符串，并根据之前准备的模板构造完整的SMT问题，然后交给Z3 Solver求解，并等待求解器的响应。
         Args:
             Can_I: Z3 表达式
             path2SMT: SMT 文件的路径
 
-        Returns:
+        Returns: Counterexample实例，表示找到了一个反例；或者返回None，表示未找到反例或验证通过
 
         """
         sol = z3.Solver()

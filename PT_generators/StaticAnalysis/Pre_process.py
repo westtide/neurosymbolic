@@ -25,15 +25,14 @@
 # @Contact   :   tocokeo@outlook.com
 # @Date      :   2024/1/16
 # @License   :   MIT License
-# @Desc      :   结合 Pre, Post 条件, 推理 Loop Inv 的上近似
+# @Desc      :   使用 pycparser 提取 Pre, Loop Body, Post 三部分的代码
 # #############################################
 
-import os
 import re
 import sys
 
 sys.path.extend([".", ".."])
-from pycparser import c_parser, c_ast, parse_file, c_generator
+from pycparser import c_parser, c_ast, c_generator
 
 filename = "3.c"
 base1 = """int main(){ """
@@ -49,7 +48,6 @@ def find_func_calls(ast, exp_assume, exp_assert):
         if ast.name.name == "assert":
             exp_assert.append(ast.args)
         print(f"函数调用: {ast.name.name}")
-
     for _, child in ast.children():
         find_func_calls(child, exp_assume, exp_assert)
 
@@ -72,11 +70,12 @@ def find_while_loops(node):
         find_while_loops(child)
 
 
-def ast2exp(type, astlist):
+def ast2exp(_type, astlist):
     for item in astlist:
+        # 使用c_generate将ast转换为exp
         generator = c_generator.CGenerator()
         expr = c_ast.ExprList(item)
-        print(f'{type}: {generator.visit(expr)}')
+        print(f'{_type}: {generator.visit(expr)}')
 
 
 def exp2ccode(pre_exp, loop_exp, post_exp):
@@ -179,28 +178,30 @@ def process_with_comment(content):
 
 
 def preprocess_file(filename):
+    """
+    处理单个file：提取 pre, loop, post
+    Args:
+        filename:
+
+    Returns: exp_pre, exp_loop, exp_post
+
+    """
     with open(filename, "r") as f:
         code = f.read()
 
     with open(filename, "r") as f:
         containPre = False
         containLoop = False
-
         for line in f:
-
             if "// pre-conditions" in line:
                 containPre = True
-
             if "// loop body" in line:
                 containLoop = True
-
             if containPre and containLoop:
                 print(f'{filename} contains pre-conditions and loop')
                 break
-
         if not containPre and not containLoop:
             process_nude(code)
-
         if containPre and containLoop:
             process_with_comment(code)
 
